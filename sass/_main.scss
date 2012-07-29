@@ -1,0 +1,589 @@
+/* ============================================================
+
+	DOCUMENT INFORMATION
+		- Document: Psychological Services Styles
+		- Version:	2.2
+		- Date:		April 2012
+		- Author:	Needle Hoffenheimer
+
+	CSS DIRECTORY
+		1. =IMPORTS
+		2. =RESET ADDITIONS
+		3. =TOOLS
+		4. =GLOBAL LAYOUT
+		5. =GLOBAL ELEMENTS
+		6. =CLIENT FORMS
+		7. =CONTACT
+		8. =STAFF
+		9. =TEMPLEMAN
+		10. =MAP
+		11. =RESOURCES
+
+	HACK DIRECTORY
+		? targets IE (lt 9)
+
+	FONTS
+   	- default body text	Arial, Helvetica, sans-serif
+
+	REFERENCES
+
+
+   ============================================================ */
+
+
+// IMPORTS
+
+@import "base";
+
+
+
+// RESET ADDITIONS AND OVERRIDES
+// next time use normalize!
+
+li { @include no-bullets; }
+b, strong { font-weight: bold; }
+i, em { font-style: italic; }
+cite { font-style: italic; font-weight: bold; }
+
+
+
+// TOOLS
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+.lt { float: left; }
+
+.rt { float: right; }
+
+.bg-shim { /* lt IE9 */ 
+	display: none;
+	}
+
+.bullet {
+	@include pretty-bullets("/image/list-decoration.gif", 7px, 7px, 25px, 20px);
+	}
+
+	/*
+.bullet { // old
+	list-style: disc;
+	padding: 0 0 0 15px;
+	list-style-image: image-url('list-decoration.gif');
+	}
+	*/
+
+.no-zebra tr:nth-of-type(odd) { background-color: #fff; }
+
+
+
+// GLOBAL LAYOUT
+
+a {
+	&:link, &:visited, &:active {
+		color: $dark-orange;
+		text-decoration: none;
+		}
+	&:hover, &:focus { 
+		color: $light-orange;
+		text-decoration: underline;
+		}
+	}
+
+body {
+	background: image-url('bg.jpg');
+	color: $dark-green;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px; 
+	height: 100%;
+	line-height: 1.4em;
+	}
+
+.wrapper {
+	margin: 0 auto;
+	position: relative;
+	width: 800px;
+	}
+
+#container {
+	background: #fff;
+	border-left: 1px solid $dark-green;
+	border-right: 1px solid $dark-green;
+	border-bottom: 1px solid $dark-green; 
+	margin: 25px auto 0;
+	padding: 0 0 15px;
+	position: relative;
+	width: 780px;
+	@include box-shadow(#fff 0 0 0 10px, #fff -10px -15px 0 0, #fff 10px -15px 0 0);
+	}
+
+
+
+// GLOBAL ELEMENTS
+
+p, table {
+	/*font-size: 1.2em;
+	padding: 0 20px; */
+	margin-bottom: 20px;
+	text-align: left;
+	color: #000;
+	font-weight: normal;
+	}
+
+ul, ol { margin-bottom: 25px; }
+
+ol {
+	margin-left: 20px;
+	li {
+		padding-bottom: 10px;
+		list-style-type: decimal;
+		}
+	}
+
+li {
+	padding: 3px 0;
+	img {
+		margin: 0 15px;
+		}
+	}
+
+dl { margin: 10px 0 20px; }
+
+dt { 
+	display: block;
+	@include float-left;
+	width: 40px;
+	}
+
+dd { 
+	display: block;
+	@include float-left;
+	margin: 0 0 10px 0;
+	width: 439px;
+	}
+
+table { table-layout: fixed; }
+
+td, th { padding: 2px 25px; }
+
+tr:nth-of-type(odd) { background-color: #eee; }
+
+.keyword {
+	color: $dark-green;
+	font-weight: bold;
+	font-style: italic;
+	}
+
+.underline { text-decoration: underline; }
+
+a.pdf {
+	background: image-url('pdficon-sm.png') no-repeat;
+	padding: 3px 0 10px 25px;
+	font-size: 12px;
+	// @include float(right);
+	}
+
+a[href="#top"] {
+	background: image-url('arrow.png') 0 0 no-repeat;
+	display: block;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	bottom: 20px;
+	}
+
+a[href="#top"]:hover { 
+	background-position: -25px 0;
+	cursor: pointer; 
+	}
+
+
+
+// NAVIGATION
+
+.sidebar {
+	@include float-left;
+	margin: 20px 2px;
+	}
+
+nav { 
+	text-transform: uppercase;
+	ul {
+		margin: 0;
+		padding: 0; 
+		}
+	li {
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		font-weight: bold;
+		margin: 0;
+		padding: 0; 
+		a {
+			display: block;
+			height: 13px;
+			padding: 9px 8px;
+			width: /*219px*/200px;
+			&:link, &:visited, &:active {
+				background-color: $dark-green;
+				border: 1px solid #fff;
+				color: #fff;
+				text-decoration: none;
+				}
+			}
+		}
+	}
+	
+.secondary {
+	margin: 20px 0 0;
+	width: 227px;
+	li {
+		font-size: 13px; 
+		padding: 0;
+		a {
+			display: block;
+			padding: 3px 8px;
+			text-decoration: none;
+			width: 219px;
+			&:hover, &.current {
+				background: $mid-green; 
+				color: #fff;
+				text-decoration: none;
+				}
+			}
+		}
+	}
+
+nav li a.current {
+	background-color: #fff;
+	border: 1px solid $dark-green;
+	color: $dark-green;
+	}
+
+#main_content {
+	border-left: 1px dotted $dark-green;
+	@include float-right;
+	margin-top: 20px;
+	min-height: 430px;
+	padding: 0 20px 40px;
+	width: 479px;
+	}
+
+footer {
+	clear: both;
+	color: #fff;
+	margin: 22px 0 10px -15px;
+	text-align: center;
+	ul {
+		font-size: 12px;
+		margin: 0;
+		width: 100%; 
+		li {
+			display: inline;
+			padding: 0 8px;
+			border-right: 1px dotted #fff;
+			&:last-child {
+				padding-right: 0;
+				border: none;
+				}
+			&:first-child {
+				padding-left: 0;
+				}
+			}
+		}
+	}
+	
+/* h1 { text-indent: -9999px; } */
+
+h1 a {
+	display: block;
+	height: 115px;
+	/* background: image-url('masthead.gif') top left no-repeat;*/ 
+}
+
+h1 img { margin-top: -15px; }
+
+h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 10px 0 20px; 
+	}
+
+h3 {
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	}
+
+h4 {
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	}
+
+h5 {
+	font-size: 12px;
+	font-weight: lighter;
+	padding-bottom: 20px;
+	}
+
+.h5_lineheight { line-height: 1.3em; }
+
+.hidden {
+	margin-top: auto;
+	position: absolute;
+	height: 1px;
+	width: 1px;
+	left: -10000px;
+	overflow: hidden; 
+	}
+
+ 
+
+// INDEX
+
+#special_content {
+	@include border-radius(20px);
+	position: relative;
+	width: 400px;
+	margin: 40px auto;
+	padding: 10px;
+	border: 1px dashed red;
+	zoom: 1; /* For IE6 */ 
+	h1 {
+		padding: 0;
+		margin-top: 0; 
+		}
+	p {
+		margin: 0;
+		padding: 0; 
+		}
+	img {
+		@include float-left;	
+		padding-right: 10px;
+		vertical-align: middle;
+		border: 0 none; 
+		}
+	}
+
+.special {
+	color: #400329;
+	text-align: center;
+	padding: 0; 
+	}
+
+/*a[href="docs/holiday_stress.pdf"] {
+   text-decoration: none;
+   border: 0 none; }*/
+
+
+
+// CLIENT FORMS
+
+#main_content ul .linkinfo {
+	font-size: .9em;
+	line-height: 12pt;
+	padding-left: 15px; 
+	}
+
+
+  
+// CONTACT
+
+/* .inner-col-lt {
+	float: left; }
+
+.inner-col-rt {
+	float: left; } */
+
+.inner ul { padding-right: 30px; }
+
+label {
+	font-size: 16px;
+	@include float-left;
+	clear: left;
+	margin: 11px 20px 0 0;
+	width: 70px;
+	text-align: right;
+	}
+
+input {
+	/* these values have been set in formalize.css due to higher specificity there */
+	// height: 30px;
+	// font-size: 14px;
+	// @include float-left;
+	// margin: 0 0 10px 0;
+	}
+
+input[type="submit"] {
+	@include float-right;
+	margin-right: 39px;
+	}
+
+.sm { font-size: .9em; }
+
+textarea { padding-top: 10px; }
+
+.whole { width: 400px; }
+
+.error { 
+	padding-left: 90px;
+	color: #d60000;
+	clear: left;
+	margin-bottom: 20px;
+	}
+
+.alert {
+	padding: 10px;
+	margin-bottom: 20px;
+	}
+
+.success {
+	@extend .alert;
+	border: 1px solid $dark-green;
+	background: $alert-green;
+	}
+
+.failure {
+	@extend .alert;
+	border: 1px solid red;
+	background: $alert-red;
+	color: #d60000;
+	}
+
+.verify {
+	margin-top: 10px;
+	margin-left: 10px;
+	@include float-left;
+	width: 20px;
+	height: 22px;
+	}
+
+
+
+// STAFF
+
+.headshot {
+	@include float-left;
+	margin: -10px 10px 0 -10px;
+	}
+
+.staff_profile_block {
+	min-height:194px;
+	padding-top: 73px; 
+	h2 {
+		margin-top: 73px;
+		}
+	.headshot {
+		margin-top: -73px;
+		}
+	&:last-of-type {
+		margin-bottom: 20px;
+		}
+	}
+
+#group_images {
+	min-height: 180px;
+	padding: 0; 
+	width: 100%;
+	a img {
+		border: 1px solid $dark-green;
+		}
+	}
+
+
+
+// TEMPLEMAN
+
+.hangingindent p {
+	padding-left: 30px;
+	text-indent: -30px;
+	}
+
+span.underline { text-decoration: underline; }
+
+#templeman td, #templeman th { padding: 2px 2px; }
+
+
+
+// OTHER RESOURCES
+
+.panels {
+	width: 400px;
+	span {
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 1; 
+		}
+	img {
+		vertical-align: middle;
+		}
+	li {
+		margin-bottom: 10px;
+		position: relative; 
+		&:hover { 
+			background-color: #eee;
+			cursor: pointer; 
+			}
+		}
+	}
+
+
+
+// MAP
+
+#map_canvas {
+	width: 100%;
+	height: 100%;
+	width: 480px;
+	height: 370px;
+	margin-bottom: 15px;
+	border: 1px $dark-green solid;
+	}
+
+
+
+// POLICIES
+
+#policies a.pdf {
+	background: image-url('pdficon-sm.png') no-repeat;
+	padding: 3px 0 10px 25px;
+	font-size: 13px;
+	@include reset-float(inline);
+	}
+
+
+
+// ARTICLES
+
+.article #main_content { min-height: 850px; }
+
+#holiday-stress dt { width: 35%; }
+
+#holiday-stress dd { @include float-right; width: 65%; }
+
+#parent-child-coercive-cycle-handout dt { width: 10%; }
+#parent-child-coercive-cycle-handout dd { @include float-right; width: 90%; }
+
+#parent-child-coercive-cycle dt { clear: both; width: 15%; }
+#parent-child-coercive-cycle dd { width: 42%; }
+#parent-child-coercive-cycle .diagram { margin-top: 50px; }
+
+.ol-inline li { 
+	float: left;
+	margin-right: 30px;
+	font-size: 13px; 
+	}
+
+
+

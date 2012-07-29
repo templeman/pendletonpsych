@@ -1,0 +1,41 @@
+ 
+#
+# Sprinkle - Asset management library
+# 
+# @author        Edmundas Kondrašovas <as@edmundask.lt>
+# @license       http://www.opensource.org/licenses/MIT
+#
+
+'(:default)':
+  assets:
+    - js-libs 
+    - global-styles
+  replace:
+  exclude:
+
+'(policies)':
+  assets:
+    - js-libs
+    - jquery-ui
+    - accordion
+    - smoothness
+  replace:
+  exclude:
+
+'(contact)':
+  assets:
+    - form-handlers
+  replace:
+  exclude:
+
+'(staff)':
+  assets:
+    - fancybox-group
+  replace:
+  exclude:
+
+'(map)':
+  assets:
+    - google-map
+  replace:
+  exclude:

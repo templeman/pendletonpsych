@@ -1,0 +1,157 @@
+
+#
+# Sprinkle - Asset management library
+# 
+# @author        Edmundas Kondrašovas <as@edmundask.lt>
+# @license       http://www.opensource.org/licenses/MIT
+#
+
+jquery:
+  type: js
+  minify: true
+  combine: false
+  versions:
+    default: jquery.js
+    backup: http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js
+
+local:
+  type: js
+  minify: true
+  combine: false
+  src: local.js
+
+ga:
+  type: js
+  minify: true
+  combine: false
+  src: ga.js
+
+google-map-api:
+  type: js
+  minify: false
+  combine: false
+  src: http://maps.googleapis.com/maps/api/js?key=AIzaSyDDblxk-P59FEat18hD-xOvD_gzxQgOciY&sensor=false
+
+google-map-load:
+  type: js
+  minify: false
+  combine: false
+  src: google-map-load.js
+
+color:
+  type: js
+  minify: true
+  combine: false
+  src: jquery.color.js
+
+accordion:
+  type: js
+  minify: true
+  combine: false
+  src: ui-accordion.js
+
+jquery-ui:
+  type: js
+  minify: false
+  combine: false
+  src: jquery-ui-1.8.16.custom.min.js
+
+validator-rules:
+  type: js
+  minify: false
+  combine: false
+  src: validator-rules.js
+
+formalize:
+  type: js
+  minify: false
+  combine: false
+  src: jquery.formalize.min.js
+
+fancybox:
+  type: js
+  minify: false
+  combine: false
+  src: fancybox/jquery.fancybox-1.3.1.pack.js
+
+fancybox-easing:
+  type: js
+  minify: false
+  combine: false
+  src: fancybox/jquery.easing-1.3.pack.js
+
+fancybox-init:
+  type: js
+  minify: false
+  combine: false
+  src: fancybox/fancybox-init.js
+
+fancybox-styles:
+  type: css
+  minify: false
+  combine: false
+  src: fancybox/jquery.fancybox-1.3.1.css
+
+screen:
+  type: css
+  minify: false
+  combine: false
+  src: screen.css
+
+print:
+  type: css
+  minify: false
+  combine: false
+  src: print.css
+
+smoothness:
+  type: css
+  minify: false
+  combine: false
+  src: smoothness/jquery-ui-1.8.16.custom.css
+
+html5shiv:
+  type: js
+  minify: false
+  combine: false
+  src: html5shiv.js
+
+html5shiv-printshiv:
+  type: js
+  minify: false
+  combine: false
+  src: html5shiv-printshiv.js
+
+ie-styles:
+  type: css
+  minify: false
+  combine: false
+  src: ie.css
+
+# -------------------------------------------------------------------------
+# Asset groups
+# -------------------------------------------------------------------------
+
+js-libs:
+  type: group
+  assets: [jquery, local, ga, color]
+
+global-styles:
+  type: group
+  assets: [screen, print]
+
+form-handlers:
+  type: group
+  assets: [validator-rules, formalize]
+
+fancybox-group:
+  type: group
+  assets: [fancybox, fancybox-init, fancybox-easing, fancybox-styles]
+
+browser-fixes:
+  type: group
+  assets: [html5shiv, html5shiv-printshiv, ie-styles]
+
+google-map:
+  type: group
+  assets: [google-map-api, google-map-load]

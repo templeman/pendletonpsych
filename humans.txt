@@ -1,0 +1,11 @@
+/* TEAM */
+	Creator of All Things: Sam Templeman
+	Twitter: @samueltempleman
+	Location: Portland, OR, USA
+
+/* SITE */
+	Last update: 2012/06/09
+	Language: English
+	Standards: HTML5, CSS3
+	Components: jQuery, Formalize.me, jQuery-UI, Fancybox, Codeigniter
+	IDE: MacVim, Cyberduck, Photoshop, Sequel Pro

@@ -1,0 +1,89 @@
+# Use PHP5 as default
+	AddHandler application/x-httpd-php53 .php5 .php4 .php .php3 .php2 .phtml
+
+	Options +FollowSymlinks
+	RewriteEngine On
+	RewriteBase /
+
+# Add WWW
+	rewritecond %{http_host} ^pendletonpsych.com [nc]
+	rewriterule ^(.*)$ http://www.pendletonpsych.com/$1 [r=301,l]
+
+# Page-level redirects
+	RewriteRule ^staff.htm$ staff [R=301,L]
+	RewriteRule ^templeman.htm$ templeman [R=301,L]
+	RewriteRule ^umphred.htm$ staff [R=301,L]
+	RewriteRule ^eslinger.htm$ staff [R=301,L]
+	RewriteRule ^eslinger$ staff [R=301,L]
+	RewriteRule ^hsu.htm$ staff [R=301,L]
+	RewriteRule ^specialty.htm$ specialty [R=301,L]
+	RewriteRule ^policies.htm$ policies [R=301,L]
+	RewriteRule ^whatsnew.htm$ whats-new [R=301,L]
+	RewriteRule ^therapyhelpers.htm$ therapy-helpers [R=301,L]
+	RewriteRule ^education.htm$ education [R=301,L]
+	RewriteRule ^other_resources.htm$ resources [R=301,L]
+	RewriteRule ^map.htm$ map [R=301,L]
+	RewriteRule ^contact.htm$ contact [R=301,L]
+	RewriteRule ^templemanForms.htm$ policies [R=301,L]
+	RewriteRule ^umphredForms.htm$ policies [R=301,L]
+	RewriteRule ^eslingerForms.htm$ policies [R=301,L]
+	RewriteRule ^hsuForms.htm$ policies [R=301,L]
+	RewriteRule ^compassion.pdf$ doc/compassion.pdf [R=301,L]
+	Redirect 301 /docs/compassion.pdf http://www.pendletonpsych.com/doc/compassion.pdf
+	Redirect 301 /docs/alcohol_and_aggression.pdf http://www.pendletonpsych.com/doc/alcohol-and-aggression.pdf
+	Redirect 301 /docs/disorder_and_negative_attitudes.pdf http://www.pendletonpsych.com/doc/disorder-and-negative-attitudes.pdf
+	Redirect 301 /docs/writing_out_your_worries.pdf http://www.pendletonpsych.com/doc/writing-out-your-worries.pdf
+	Redirect 301 /docs/dangers_of_the_wandering_mind.pdf http://www.pendletonpsych.com/doc/dangers-of-the-wandering-mind.pdf
+	Redirect 301 /docs/fast_food.pdf http://www.pendletonpsych.com/doc/fast-food.pdf
+	Redirect 301 /docs/expressing_gratitude.pdf http://www.pendletonpsych.com/doc/expressing-gratitude.pdf
+	Redirect 301 /docs/frog_pond_effect.pdf http://www.pendletonpsych.com/doc/frog-pond-effect.pdf
+	Redirect 301 /docs/more_on_the_effects_of_videogames.pdf http://www.pendletonpsych.com/doc/more-on-the-effects-of-videogames.pdf
+	Redirect 301 /docs/serial_preferences.pdf http://www.pendletonpsych.com/doc/serial-preferences.pdf
+	Redirect 301 /docs/when_the_boss_feels_dumb.pdf http://www.pendletonpsych.com/doc/when-the-boss-feels-dumb.pdf
+	Redirect 301 /docs/dogs_article.pdf http://www.pendletonpsych.com/doc/dogs.pdf
+	Redirect 301 /docs/the_imp_of_the_perverse.pdf http://www.pendletonpsych.com/doc/the-imp-of-the-perverse.pdf
+	Redirect 301 /docs/videogame_addiction.pdf http://www.pendletonpsych.com/doc/videogame-addiction.pdf
+	Redirect 301 /docs/caregivers.pdf http://www.pendletonpsych.com/doc/caregivers.pdf
+	Redirect 301 /docs/are_you_in_sync.pdf http://www.pendletonpsych.com/doc/are-you-in-sync.pdf
+	Redirect 301 /docs/remembering_what_you_learn.pdf http://www.pendletonpsych.com/doc/remembering-what-you-learn.pdf
+	Redirect 301 /docs/empty_nest.pdf http://www.pendletonpsych.com/doc/empty-nest.pdf
+	Redirect 301 /docs/anxiety.pdf http://www.pendletonpsych.com/doc/anxiety.pdf
+	Redirect 301 /docs/holiday_stress.pdf http://www.pendletonpsych.com/doc/holiday-stress.pdf
+	Redirect 301 /docs/parenting_fear_and_anger_handout.pdf http://www.pendletonpsych.com/doc/parenting-fear-and-anger-handout.pdf
+	Redirect 301 /docs/parent_child_coercive_cycle_handout.pdf http://www.pendletonpsych.com/doc/parent-child-coercive-cycle-handout.pdf
+	Redirect 301 /docs/parenting_handouts.pdf http://www.pendletonpsych.com/doc/parenting-handouts.pdf
+	Redirect 301 /docs/principles_of_reinforcement.pdf http:/www.pendletonpsych.com/doc/principles-of-reinforcement.pdf
+	Redirect 301 /docs/know_your_child.pdf http://www.pendletonpsych.com/doc/know-your-child.pdf
+	Redirect 301 /docs/the_parent_child_coercive_cycle.pdf http://www.pendletonpsych.com/doc/parent-child-coercive-cycle.pdf
+	Redirect 301 /docs/got_depression.pdf http://www.pendletonpsych.com/doc/got-depression.pdf
+	Redirect 301 /docs/facing_fears.pdf http://www.pendletonpsych.com/doc/facing-fears.pdf
+	Redirect 301 /docs/general_information_sheet_08.pdf http://www.pendletonpsych.com/doc/general-information-sheet-08.pdf
+	Redirect 301 /docs/templeman_consent_treat.pdf http://www.pendletonpsych.com/doc/templeman-consent-treatment.pdf
+	Redirect 301 /docs/templeman_hipaa.pdf http://www.pendletonpsych.com/doc/templeman-hipaa.pdf
+	Redirect 301 /docs/templeman_consent_assess.pdf http://www.pendletonpsych.com/doc/templeman-consent-assessment.pdf
+	Redirect 301 /docs/templeman_disclosure.pdf http://www.pendletonpsych.com/doc/templeman-disclosure.pdf
+	Redirect 301 /docs/patient_history_form.pdf http://www.pendletonpsych.com/doc/patient-history-form.pdf
+	Redirect 301 /docs/umphred_consent_treat.pdf http://www.pendletonpsych.com/doc/umphred-consent-treatment.pdf
+	Redirect 301 /docs/umphred_hipaa.pdf http://www.pendletonpsych.com/doc/umphred-hipaa.pdf
+	Redirect 301 /docs/umphred_consent_assess.pdf http://www.pendletonpsych.com/doc/umphred-consent-assessment.pdf
+	Redirect 301 /docs/umphred_disclosure.pdf http://www.pendletonpsych.com/doc/umphred-disclosure.pdf
+	Redirect 301 /docs/eslinger_consent_treat.pdf http://www.pendletonpsych.com/doc/eslinger-consent-treatment.pdf
+	Redirect 301 /docs/eslinger_hipaa.pdf http://www.pendletonpsych.com/doc/eslinger-hipaa.pdf
+	Redirect 301 /docs/eslinger_disclosure.pdf http://www.pendletonpsych.com/doc/eslinger-disclosure.pdf
+	Redirect 301 /docs/hsu_consent_treat.pdf http://www.pendletonpsych.com/doc/hsu-consent-treatment.pdf
+	Redirect 301 /docs/hsu_hipaa.pdf http://www.pendletonpsych.com/doc/hsu-hipaa.pdf
+	Redirect 301 /docs/hsu_disclosure.pdf http://www.pendletonpsych.com/doc/hsu-disclosure.pdf
+
+# Remove CI Index file
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php/$1 [L]
+
+# Remove trailing index file
+#	RewriteCond %{THE_REQUEST} /index.html HTTP
+#	RewriteRule (.*)index.html$ /$1 [R=301,L]
+
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_FILENAME}\.html -f
+# RewriteRule ^(.*)$ $1.html
+# ErrorDocument 404 /404.html
