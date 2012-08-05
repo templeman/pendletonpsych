@@ -12,7 +12,7 @@
 		3. =TOOLS
 		4. =GLOBAL LAYOUT
 		5. =GLOBAL ELEMENTS
-		6. =CLIENT FORMS
+		6. =POLICIES
 		7. =CONTACT
 		8. =STAFF
 		9. =TEMPLEMAN
@@ -69,9 +69,7 @@ cite { font-style: italic; font-weight: bold; }
 	display: none;
 	}
 
-.bullet {
-	@include pretty-bullets("/image/list-decoration.gif", 7px, 7px, 25px, 20px);
-	}
+.bullet { @include pretty-bullets("/image/list-decoration.gif", 7px, 7px, 25px, 20px); }
 
 	/*
 .bullet { // old
@@ -82,6 +80,15 @@ cite { font-style: italic; font-weight: bold; }
 	*/
 
 .no-zebra tr:nth-of-type(odd) { background-color: #fff; }
+
+.hidden {
+	margin-top: auto;
+	position: absolute;
+	height: 1px;
+	width: 1px;
+	left: -10000px;
+	overflow: hidden; 
+	}
 
 
 
@@ -100,13 +107,48 @@ a {
 
 body {
 	background: image-url('bg.jpg');
-	color: $dark-green;
+	color: #222;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px; 
 	height: 100%;
 	line-height: 1.4em;
 	}
 
+#{headings()} { color: $dark-green; }
+
+h1 a {
+	display: block;
+	height: 115px;
+	/* background: image-url('masthead.gif') top left no-repeat;*/ 
+}
+
+h1 img { margin-top: -15px; }
+
+h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 10px 0 20px; 
+	}
+
+h3 {
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	}
+
+h4 {
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	}
+
+h5 {
+	font-size: 12px;
+	font-weight: lighter;
+	padding-bottom: 20px;
+	}
+
+.h5_lineheight { line-height: 1.3em; }
 .wrapper {
 	margin: 0 auto;
 	position: relative;
@@ -134,7 +176,7 @@ p, table {
 	padding: 0 20px; */
 	margin-bottom: 20px;
 	text-align: left;
-	color: #000;
+	color: #222;
 	font-weight: normal;
 	}
 
@@ -299,51 +341,7 @@ footer {
 			}
 		}
 	}
-	
-/* h1 { text-indent: -9999px; } */
 
-h1 a {
-	display: block;
-	height: 115px;
-	/* background: image-url('masthead.gif') top left no-repeat;*/ 
-}
-
-h1 img { margin-top: -15px; }
-
-h2 {
-	font-size: 18px;
-	text-transform: uppercase;
-	padding: 10px 0 20px; 
-	}
-
-h3 {
-	font-size: 16px;
-	font-weight: bold;
-	padding-bottom: 10px;
-	}
-
-h4 {
-	font-size: 14px;
-	font-weight: bold;
-	padding-bottom: 10px;
-	}
-
-h5 {
-	font-size: 12px;
-	font-weight: lighter;
-	padding-bottom: 20px;
-	}
-
-.h5_lineheight { line-height: 1.3em; }
-
-.hidden {
-	margin-top: auto;
-	position: absolute;
-	height: 1px;
-	width: 1px;
-	left: -10000px;
-	overflow: hidden; 
-	}
 
  
 
@@ -385,24 +383,21 @@ h5 {
 
 
 
-// CLIENT FORMS
+// POLICIES
 
 #main_content ul .linkinfo {
-	font-size: .9em;
+	font-style: italic;
+	font-size: .8em;
 	line-height: 12pt;
-	padding-left: 15px; 
+	padding: 0 0 10px 15px; 
 	}
 
 
   
 // CONTACT
 
-/* .inner-col-lt {
-	float: left; }
-
-.inner-col-rt {
-	float: left; } */
-
+#contact dt { width: 100px; }
+#contact dd { width: 379px; }
 .inner ul { padding-right: 30px; }
 
 label {
@@ -561,6 +556,8 @@ span.underline { text-decoration: underline; }
 	font-size: 13px;
 	@include reset-float(inline);
 	}
+
+#policies ul { margin-bottom: 0; }
 
 
 

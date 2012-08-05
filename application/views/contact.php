@@ -14,30 +14,38 @@ if($this->session->flashdata('message') != '') {
 	Pendleton office. You may also contact us directly using the
 	form below.</p>
 	<div>
-		<h3>Phone</h3>
-		<p>541-278-2222</p>
-		<h3>Fax</h3>
-		<p>541-276-8405</p>
-		<h3>Email</h3>
-		<p><?php echo mailto('psp@eotnet.net'); ?></p>
 		<h3><a href="/map">Location</a></h3>
 		<ul>
 			<li>Psychological Services of Pendleton, LLC</li>
 			<li>135 SE 1st Street, Pendleton, Oregon 97801</li>
 		</ul>
+		<dl class="clearfix">
+			<dt>Phone</dt>
+			<dd>541-278-2222</dd>
+			<dt>Fax</dt>
+			<dd>541-276-8405</dd>
+			<dt>Email</dt>
+			<dd><?php echo mailto('psp@eotnet.net'); ?></dd>
+		</dl>
 	</div>
-	<div class="clearfix">
+	<div>
 		<h3>Hours</h3>
-		<ul class="lt">
-			<li>Mon - Thu:</li>
-			<li>Friday:</li>
-			<li>Sat &amp; Sun:</li>
-		</ul>
-		<ul class="lt">
-			<li>8am - 6pm</li>
-			<li>8am - 5pm</li>
-			<li>Closed</li>
-		</ul>
+		<dl class="clearfix">
+			<dt>Monday:</dt>
+			<dd>8am - 6pm</dd>
+			<dt>Tuesday:</dt>
+			<dd>8am - 6pm</dd>
+			<dt>Wednesday:</dt>
+			<dd>8am - 6pm</dd>
+			<dt>Thursday</dt>
+			<dd>8am - 6pm</dd>
+			<dt>Friday</dt>
+			<dd>8am - 5pm</dd>
+			<dt>Saturday:</dt>
+			<dd>Closed</dd>
+			<dt>Sunday:</dt>
+			<dd>Closed</dd>
+		</dl>
 	</div>
 </div>
 

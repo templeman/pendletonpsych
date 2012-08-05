@@ -54,7 +54,7 @@ jquery-ui:
   type: js
   minify: false
   combine: false
-  src: jquery-ui-1.8.16.custom.min.js
+  src: jquery-ui-1.8.22.custom.min.js
 
 validator-rules:
   type: js
@@ -104,11 +104,11 @@ print:
   combine: false
   src: print.css
 
-smoothness:
+accordion-css:
   type: css
   minify: false
   combine: false
-  src: smoothness/jquery-ui-1.8.16.custom.css
+  src: accordion-css/jquery-ui-1.8.22.custom.css
 
 html5shiv:
   type: js
