@@ -284,7 +284,7 @@ class Pages extends MY_Controller {
 			$this->load->library('email');
 
 			$this->email->from(set_value('email'), set_value('name'));
-			$this->email->to('templeman@me.com');
+			$this->email->to('psp@eotnet.net');
 			$this->email->subject('This message was submitted to pendletonpsych.com');
 			$this->email->message(set_value('comment'));
 
