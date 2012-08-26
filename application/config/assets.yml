@@ -20,12 +20,6 @@ local:
   combine: false
   src: local.js
 
-ga:
-  type: js
-  minify: true
-  combine: false
-  src: ga.js
-
 google-map-api:
   type: js
   minify: false
@@ -134,7 +128,7 @@ ie-styles:
 
 js-libs:
   type: group
-  assets: [jquery, local, ga, color]
+  assets: [jquery, local, color]
 
 global-styles:
   type: group
