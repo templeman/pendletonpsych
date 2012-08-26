@@ -14,7 +14,7 @@ class Pages extends MY_Controller {
 	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
 			->set_metadata("description", "Full service outpatient treatment center providing assessment, psychotherapy, and medications for a broad range of psychological problems. Serving Eastern Oregon. Terrel L. Templeman, Ph.D. - Clinical Psychologist. Connie Umphred, Ph.D. - Clinical Psychologist. Daniel Eslinger, RN, PMHNP - Psychiatric Mental Health Nurse Practitioner. Sarah Hsu, LCSW - Licensed Clinical Social Worker. Heather A. Bacon, Ph.D. - Clinical Psychologist Resident")
 			->set_partial('footer', 'partials/footer')
-			->build('index', array('google_verify' => '<meta name="google-site-verification" content="6EmRDUGqGNMQjadxDK-JbJVjd8T1IrDRoaLOxMrCk6g" />', 'image_num' => '6', 'image_alt' => 'flowers', 'page_id' => 'front'));
+			->build('index', array('image_num' => '6', 'image_alt' => 'flowers', 'page_id' => 'front'));
 	}
 
 

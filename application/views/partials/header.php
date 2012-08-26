@@ -7,7 +7,6 @@ $this->load->helper('text');
 <head>
 	<meta charset="UTF-8" />
 	<?php
-		if(!empty($google_verify)) { echo $google_verify; }
 		echo $template['metadata'];
 	?>
 	<title><?php echo $template['title']; ?></title>
