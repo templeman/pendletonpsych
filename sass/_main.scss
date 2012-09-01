@@ -504,7 +504,11 @@ textarea { padding-top: 10px; }
 
 span.underline { text-decoration: underline; }
 
-#templeman td, #templeman th { padding: 2px 2px; }
+#templeman table { width: 100%; }
+#templeman td, #templeman th { padding: 5px 12px; }
+#templeman tr td:nth-child(1) { width: 70px; }
+#templeman tr td:nth-child(2) { width: 65px; }
+#templeman tr td:nth-child(3) { width: 223px; }
 
 
 

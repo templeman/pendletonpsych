@@ -9,7 +9,6 @@ Official website of a small mental-health practice in Eastern Oregon. Built on C
 ### One-Off ###
 
 * Swap Umphred photo for newer headshot
-* On templeman.php move table formatting into CSS
 * Final touches on contact form
 	* optimize code, remove commented code
 	* customize verification icons

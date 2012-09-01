@@ -5,11 +5,11 @@
 <p>After receiving his Ph.D. Dr. Templeman served as Program Director for Morrow County Mental Health Services in Heppner, Oregon, where he remained from 1979 to 1984.  He completed a psychology residency under Elizabeth Brunette, Ph.D. and became licensed to practice psychology in Oregon in 1981.  During his tenure as Program Director, Morrow County MHS initiated one of the first outpatient sex offender treatment programs in Eastern Oregon, conducted the first Farm Stress workshops in the Pacific Northwest,  and merged with offices in Wheeler and Gilliam Counties to form a tri-county mental health network.  In January, 1984 Dr. Templeman left public mental health and joined psychiatrist Richard H. Johnson M.D. and Bruce S. Barnes Licensed Clinical Social Worker to form Pendleton Professional Services, the first private interdisciplinary mental health office in Eastern Oregon.  Over the course of the next 24 years Dr. Templeman has provided assessments, psychotherapy, and consultations to thousands of residents in Eastern Oregon.  In 1986 he and colleagues founded Eastern Oregon Psychological Association for the purpose of providing quality continuing education workshops for mental health professionals in Eastern Oregon.  In 1989 he published the first article addressing dual relationships in rural practices in Oregon.  In 1999 he and colleague Ray Stinnett Ph.D. published one of the few studies to examine sexual arousal patterns of non-sex offenders.  Continuing his interest in psychopathy, Dr. Templeman served as the Oregon Site Coordinator for the first large scale study of psychopaths in the United States, funded by the National Institute of Mental Health, from 2002 to 2005, under Norman Poythress Ph.D.  Dr. Templeman continued his dedication to quality psychological services in Oregon by serving on the Board of Psychologist Examiners from 2003 to 2009, chairing the board for one year.  He has been a member of the American Association for the Advancement of Science since 1970, the American Psychological Association since 1979, and the Association of Psychological Science since its inception in 1990.</p>
 <p>Dr. Templeman opened Psychological Services of Pendleton, LLC in January, 2008.  He continues to provide a variety of psychological services to residents of Eastern Oregon.  His assessments include forensic evaluations for the Oregon Board of Parole and Post Prison Supervision, evaluations of chronically mentally ill patients at Blue Mountain Recovery Center, juvenile evaluations for Oregon Youth Authority and the Department of Human Services, and disability evaluations for the State of Oregon.  Dr. Templeman also provides evaluations for the courts, attorneys, physicians, and schools in the area.  He provides consultation and supervision to juvenile residential treatment facilities in Pendleton.  He also maintains an outpatient psychotherapy caseload.</p>
 <h3>EDUCATION</h3>
-<table width="498" border="0" align="center" cellpadding="6" cellspacing="0">
+<table>
 	<tr>
-		<td width="85">1971</td>
-		<td width="127">B.A.</td>
-		<td width="270">University of Oregon<br />
+		<td>1971</td>
+		<td>B.A.</td>
+		<td>University of Oregon<br />
 		Eugene, Oregon</td>
 	</tr>
 	<tr>
@@ -29,11 +29,11 @@
 	</tr>
 </table>
 <h3>CERTIFICATION</h3>
-<table class="no-zebra" width="498" border="0" align="center" cellpadding="6" cellspacing="0">
+<table class="no-zebra">
 	<tr>
-		<td width="85">1981</td>
-		<td width="127">License #0449</td>
-		<td width="270">Oregon Board of Psychologist Examiners</td>
+		<td>1981</td>
+		<td>License #0449</td>
+		<td>Oregon Board of Psychologist Examiners</td>
 	</tr>
 </table>
 <h3>PUBLICATIONS</h3>

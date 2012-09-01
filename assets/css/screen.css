@@ -1130,15 +1130,35 @@ span.underline {
 }
 
 /* line 507, ../../sass/_main.scss */
-#templeman td, #templeman th {
-  padding: 2px 2px;
+#templeman table {
+  width: 100%;
 }
 
-/* line 513, ../../sass/_main.scss */
+/* line 508, ../../sass/_main.scss */
+#templeman td, #templeman th {
+  padding: 5px 12px;
+}
+
+/* line 509, ../../sass/_main.scss */
+#templeman tr td:nth-child(1) {
+  width: 70px;
+}
+
+/* line 510, ../../sass/_main.scss */
+#templeman tr td:nth-child(2) {
+  width: 65px;
+}
+
+/* line 511, ../../sass/_main.scss */
+#templeman tr td:nth-child(3) {
+  width: 223px;
+}
+
+/* line 517, ../../sass/_main.scss */
 .panels {
   width: 400px;
 }
-/* line 515, ../../sass/_main.scss */
+/* line 519, ../../sass/_main.scss */
 .panels span {
   height: 100%;
   left: 0;
@@ -1147,22 +1167,22 @@ span.underline {
   width: 100%;
   z-index: 1;
 }
-/* line 523, ../../sass/_main.scss */
+/* line 527, ../../sass/_main.scss */
 .panels img {
   vertical-align: middle;
 }
-/* line 526, ../../sass/_main.scss */
+/* line 530, ../../sass/_main.scss */
 .panels li {
   margin-bottom: 10px;
   position: relative;
 }
-/* line 529, ../../sass/_main.scss */
+/* line 533, ../../sass/_main.scss */
 .panels li:hover {
   background-color: #eee;
   cursor: pointer;
 }
 
-/* line 540, ../../sass/_main.scss */
+/* line 544, ../../sass/_main.scss */
 #map_canvas {
   width: 100%;
   height: 100%;
@@ -1172,7 +1192,7 @@ span.underline {
   border: 1px #084003 solid;
 }
 
-/* line 553, ../../sass/_main.scss */
+/* line 557, ../../sass/_main.scss */
 #policies a.pdf {
   background: url('../../image/pdficon-sm.png?1329539993') no-repeat;
   padding: 3px 0 10px 25px;
@@ -1181,57 +1201,57 @@ span.underline {
   display: inline;
 }
 
-/* line 560, ../../sass/_main.scss */
+/* line 564, ../../sass/_main.scss */
 #policies ul {
   margin-bottom: 0;
 }
 
-/* line 566, ../../sass/_main.scss */
+/* line 570, ../../sass/_main.scss */
 .article #main_content {
   min-height: 850px;
 }
 
-/* line 568, ../../sass/_main.scss */
+/* line 572, ../../sass/_main.scss */
 #holiday-stress dt {
   width: 35%;
 }
 
-/* line 570, ../../sass/_main.scss */
+/* line 574, ../../sass/_main.scss */
 #holiday-stress dd {
   display: inline;
   float: right;
   width: 65%;
 }
 
-/* line 572, ../../sass/_main.scss */
+/* line 576, ../../sass/_main.scss */
 #parent-child-coercive-cycle-handout dt {
   width: 10%;
 }
 
-/* line 573, ../../sass/_main.scss */
+/* line 577, ../../sass/_main.scss */
 #parent-child-coercive-cycle-handout dd {
   display: inline;
   float: right;
   width: 90%;
 }
 
-/* line 575, ../../sass/_main.scss */
+/* line 579, ../../sass/_main.scss */
 #parent-child-coercive-cycle dt {
   clear: both;
   width: 15%;
 }
 
-/* line 576, ../../sass/_main.scss */
+/* line 580, ../../sass/_main.scss */
 #parent-child-coercive-cycle dd {
   width: 42%;
 }
 
-/* line 577, ../../sass/_main.scss */
+/* line 581, ../../sass/_main.scss */
 #parent-child-coercive-cycle .diagram {
   margin-top: 50px;
 }
 
-/* line 579, ../../sass/_main.scss */
+/* line 583, ../../sass/_main.scss */
 .ol-inline li {
   float: left;
   margin-right: 30px;
