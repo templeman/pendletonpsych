@@ -34,7 +34,7 @@ $this->load->helper('text');
 	<div class="bg-shim"></div>
 	<div id="container" class="clearfix">
 		<div>
-			<h1><a href="/"><img src="/image/masthead.gif" alt="PSP logo" /></a></h1>
+			<h1><a href="/"><img src="/image/masthead.gif" alt="Psychological Services of Pendleton, LLC" /></a></h1>
 		</div>
 		<div>
 		<img src="/image/pendleton<?php echo $image_num; ?>.jpg" alt="<?php echo $image_alt; ?>" width="780" height="220" />

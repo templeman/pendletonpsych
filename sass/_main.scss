@@ -71,24 +71,7 @@ cite { font-style: italic; font-weight: bold; }
 
 .bullet { @include pretty-bullets("/image/list-decoration.gif", 7px, 7px, 25px, 20px); }
 
-	/*
-.bullet { // old
-	list-style: disc;
-	padding: 0 0 0 15px;
-	list-style-image: image-url('list-decoration.gif');
-	}
-	*/
-
 .no-zebra tr:nth-of-type(odd) { background-color: #fff; }
-
-.hidden {
-	margin-top: auto;
-	position: absolute;
-	height: 1px;
-	width: 1px;
-	left: -10000px;
-	overflow: hidden; 
-	}
 
 
 
@@ -149,6 +132,7 @@ h5 {
 	}
 
 .h5_lineheight { line-height: 1.3em; }
+
 .wrapper {
 	margin: 0 auto;
 	position: relative;
