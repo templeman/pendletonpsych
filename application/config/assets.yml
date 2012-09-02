@@ -17,7 +17,7 @@ jquery:
 local:
   type: js
   minify: true
-  combine: false
+  combine: true
   src: local.js
 
 google-map-api:
@@ -28,32 +28,32 @@ google-map-api:
 
 google-map-load:
   type: js
-  minify: false
-  combine: false
+  minify: true
+  combine: true
   src: google-map-load.js
 
 color:
   type: js
   minify: true
-  combine: false
+  combine: true
   src: jquery.color.js
 
 accordion:
   type: js
   minify: true
-  combine: false
+  combine: true
   src: ui-accordion.js
 
 jquery-ui:
   type: js
   minify: false
-  combine: false
+  combine: true
   src: jquery-ui-1.8.22.custom.min.js
 
 validator-rules:
   type: js
-  minify: false
-  combine: false
+  minify: true
+  combine: true
   src: validator-rules.js
 
 formalize:
@@ -64,45 +64,45 @@ formalize:
 
 fancybox:
   type: js
-  minify: false
-  combine: false
+  minify: true
+  combine: true
   src: fancybox/jquery.fancybox-1.3.1.pack.js
 
 fancybox-easing:
   type: js
-  minify: false
-  combine: false
+  minify: true
+  combine: true
   src: fancybox/jquery.easing-1.3.pack.js
 
 fancybox-init:
   type: js
-  minify: false
-  combine: false
+  minify: true
+  combine: true
   src: fancybox/fancybox-init.js
 
 fancybox-styles:
   type: css
-  minify: false
-  combine: false
+  minify: true
+  combine: true
   src: fancybox/jquery.fancybox-1.3.1.css
 
 screen:
   type: css
-  minify: false
-  combine: false
+  minify: true
+  combine: true
   src: screen.css
 
 print:
   type: css
-  minify: false
-  combine: false
+  minify: true
+  combine: true
   src: print.css
 
 accordion-css:
   type: css
-  minify: false
-  combine: false
-  src: accordion-css/jquery-ui-1.8.22.custom.css
+  minify: true
+  combine: true
+  src: jquery-ui-1.8.22.custom.css
 
 html5shiv:
   type: js
@@ -118,8 +118,8 @@ html5shiv-printshiv:
 
 ie-styles:
   type: css
-  minify: false
-  combine: false
+  minify: true
+  combine: true
   src: ie.css
 
 # -------------------------------------------------------------------------
