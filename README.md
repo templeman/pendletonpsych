@@ -8,7 +8,6 @@ Website of a small mental-health practice in Eastern Oregon. Built on Codeignite
 
 ### One-Off ###
 
-* Swap Umphred photo for newer headshot
 * Final touches on contact form
 	* customize verification icons
 * Implement HTML5 tags (especially on article pages)

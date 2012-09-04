@@ -10,7 +10,7 @@
 			</div>
 
 			<div class="staff_profile_block">
-				<img src="/image/connie01.jpg" alt="Dr. Connie Umphred" class="headshot" />
+				<img src="/image/connie.jpg" alt="Dr. Connie Umphred" class="headshot" />
 				<h3>Connie Umphred, Ph.D.</h3>
 				<h5>Clinical Psychologist</h5>
 				<p>Dr. Umphred opened her Pendleton practice in July 2008.  She has been practicing in Vancouver, Washington for 14 years after relocating from Berkeley California.  She has also been a registered nurse for 35 years.  Dr. Umphred provides psychotherapy for children, couples, and adults.  She also specializes in neuropsychological screening, and the diagnosis and treatment of psychological, emotional and personality disorders.  She is available for medical related and forensic consultation.</p>
