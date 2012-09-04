@@ -40,7 +40,7 @@
 // RESET ADDITIONS AND OVERRIDES
 // next time use normalize!
 
-li { @include no-bullets; }
+ul li { @include no-bullets; }
 b, strong { font-weight: bold; }
 i, em { font-style: italic; }
 cite { font-style: italic; font-weight: bold; }
@@ -103,7 +103,7 @@ h1 a {
 	display: block;
 	height: 115px;
 	/* background: image-url('masthead.gif') top left no-repeat;*/ 
-}
+	}
 
 h1 img { margin-top: -15px; }
 
@@ -168,9 +168,9 @@ ul, ol { margin-bottom: 25px; }
 
 ol {
 	margin-left: 20px;
+	list-style-type: decimal;
 	li {
 		padding-bottom: 10px;
-		list-style-type: decimal;
 		}
 	}
 
@@ -554,8 +554,10 @@ span.underline { text-decoration: underline; }
 .article #main_content { min-height: 850px; }
 
 #holiday-stress dt { width: 35%; }
-
-#holiday-stress dd { @include float-right; width: 65%; }
+#mental-health-first-aid dt { width: 20%; }
+#holiday-stress dd, #mental-health-first-aid dd { @include float-right; }
+#holiday-stress dd { width: 65%; }
+#mental-health-first-aid dd { width: 80%; }
 
 #parent-child-coercive-cycle-handout dt { width: 10%; }
 #parent-child-coercive-cycle-handout dd { @include float-right; width: 90%; }

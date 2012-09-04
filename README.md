@@ -1,6 +1,6 @@
 # Psychological Services of Pendleton, LLC #
 
-Official website of a small mental-health practice in Eastern Oregon. Built on Codeigniter.
+Website of a small mental-health practice in Eastern Oregon. Built on Codeigniter.
 
 ---
 
@@ -10,7 +10,6 @@ Official website of a small mental-health practice in Eastern Oregon. Built on C
 
 * Swap Umphred photo for newer headshot
 * Final touches on contact form
-	* optimize code, remove commented code
 	* customize verification icons
 * Implement HTML5 tags (especially on article pages)
 * Purge old files
@@ -22,6 +21,8 @@ Official website of a small mental-health practice in Eastern Oregon. Built on C
 
 ### Ongoing ###
 
+* Optimize code
+* Prune dead code
 * Keep an eye on Google+ Local vs Google Places vs Google Plus Pages for Business
 * Look to expand layout for more breathing room (maybe experiment with Golden Ratio?)
 * Optimize CSS (check for redundant font tags, etc)

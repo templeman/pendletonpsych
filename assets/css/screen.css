@@ -534,11 +534,11 @@ optgroup {
 }
 
 /* line 43, ../../sass/_main.scss */
-li {
+ul li {
   list-style: none;
 }
 /* line 11, ../../../../.rvm/gems/ruby-1.9.3-p194@pendletonpsych-codeigniter/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
-li li {
+ul li li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
@@ -725,11 +725,11 @@ ul, ol {
 /* line 169, ../../sass/_main.scss */
 ol {
   margin-left: 20px;
+  list-style-type: decimal;
 }
-/* line 171, ../../sass/_main.scss */
+/* line 172, ../../sass/_main.scss */
 ol li {
   padding-bottom: 10px;
-  list-style-type: decimal;
 }
 
 /* line 177, ../../sass/_main.scss */
@@ -1199,42 +1199,56 @@ span.underline {
   width: 35%;
 }
 
+/* line 557, ../../sass/_main.scss */
+#mental-health-first-aid dt {
+  width: 20%;
+}
+
 /* line 558, ../../sass/_main.scss */
-#holiday-stress dd {
+#holiday-stress dd, #mental-health-first-aid dd {
   display: inline;
   float: right;
+}
+
+/* line 559, ../../sass/_main.scss */
+#holiday-stress dd {
   width: 65%;
 }
 
 /* line 560, ../../sass/_main.scss */
+#mental-health-first-aid dd {
+  width: 80%;
+}
+
+/* line 562, ../../sass/_main.scss */
 #parent-child-coercive-cycle-handout dt {
   width: 10%;
 }
 
-/* line 561, ../../sass/_main.scss */
+/* line 563, ../../sass/_main.scss */
 #parent-child-coercive-cycle-handout dd {
   display: inline;
   float: right;
   width: 90%;
 }
 
-/* line 563, ../../sass/_main.scss */
+/* line 565, ../../sass/_main.scss */
 #parent-child-coercive-cycle dt {
   clear: both;
   width: 15%;
 }
 
-/* line 564, ../../sass/_main.scss */
+/* line 566, ../../sass/_main.scss */
 #parent-child-coercive-cycle dd {
   width: 42%;
 }
 
-/* line 565, ../../sass/_main.scss */
+/* line 567, ../../sass/_main.scss */
 #parent-child-coercive-cycle .diagram {
   margin-top: 50px;
 }
 
-/* line 567, ../../sass/_main.scss */
+/* line 569, ../../sass/_main.scss */
 .ol-inline li {
   float: left;
   margin-right: 30px;

@@ -110,22 +110,6 @@ class Pages extends MY_Controller {
 	}
 
 
-	public function contact() {
-		$this->load->library('session');
-//		$this->session->keep_flashdata('message');
-		$this->template
-			->set_partial('header', 'partials/header')
-			->title('Contact Us', 'Psychological Services of Pendleton')
-			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
-	Pendleton, Eastern Oregon, therapy, assessment, psychological,
-	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
-			->set_metadata("description", "Address: 135 SE 1st St, Pendleton, Oregon 97801. Phone: 541-278-2222. Fax: 541-276-8405. Hours: Mon-Thu 8am - 6pm. Fri 8am - 5pm. Closed Sat & Sun.")
-			->set_partial('footer', 'partials/footer')
-			->build('contact', array('message' => '', 'image_num' => '1', 'image_alt' => 'An Eastern Oregon landscape.', 'page_id' => 'contact'));
-	}
-
-
 	public function templeman() {
 
 		$this->template
@@ -248,6 +232,77 @@ class Pages extends MY_Controller {
 			->set_metadata("description", "")
 			->set_partial('footer', 'partials/footer')
 			->build('therapy_helpers', $data);
+	}
+
+
+	public function your_mental_health($article = NULL) {
+
+		$category = $this->uri->segment(1);
+		$this->load->model('Article_model');
+
+		if(isset($article)) { // if method is passed
+
+			$article = str_replace('_', '-', $article);
+			// check uri against database
+			$query = $this->db->get_where('articles', array('slug' => $article));
+
+			if($query->num_rows() > 0) {
+				// if there's a match, load it as the new article
+				foreach($query->result() as $row):
+						$data['title'] = $row->title;
+						$data['body'] = $row->body;
+						$data['id'] = $row->id;
+						$data['slug'] = $row->slug;
+				endforeach;
+			} else { // no matching article
+				show_404();
+			}
+
+		} else { // no method passed - show the latest article as default
+
+			$article = $this->Article_model->get_latest_article($category);
+			foreach($article->result() as $row):
+				$data['title'] = $row->title;
+				$data['body'] = $row->body;
+				$data['id'] = $row->id;
+				$data['slug'] = $row->slug;
+			endforeach;
+
+		}
+
+		// get all your-mental-health titles to populate sub-menu
+		$data['query'] = $this->Article_model->get_titles($category);
+
+		$data['image_num'] = 6;
+		$data['image_alt'] = 'flowers';
+		$data['page_id'] = str_replace('_', '-', $data['slug']);
+
+		$this->template
+			->set_partial('header', 'partials/header')
+			->title($data['title'], 'Psychological Services of Pendleton')
+			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
+	Pendleton, Eastern Oregon, therapy, assessment, psychological,
+	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
+	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
+			->set_metadata("description", "")
+			->set_partial('footer', 'partials/footer')
+			->build('your_mental_health', $data);
+	}
+
+
+	public function contact() {
+		$this->load->library('session');
+//		$this->session->keep_flashdata('message');
+		$this->template
+			->set_partial('header', 'partials/header')
+			->title('Contact Us', 'Psychological Services of Pendleton')
+			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
+	Pendleton, Eastern Oregon, therapy, assessment, psychological,
+	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
+	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
+			->set_metadata("description", "Address: 135 SE 1st St, Pendleton, Oregon 97801. Phone: 541-278-2222. Fax: 541-276-8405. Hours: Mon-Thu 8am - 6pm. Fri 8am - 5pm. Closed Sat & Sun.")
+			->set_partial('footer', 'partials/footer')
+			->build('contact', array('message' => '', 'image_num' => '1', 'image_alt' => 'An Eastern Oregon landscape.', 'page_id' => 'contact'));
 	}
 
 

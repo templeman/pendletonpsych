@@ -50,12 +50,13 @@ $this->load->helper('text');
 					1 => array("name" => "our staff", "url" => "staff"),
 					2 => array("name" => "specialty areas", "url" => "specialty"),
 					3 => array("name" => "policies and procedures", "url" => "policies"),
-					4 => array("name" => "what's new in psychology", "url" => "whats-new"),
-					5 => array("name" => "therapy helpers", "url" => "therapy-helpers"),
-					6 => array("name" => "education opportunities", "url" => "education"),
-					7 => array("name" => "resources", "url" => "resources"),
-					8 => array("name" => "map and directions", "url" => "map"),
-					9 => array("name" => "contact us", "url" => "contact")
+					4 => array("name" => "your mental health", "url" => "your-mental-health"),
+					5 => array("name" => "what's new in psychology", "url" => "whats-new"),
+					6 => array("name" => "therapy helpers", "url" => "therapy-helpers"),
+					7 => array("name" => "education opportunities", "url" => "education"),
+					8 => array("name" => "resources", "url" => "resources"),
+					9 => array("name" => "map and directions", "url" => "map"),
+					10 => array("name" => "contact us", "url" => "contact")
 				);
 
 			foreach($menu_items as $menu_item):
