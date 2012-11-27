@@ -56,26 +56,6 @@ may <a href="http://www.adobe.com/products/acrobat/readstep2.html">download the 
 			obtain or coordinate records with another person or provider.</li>
 		</ul>
 	</div>
-	<h3><a href="#">Mr. Eslinger's Forms</a></h3>
-	<div>
-		<ul>
-			<li><a class="pdf"
-				href="/doc/general-information-sheet-08.pdf">General
-				Information</a></li>
-			<li><a class="pdf" href="/doc/patient-history-form.pdf">Patient
-				History</a></li>
-			<li><a class="pdf"
-				href="/doc/eslinger-consent-treatment.pdf">Consent to
-				Treatment</a></li>
-			<li><a class="pdf" href="/doc/eslinger-hipaa.pdf">HIPAA
-				Consent</a></li>
-			<li><a class="pdf" href="/doc/eslinger-disclosure.pdf">Disclosure
-				Authorization</a></li>
-			<li class="linkinfo">This is a release of information form. This
-			form is only to be filled out if you would like this provider to
-			obtain or coordinate records with another person or provider.</li>
-		</ul>
-	</div>
 	<h3><a href="#">Ms. Hsu's Forms</a></h3>
 	<div>
 		<ul>

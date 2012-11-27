@@ -1,10 +1,10 @@
 /* ============================================================
 
 	DOCUMENT INFORMATION
-		- Document: Psychological Services Styles
-		- Version:	2.2
-		- Date:		April 2012
-		- Author:	Needle Hoffenheimer
+		- Document		: Psychological Services Styles
+		- Version			:	2.2
+		- Last Update	: 11.26.2012	
+		- Author			:	Needle Hoffenheimer
 
 	CSS DIRECTORY
 		1. =IMPORTS
@@ -25,10 +25,7 @@
 	FONTS
    	- default body text	Arial, Helvetica, sans-serif
 
-	REFERENCES
-
-
-   ============================================================ */
+	============================================================ */
 
 
 // IMPORTS
@@ -326,32 +323,28 @@ footer {
 		}
 	}
 
-
  
 
 // INDEX
 
-#special_content {
+a.special-content {
 	@include border-radius(20px);
-	position: relative;
-	width: 400px;
-	margin: 40px auto;
-	padding: 10px;
-	border: 1px dashed red;
-	zoom: 1; /* For IE6 */ 
-	h1 {
-		padding: 0;
-		margin-top: 0; 
+	display: block;
+	text-decoration: none;
+	background: #eee;
+	font-size: .9em;
+	margin: 0 0 20px 0;
+	&:hover {
+		background: #ddd;
 		}
-	p {
-		margin: 0;
-		padding: 0; 
-		}
-	img {
-		@include float-left;	
-		padding-right: 10px;
-		vertical-align: middle;
-		border: 0 none; 
+	div {
+		background: transparent image-url('psicon.png') 15px 15px no-repeat;
+		padding: 15px 15px 15px 90px;
+		zoom: 1; /* For IE6 */ 
+		p {
+			margin: 0;
+			padding: 0; 
+			}
 		}
 	}
 
@@ -360,10 +353,6 @@ footer {
 	text-align: center;
 	padding: 0; 
 	}
-
-/*a[href="docs/holiday_stress.pdf"] {
-   text-decoration: none;
-   border: 0 none; }*/
 
 
 

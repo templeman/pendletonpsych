@@ -29,6 +29,6 @@
 			<li>Bereavement</li>
 		</ul>
 		<h3>Medication Management</h3>
-		<p>Proper medications greatly enhance the effectiveness of psychological treatments. If you already take psychiatric medications, your therapist at Psychological Services, LLC will ask you to sign an authorization (see <a href="/policies">Policies and Procedures</a>) to consult with your prescriber about your treatment. If you are not on medication your therapist may refer you to our Psychiatric Mental Health Nurse Practitioner for a medication evaluation. We may also ask you the name of your pharmacy, so as to facilitate communication between pharmacy and prescriber. It is your responsibility as client to take your medications as prescribed and to have your prescriptions filled by your pharmacist.</p>
+		<p>Proper medications greatly enhance the effectiveness of psychological treatments. If you already take psychiatric medications, your therapist at Psychological Services, LLC will ask you to sign an authorization (see <a href="/policies">Policies and Procedures</a>) to consult with your prescriber about your treatment. If you are not on medication, your therapist may refer you to a local prescriber trained in psychiatric medications for a medication evaluation. We may also ask you the name of your pharmacy, so as to facilitate communication between pharmacy and prescriber. It is your responsibility as client to take your medications as prescribed and to have your prescriptions filled by your pharmacist.</p>
 		<a href="#top"></a>
 

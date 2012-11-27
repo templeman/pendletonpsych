@@ -14,7 +14,7 @@ class Pages extends MY_Controller {
 	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
 			->set_metadata("description", "Full service outpatient treatment center providing assessment, psychotherapy, and medications for a broad range of psychological problems. Serving Eastern Oregon. Terrel L. Templeman, Ph.D. - Clinical Psychologist. Connie Umphred, Ph.D. - Clinical Psychologist. Daniel Eslinger, RN, PMHNP - Psychiatric Mental Health Nurse Practitioner. Sarah Hsu, LCSW - Licensed Clinical Social Worker. Heather A. Bacon, Ph.D. - Clinical Psychologist Resident")
 			->set_partial('footer', 'partials/footer')
-			->build('index', array('image_num' => '6', 'image_alt' => 'flowers', 'page_id' => 'front'));
+			->build('index', array('image_num' => '8', 'image_alt' => 'A snowy Eastern Oregon landscape.', 'page_id' => 'front'));
 	}
 
 
@@ -29,7 +29,7 @@ class Pages extends MY_Controller {
 	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
 			->set_metadata("description", "Terrel L. Templeman, Ph.D. [Clinical Psychologist], Connie Umphred, Ph.D. [Clinical Psychologist], Daniel Eslinger, RN, PMHNP [Psychiatric Mental Health Nurse Practitioner], Sarah Hsu, LCSW [Licensed Clinical Social Worker], Heather A. Bacon, Ph.D. [Clinical Psychologist Resident], Jeanne Bailey [Office Manager], Karen Hoeft [Administrative Assistant & Receptionist]")
 			->set_partial('footer', 'partials/footer')
-			->build('staff', array('image_num' => '1', 'image_alt' => 'An Eastern Oregon landscape.', 'page_id' => 'staff'));
+			->build('staff', array('image_num' => '7', 'image_alt' => 'A snowy Eastern Oregon landscape.', 'page_id' => 'staff'));
 	}
 
 
@@ -163,8 +163,8 @@ class Pages extends MY_Controller {
 		// get all whats-new titles to populate sub-menu
 		$data['query'] = $this->Article_model->get_titles($category);
 
-		$data['image_num'] = 6;
-		$data['image_alt'] = 'flowers';
+		$data['image_num'] = 8;
+		$data['image_alt'] = 'A snowy Eastern Oregon landscape.';
 		$data['page_id'] = str_replace('_', '-', $data['slug']);
 
 		$this->template
@@ -218,8 +218,8 @@ class Pages extends MY_Controller {
 		// get all therapy-helper titles to populate sub-menu
 		$data['query'] = $this->Article_model->get_titles($category);
 
-		$data['image_num'] = 6;
-		$data['image_alt'] = 'flowers';
+		$data['image_num'] = 8;
+		$data['image_alt'] = 'A snowy Eastern Oregon landscape.';
 		$data['page_id'] = str_replace('_', '-', $data['slug']);
 
 		$this->template
@@ -273,8 +273,8 @@ class Pages extends MY_Controller {
 		// get all your-mental-health titles to populate sub-menu
 		$data['query'] = $this->Article_model->get_titles($category);
 
-		$data['image_num'] = 6;
-		$data['image_alt'] = 'flowers';
+		$data['image_num'] = 8;
+		$data['image_alt'] = 'A snowy Eastern Oregon landscape.';
 		$data['page_id'] = str_replace('_', '-', $data['slug']);
 
 		$this->template
@@ -302,7 +302,7 @@ class Pages extends MY_Controller {
 	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
 			->set_metadata("description", "Address: 135 SE 1st St, Pendleton, Oregon 97801. Phone: 541-278-2222. Fax: 541-276-8405. Hours: Mon-Thu 8am - 6pm. Fri 8am - 5pm. Closed Sat & Sun.")
 			->set_partial('footer', 'partials/footer')
-			->build('contact', array('message' => '', 'image_num' => '1', 'image_alt' => 'An Eastern Oregon landscape.', 'page_id' => 'contact'));
+			->build('contact', array('message' => '', 'image_num' => '7', 'image_alt' => 'A snowy Eastern Oregon landscape.', 'page_id' => 'contact'));
 	}
 
 
