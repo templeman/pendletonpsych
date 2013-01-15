@@ -53,6 +53,6 @@
 <!--
 			<a class="single_image" href="/image/group-02.jpg"><img src="/image/group-02-th.jpg" alt="Open house group photo." /></a>
 			<a class="single_image" href="/image/group-03.jpg"><img src="/image/group-03-th.jpg" alt="Open house group photo." /></a>
-		</div>
 -->
+		</div>
 		<a href="#top"></a>

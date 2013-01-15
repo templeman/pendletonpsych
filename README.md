@@ -10,6 +10,7 @@ Website of a small mental-health practice in Eastern Oregon. Built on Codeignite
 
 * Final touches on contact form
 	* customize verification icons
+	* add better user feedback for disabled Send button
 * Implement HTML5 tags (especially on article pages)
 * Purge old files
 * Look into PDFs not retaining all Word doc formatting
@@ -20,6 +21,7 @@ Website of a small mental-health practice in Eastern Oregon. Built on Codeignite
 
 ### Ongoing ###
 
+* Move into WordPress?
 * Optimize code
 * Prune dead code
 * Keep an eye on Google+ Local vs Google Places vs Google Plus Pages for Business

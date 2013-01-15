@@ -1,8 +1,9 @@
 $(function() {
 
 	var check_empty = ['name', 'message'],
-	passed = ['phone', 'email'],
-	success = ['phone', 'email', 'name', 'message'];
+      passed      = ['phone', 'email'],
+      success     = ['phone', 'email', 'name', 'message'];
+
 
 	// disable submit only if validator-rules.js is accessible
 	$("#button").attr('disabled', 'disabled');
@@ -15,6 +16,7 @@ $(function() {
 			$("#button").attr('disabled', 'disabled');
 		}
 	}
+
 
 	// checking name input
 	$("#name").change(function() {
@@ -78,25 +80,36 @@ $(function() {
 	});
 
 	// checking message input
-	$("#message").change(function() {
-		var message = $("#message").val();
-		var name = $("#name").val();
-
-		if(($.inArray('name', check_empty)) >= 0) {
-			$("#name_verify").css({ "background-image": "url('/image/no.png')" });
-		}
-		if(message) {
-			$("#message_verify").css({ "background-image": "url('/image/yes.png')" });
-			if(!(($.inArray('message', passed)) >= 0)) {
-				passed.push('message');
-			}
-		} else {
-			$("#message_verify").css({ "background-image": "url('/image/no.png')" });
-			passed.splice(passed.indexOf('message'),1);
-		}
-
-		check_passed(passed);
+	$('#message').keyup(function() {
+    var message = $("#message").val();
+    if(message) {
+      $("#message_verify").css({ "background-image": "url('/image/yes.png')" });
+      if(!(($.inArray('message', passed)) >= 0)) {
+        passed.push('message');
+      }
+      check_passed(passed);
+    }
 	});
+
+  // check message input again if textarea loses focus
+  $('#message').blur(function() {
+    var message = $("#message").val();
+    var name = $("#name").val();
+    if(message) {
+      if(($.inArray('name', check_empty)) >= 0) {
+        $("#name_verify").css({ "background-image": "url('/image/no.png')" });
+      }
+      $("#message_verify").css({ "background-image": "url('/image/yes.png')" });
+      if(!(($.inArray('message', passed)) >= 0)) {
+        passed.push('message');
+      }
+    } else {
+      $("#message_verify").css({ "background-image": "url('/image/no.png')" });
+      passed.splice(passed.indexOf('message'),1);
+    }
+
+    check_passed(passed);
+  });
 
 
 	// regex functions

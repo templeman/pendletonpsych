@@ -5,23 +5,23 @@
 /* ============================================================
 
 	DOCUMENT INFORMATION
-		- Document		: Psychological Services Styles
-		- Version			:	2.2
-		- Last Update	: 11.26.2012	
-		- Author			:	Needle Hoffenheimer
+		Document		: Psychological Services Styles
+		Version			:	2.2
+		Last Update	: 11.26.2012	
+		Author			:	Needle Hoffenheimer
 
 	CSS DIRECTORY
-		1. =IMPORTS
-		2. =RESET ADDITIONS
-		3. =TOOLS
-		4. =GLOBAL LAYOUT
-		5. =GLOBAL ELEMENTS
-		6. =POLICIES
-		7. =CONTACT
-		8. =STAFF
-		9. =TEMPLEMAN
-		10. =MAP
-		11. =RESOURCES
+		1.	=IMPORTS
+		2.	=RESET ADDITIONS
+		3.	=TOOLS
+		4.	=GLOBAL LAYOUT
+		5.	=GLOBAL ELEMENTS
+		6.	=POLICIES
+		7.	=CONTACT
+		8.	=STAFF
+		9.	=TEMPLEMAN
+		10.	=MAP
+		11.	=RESOURCES
 
 	HACK DIRECTORY
 		? targets IE (lt 9)
@@ -30,7 +30,7 @@
    	- default body text	Arial, Helvetica, sans-serif
 
 	============================================================ */
-/* line 17, ../../../../.rvm/gems/ruby-1.9.3-p194@pendletonpsych-codeigniter/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../.rvm/gems/ruby-1.9.3-p362@pendletonpsych/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,50 +47,50 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
+  font-size: 100%;
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../.rvm/gems/ruby-1.9.3-p194@pendletonpsych-codeigniter/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-body {
+/* line 22, ../../../../.rvm/gems/ruby-1.9.3-p362@pendletonpsych/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
   line-height: 1;
 }
 
-/* line 22, ../../../../.rvm/gems/ruby-1.9.3-p194@pendletonpsych-codeigniter/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../.rvm/gems/ruby-1.9.3-p362@pendletonpsych/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../.rvm/gems/ruby-1.9.3-p194@pendletonpsych-codeigniter/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../.rvm/gems/ruby-1.9.3-p362@pendletonpsych/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../.rvm/gems/ruby-1.9.3-p194@pendletonpsych-codeigniter/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../.rvm/gems/ruby-1.9.3-p362@pendletonpsych/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../.rvm/gems/ruby-1.9.3-p194@pendletonpsych-codeigniter/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../.rvm/gems/ruby-1.9.3-p362@pendletonpsych/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../.rvm/gems/ruby-1.9.3-p194@pendletonpsych-codeigniter/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../.rvm/gems/ruby-1.9.3-p362@pendletonpsych/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../.rvm/gems/ruby-1.9.3-p194@pendletonpsych-codeigniter/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../.rvm/gems/ruby-1.9.3-p362@pendletonpsych/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../.rvm/gems/ruby-1.9.3-p194@pendletonpsych-codeigniter/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../.rvm/gems/ruby-1.9.3-p362@pendletonpsych/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -219,7 +219,7 @@ input[type="button"] {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #dddddd));
   background: -moz-linear-gradient(top center, white 0%, #dddddd 100%);
   border: 1px solid;
-  border-color: #ddd #bbb #999;
+  border-color: #dddddd #bbbbbb #999999;
   cursor: pointer;
   color: #333;
   /*
@@ -230,7 +230,7 @@ input[type="button"] {
   outline: 0;
   overflow: visible;
   padding: 7px 20px;
-  text-shadow: #fff 0 1px 1px;
+  text-shadow: white 0 1px 1px;
   width: auto;
   /* IE7 */
   *padding-top: 2px;
@@ -282,7 +282,7 @@ input[type="week"] {
     Leaving out Helvetica Neue, to not throw off size="..."
     on inputs. Arial is more reliable, on Windows and OS X.
   */
-  font-family: Arial, 'Liberation Sans', FreeSans, sans-serif;
+  font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
   height: 2.8em;
   display: inline;
   float: left;
@@ -336,9 +336,9 @@ select:focus,
 select:active,
 textarea:focus,
 textarea:active {
-  -moz-box-shadow: #06f 0 0 7px;
-  -webkit-box-shadow: #06f 0 0 7px;
-  box-shadow: #06f 0 0 7px;
+  -moz-box-shadow: #0066ff 0 0 7px;
+  -webkit-box-shadow: #0066ff 0 0 7px;
+  box-shadow: #0066ff 0 0 7px;
   /* for Opera */
   z-index: 1;
 }
@@ -425,7 +425,7 @@ select[multiple] {
     font: 13px/17px "Lucida Grande", Arial, "Liberation Sans", FreeSans, sans-serif;
     overflow: hidden;
     padding: 15px 15px 17px;
-    text-shadow: #000 0 0 1px;
+    text-shadow: black 0 0 1px;
     height: 16px;
   }
 
@@ -484,7 +484,7 @@ optgroup {
 * html button {
   background: #dddddd url(../images/button.png) repeat-x;
   border: 1px solid;
-  border-color: #ddd #bbb #999;
+  border-color: #dddddd #bbbbbb #999999;
   cursor: pointer;
   color: #333;
   font: bold 12px/1.2 Arial, sans-serif;
@@ -534,7 +534,7 @@ optgroup {
 ul li {
   list-style: none;
 }
-/* line 11, ../../../../.rvm/gems/ruby-1.9.3-p194@pendletonpsych-codeigniter/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+/* line 11, ../../../../.rvm/gems/ruby-1.9.3-p362@pendletonpsych/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
 ul li li {
   list-style-image: none;
   list-style-type: none;
@@ -599,7 +599,7 @@ cite {
 .bullet {
   margin-left: 0;
 }
-/* line 29, ../../../../.rvm/gems/ruby-1.9.3-p194@pendletonpsych-codeigniter/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+/* line 29, ../../../../.rvm/gems/ruby-1.9.3-p362@pendletonpsych/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
 .bullet li {
   padding-left: 20px;
   background: url('../../image/list-decoration.gif?1312668127') no-repeat 6.5px 9px;
@@ -844,7 +844,7 @@ nav li a {
 /* line 257, ../../sass/_main.scss */
 nav li a:link, nav li a:visited, nav li a:active {
   background-color: #084003;
-  border: 1px solid #fff;
+  border: 1px solid white;
   color: #fff;
   text-decoration: none;
 }
@@ -908,7 +908,7 @@ footer ul {
 footer ul li {
   display: inline;
   padding: 0 8px;
-  border-right: 1px dotted #fff;
+  border-right: 1px dotted white;
 }
 /* line 315, ../../sass/_main.scss */
 footer ul li:last-child {
