@@ -3,7 +3,7 @@
 	DOCUMENT INFORMATION
 		Document		: Psychological Services Styles
 		Version			:	2.2
-		Last Update	: 11.26.2012	
+		Last Update	: 01.29.2013
 		Author			:	Needle Hoffenheimer
 
 	CSS DIRECTORY
@@ -62,7 +62,7 @@ cite { font-style: italic; font-weight: bold; }
 
 .rt { float: right; }
 
-.bg-shim { /* lt IE9 */ 
+.bg-shim { /* lt IE9 */
 	display: none;
 	}
 
@@ -79,7 +79,7 @@ a {
 		color: $dark-orange;
 		text-decoration: none;
 		}
-	&:hover, &:focus { 
+	&:hover, &:focus {
 		color: $light-orange;
 		text-decoration: underline;
 		}
@@ -89,7 +89,7 @@ body {
 	background: image-url('bg.jpg');
 	color: #222;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px; 
+	font-size: 14px;
 	height: 100%;
 	line-height: 1.4em;
 	}
@@ -99,7 +99,7 @@ body {
 h1 a {
 	display: block;
 	height: 115px;
-	/* background: image-url('masthead.gif') top left no-repeat;*/ 
+	/* background: image-url('masthead.gif') top left no-repeat;*/
 	}
 
 h1 img { margin-top: -15px; }
@@ -107,7 +107,7 @@ h1 img { margin-top: -15px; }
 h2 {
 	font-size: 18px;
 	text-transform: uppercase;
-	padding: 10px 0 20px; 
+	padding: 10px 0 20px;
 	}
 
 h3 {
@@ -140,7 +140,7 @@ h5 {
 	background: #fff;
 	border-left: 1px solid $dark-green;
 	border-right: 1px solid $dark-green;
-	border-bottom: 1px solid $dark-green; 
+	border-bottom: 1px solid $dark-green;
 	margin: 25px auto 0;
 	padding: 0 0 15px;
 	position: relative;
@@ -153,8 +153,8 @@ h5 {
 // GLOBAL ELEMENTS
 
 p, table {
-	/*font-size: 1.2em;
-	padding: 0 20px; */
+	// font-size: 1.2em;
+	// padding: 0 20px;
 	margin-bottom: 20px;
 	text-align: left;
 	color: #222;
@@ -180,13 +180,13 @@ li {
 
 dl { margin: 10px 0 20px; }
 
-dt { 
+dt {
 	display: block;
 	@include float-left;
 	width: 40px;
 	}
 
-dd { 
+dd {
 	display: block;
 	@include float-left;
 	margin: 0 0 10px 0;
@@ -223,9 +223,9 @@ a[href="#top"] {
 	bottom: 20px;
 	}
 
-a[href="#top"]:hover { 
+a[href="#top"]:hover {
 	background-position: -25px 0;
-	cursor: pointer; 
+	cursor: pointer;
 	}
 
 
@@ -237,18 +237,18 @@ a[href="#top"]:hover {
 	margin: 20px 2px;
 	}
 
-nav { 
+nav {
 	text-transform: uppercase;
 	ul {
 		margin: 0;
-		padding: 0; 
+		padding: 0;
 		}
 	li {
 		font-family: Verdana, Arial, Helvetica, sans-serif;
 		font-size: 11px;
 		font-weight: bold;
 		margin: 0;
-		padding: 0; 
+		padding: 0;
 		a {
 			display: block;
 			height: 13px;
@@ -268,7 +268,7 @@ nav {
 	margin: 20px 0 0;
 	width: 227px;
 	li {
-		font-size: 13px; 
+		font-size: 13px;
 		padding: 0;
 		a {
 			display: block;
@@ -276,7 +276,7 @@ nav {
 			text-decoration: none;
 			width: 219px;
 			&:hover, &.current {
-				background: $mid-green; 
+				background: $mid-green;
 				color: #fff;
 				text-decoration: none;
 				}
@@ -307,7 +307,7 @@ footer {
 	ul {
 		font-size: 12px;
 		margin: 0;
-		width: 100%; 
+		width: 100%;
 		li {
 			display: inline;
 			padding: 0 8px;
@@ -323,7 +323,7 @@ footer {
 		}
 	}
 
- 
+
 
 // INDEX
 
@@ -334,16 +334,17 @@ a.special-content {
 	background: #eee;
 	font-size: .9em;
 	margin: 0 0 20px 0;
+  display: none; // comment out to show special front-page callout
 	&:hover {
 		background: #ddd;
 		}
 	div {
 		background: transparent image-url('psicon.png') 15px 15px no-repeat;
 		padding: 15px 15px 15px 90px;
-		zoom: 1; /* For IE6 */ 
+		zoom: 1; /* For IE6 */
 		p {
 			margin: 0;
-			padding: 0; 
+			padding: 0;
 			}
 		}
 	}
@@ -351,7 +352,7 @@ a.special-content {
 .special {
 	color: #400329;
 	text-align: center;
-	padding: 0; 
+	padding: 0;
 	}
 
 
@@ -362,11 +363,11 @@ a.special-content {
 	font-style: italic;
 	font-size: .8em;
 	line-height: 12pt;
-	padding: 0 0 10px 15px; 
+	padding: 0 0 10px 15px;
 	}
 
 
-  
+
 // CONTACT
 
 #contact dt { width: 100px; }
@@ -401,7 +402,7 @@ textarea { padding-top: 10px; }
 
 .whole { width: 400px; }
 
-.error { 
+.error {
 	padding-left: 90px;
 	color: #d60000;
 	clear: left;
@@ -445,7 +446,7 @@ textarea { padding-top: 10px; }
 
 .staff_profile_block {
 	min-height:194px;
-	padding-top: 73px; 
+	padding-top: 73px;
 	h2 {
 		margin-top: 73px;
 		}
@@ -459,7 +460,7 @@ textarea { padding-top: 10px; }
 
 #group_images {
 	min-height: 180px;
-	padding: 0; 
+	padding: 0;
 	width: 100%;
 	a img {
 		border: 1px solid $dark-green;
@@ -489,24 +490,20 @@ span.underline { text-decoration: underline; }
 
 .panels {
 	width: 400px;
-	span {
-		height: 100%;
-		left: 0;
-		position: absolute;
-		top: 0;
-		width: 100%;
-		z-index: 1; 
-		}
 	img {
 		vertical-align: middle;
 		}
 	li {
 		margin-bottom: 10px;
-		position: relative; 
-		&:hover { 
-			background-color: #eee;
-			cursor: pointer; 
-			}
+		position: relative;
+    a {
+      display: block;
+      &:hover {
+        background-color: #eee;
+        text-decoration: none;
+        cursor: pointer;
+        }
+      }
 		}
 	}
 
@@ -555,10 +552,10 @@ span.underline { text-decoration: underline; }
 #parent-child-coercive-cycle dd { width: 42%; }
 #parent-child-coercive-cycle .diagram { margin-top: 50px; }
 
-.ol-inline li { 
+.ol-inline li {
 	float: left;
 	margin-right: 30px;
-	font-size: 13px; 
+	font-size: 13px;
 	}
 
 
