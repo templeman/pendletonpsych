@@ -5,9 +5,9 @@
  *
  * Sprinkle is an asset management library for CodeIgniter which seeks to
  * simplify the process of loading assets on the page. The library includes
- * key features such as auto-loading, combining, minifying CSS or JS files, 
+ * key features such as auto-loading, combining, minifying CSS or JS files,
  * caching, compiling LESS into CSS and much more.
- * 
+ *
  * @package   			CodeIgniter
  * @subpackage			Sprinkle
  * @category  			Config
@@ -24,7 +24,7 @@
 |
 | In some cases you may need to look for assets in multiple directories.
 | To achieve this, you can set these locations here. Keep in mind that if
-| asset with the same name (and extension) exists in both locations, 
+| asset with the same name (and extension) exists in both locations,
 | Sprinkle will use that location which was defined first.
 |
 */
@@ -43,7 +43,7 @@ $config['sprinkle']['asset_locations'] = array
 |--------------------------------------------------------------------------
 |
 | If you have set cache expiration, expired assets will be processed, cached
-| and processed again when the cached file expires. Fetching assets from 
+| and processed again when the cached file expires. Fetching assets from
 | remote servers and applying filters can cost you valuable execution time.
 |
 | Even if you let the cache last for infinite amount of time, Sprinkle will
@@ -51,17 +51,17 @@ $config['sprinkle']['asset_locations'] = array
 | which again increases loading times. Of course, this only applies if you
 | have any filters assigned to them.
 |
-| To avoid such problems, it is advised to turn off asset processing and 
+| To avoid such problems, it is advised to turn off asset processing and
 | run the processing via cronjob or simply from the command line.
 |
 | Sprinkle has a special method for that:
 |
 |		$this->sprinkle->bake();
 |
-| For example, you could set up a CLI controller in which you would call 
+| For example, you could set up a CLI controller in which you would call
 | this method.
 |
-| NOTE: this only applies to pre-defined assets. Assets that you load 
+| NOTE: this only applies to pre-defined assets. Assets that you load
 | manually (via js() or css() method) will still be processed (if they
 | have filters). Also, even if you disable processing, assets will be
 | combined if needed (if such group has not been cached, for example).
@@ -77,8 +77,8 @@ $config['sprinkle']['disable_processing'] = FALSE;
 |--------------------------------------------------------------------------
 |
 | Although it is not mandatory, you should have this option enabled. It
-| will enable using yaml configuration files instead of raw php files. 
-| This is extremely useful when dealing with asset definitions and asset 
+| will enable using yaml configuration files instead of raw php files.
+| This is extremely useful when dealing with asset definitions and asset
 | routes.
 |
 | If you set this option to FALSE, it will use regular PHP files.
@@ -171,7 +171,7 @@ $config['sprinkle']['combine'] = TRUE;
 |
 | Usually assets will be cached into minified/combined files, so it is
 | needed to have a cache directory for that.
-| 
+|
 */
 
 $config['sprinkle']['cache_dir'] =  'assets/cache/';
@@ -182,9 +182,9 @@ $config['sprinkle']['cache_dir'] =  'assets/cache/';
 | Cache expiration
 |--------------------------------------------------------------------------
 |
-| Cache expiration is set in seconds. If you wish not allow the cache to 
+| Cache expiration is set in seconds. If you wish not allow the cache to
 | expire, set the value to 0.
-| 
+|
 */
 
 $config['sprinkle']['cache_expiration'] = 0;
@@ -197,7 +197,7 @@ $config['sprinkle']['cache_expiration'] = 0;
 |
 | If set to TRUE, cURL will be used for fetching assets from remote servers.
 | Otherwise file_get_contents() will be used.
-| 
+|
 */
 
 $config['sprinkle']['use_curl'] = FALSE;
@@ -209,8 +209,8 @@ $config['sprinkle']['use_curl'] = FALSE;
 |--------------------------------------------------------------------------
 |
 | It is strongly advised not to change this. Do it only if you really know
-| what you're doing! 
-| 
+| what you're doing!
+|
 */
 
 $config['sprinkle']['filters_path'] = 'libraries/filters/';

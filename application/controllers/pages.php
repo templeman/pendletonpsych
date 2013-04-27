@@ -2,8 +2,43 @@
 
 class Pages extends MY_Controller {
 
+  public $pics;
+  public $season;
+
+	function __construct() {
+    parent::__construct();
+
+    // set seasonal pics
+    $this->season = 'summer'; // winter, summer, spring, fall
+
+    $this->pics = array(
+      "winter" => array(
+        array('image_num' => '8', 'image_alt' => 'A snowy Eastern Oregon Landscape.'),
+        array('image_num' => '7', 'image_alt' => 'A snowy Eastern Oregon Landscape.'),
+        array('image_num' => '5', 'image_alt' => 'An Eastern Oregon Landscape.'),
+        array('image_num' => '3', 'image_alt' => 'An Eastern Oregon landscape.'),
+        array('image_num' => '2', 'image_alt' => 'A green landscape vista.'),
+        array('image_num' => '4', 'image_alt' => 'A green landscape vista.'),
+        array('image_num' => '1', 'image_alt' => 'An Eastern Oregon landscape.'),
+      ),
+      "summer" => array(
+        array('image_num' => '6', 'image_alt' => 'A snowy Eastern Oregon Landscape.'),
+        array('image_num' => '6', 'image_alt' => 'A snowy Eastern Oregon Landscape.'),
+        array('image_num' => '5', 'image_alt' => 'An Eastern Oregon Landscape.'),
+        array('image_num' => '3', 'image_alt' => 'An Eastern Oregon landscape.'),
+        array('image_num' => '2', 'image_alt' => 'A green landscape vista.'),
+        array('image_num' => '4', 'image_alt' => 'A green landscape vista.'),
+        array('image_num' => '1', 'image_alt' => 'An Eastern Oregon landscape.'),
+      ),
+    );
+
+	}
+
 
 	public function index() {
+
+    $data['page_id'] = 'front';
+    $data = array_merge($data, $this->pics[$this->season][0]);
 
 		$this->template
 			->set_partial('header', 'partials/header')
@@ -11,14 +46,17 @@ class Pages extends MY_Controller {
 			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
 	Pendleton, Eastern Oregon, therapy, assessment, psychological,
 	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
+	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
 			->set_metadata("description", "Full service outpatient treatment center providing assessment, psychotherapy, and medications for a broad range of psychological problems. Serving Eastern Oregon. Terrel L. Templeman, Ph.D. - Clinical Psychologist. Connie Umphred, Ph.D. - Clinical Psychologist. Daniel Eslinger, RN, PMHNP - Psychiatric Mental Health Nurse Practitioner. Sarah Hsu, LCSW - Licensed Clinical Social Worker. Heather A. Bacon, Ph.D. - Clinical Psychologist Resident")
 			->set_partial('footer', 'partials/footer')
-			->build('index', array('image_num' => '8', 'image_alt' => 'A snowy Eastern Oregon landscape.', 'page_id' => 'front'));
+			->build('index', $data);
 	}
 
 
 	public function staff() {
+
+    $data['page_id'] = 'staff';
+    $data = array_merge($data, $this->pics[$this->season][1]);
 
 		$this->template
 			->set_partial('header', 'partials/header')
@@ -26,29 +64,35 @@ class Pages extends MY_Controller {
 			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
 	Pendleton, Eastern Oregon, therapy, assessment, psychological,
 	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
+	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
 			->set_metadata("description", "Terrel L. Templeman, Ph.D. [Clinical Psychologist], Connie Umphred, Ph.D. [Clinical Psychologist], Daniel Eslinger, RN, PMHNP [Psychiatric Mental Health Nurse Practitioner], Sarah Hsu, LCSW [Licensed Clinical Social Worker], Heather A. Bacon, Ph.D. [Clinical Psychologist Resident], Jeanne Bailey [Office Manager], Karen Hoeft [Administrative Assistant & Receptionist]")
 			->set_partial('footer', 'partials/footer')
-			->build('staff', array('image_num' => '7', 'image_alt' => 'A snowy Eastern Oregon landscape.', 'page_id' => 'staff'));
+			->build('staff', $data);
 	}
 
 
 	public function specialty() {
-	
+
+    $data['page_id'] = 'specialty';
+    $data = array_merge($data, $this->pics[$this->season][2]);
+
 		$this->template
 			->set_partial('header', 'partials/header')
 			->title('Specialty Areas', 'Psychological Services of Pendleton')
 			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
 	Pendleton, Eastern Oregon, therapy, assessment, psychological,
 	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
+	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
 			->set_metadata("description", "All primary clinicians are licensed in Oregon to provide services within their specialty areas including different forms of stress, anxiety, anger issues, parenting issues, relationship difficulties mood disorders and more.")
 			->set_partial('footer', 'partials/footer')
-			->build('specialty', array('image_num' => '5', 'image_alt' => 'An Eastern Oregon Landscape.', 'page_id' => 'specialty'));
+			->build('specialty', $data);
 	}
 
 
 	public function policies() {
+
+    $data['page_id'] = 'policies';
+    $data = array_merge($data, $this->pics[$this->season][3]);
 
 		$this->template
 			->set_partial('header', 'partials/header')
@@ -56,14 +100,17 @@ class Pages extends MY_Controller {
 			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
 	Pendleton, Eastern Oregon, therapy, assessment, psychological,
 	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
+	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
 			->set_metadata("description", "Common forms and questionnaires used by our staff. Clients are encouraged to access these forms from this website prior to their appointment.")
 			->set_partial('footer', 'partials/footer')
-			->build('policies', array('image_num' => '3', 'image_alt' => 'An Eastern Oregon landscape.', 'page_id' => 'policies'));
+			->build('policies', $data);
 	}
 
 
 	public function education() {
+
+    $data['page_id'] = 'education';
+    $data = array_merge($data, $this->pics[$this->season][4]);
 
 		$this->template
 			->set_partial('header', 'partials/header')
@@ -71,15 +118,17 @@ class Pages extends MY_Controller {
 			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
 	Pendleton, Eastern Oregon, therapy, assessment, psychological,
 	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
+	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
 			->set_metadata("description", "Students and graduates can learn about our valuable educational opportunities, including a practicum in psychology and a psychologist residency.")
 			->set_partial('footer', 'partials/footer')
-			->build('education', array('image_num' => '2', 'image_alt' => 'A green 
-			landscape vista.', 'page_id' => 'education'));
+			->build('education', $data);
 	}
 
 
 	public function resources() {
+
+    $data['page_id'] = 'resources';
+    $data = array_merge($data, $this->pics[$this->season][5]);
 
 		$this->template
 			->set_partial('header', 'partials/header')
@@ -87,15 +136,18 @@ class Pages extends MY_Controller {
 			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
 	Pendleton, Eastern Oregon, therapy, assessment, psychological,
 	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu") 
+	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu")
 			->set_metadata("description", "Helpful links to state and national mental health organizations.")
 			->set_partial('footer', 'partials/footer')
-			->build('resources', array('image_num' => '4', 'image_alt' => 'A green 
-			landscape vista.', 'page_id' => 'resources'));
+			->build('resources', $data);
 	}
 
-	
+
 	public function map() {
+
+    $data['page_id'] = 'map';
+    $data['body_extras'] = 'onload="initialize()"';
+    $data = array_merge($data, $this->pics[$this->season][6]);
 
 		$this->template
 			->set_partial('header', 'partials/header')
@@ -103,14 +155,17 @@ class Pages extends MY_Controller {
 			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
 	Pendleton, Eastern Oregon, therapy, assessment, psychological,
 	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu") 
+	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu")
 			->set_metadata("description", "View this address on Google Maps.")
 			->set_partial('footer', 'partials/footer')
-			->build('map', array('image_num' => '1', 'image_alt' => 'An Eastern Oregon landscape.', 'page_id' => 'map', 'body_extras' => 'onload="initialize()"'));
+			->build('map', $data);
 	}
 
 
 	public function templeman() {
+
+    $data['page_id'] = 'templeman';
+    $data = array_merge($data, $this->pics[$this->season][6]);
 
 		$this->template
 			->set_partial('header', 'partials/header')
@@ -118,10 +173,10 @@ class Pages extends MY_Controller {
 			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
 	Pendleton, Eastern Oregon, therapy, assessment, psychological,
 	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
+	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
 			->set_metadata("description", "Dr. Terrel Templeman's professional biography. Educational background, certification, publications, and presentations.")
 			->set_partial('footer', 'partials/footer')
-			->build('templeman', array('image_num' => '1', 'image_alt' => 'An Eastern Oregon landscape.', 'page_id' => 'templeman'));
+			->build('templeman', $data);
 	}
 
 
@@ -162,10 +217,8 @@ class Pages extends MY_Controller {
 
 		// get all whats-new titles to populate sub-menu
 		$data['query'] = $this->Article_model->get_titles($category);
-
-		$data['image_num'] = 8;
-		$data['image_alt'] = 'A snowy Eastern Oregon landscape.';
 		$data['page_id'] = str_replace('_', '-', $data['slug']);
+    $data = array_merge($data, $this->pics[$this->season][0]);
 
 		$this->template
 			->set_partial('header', 'partials/header')
@@ -173,7 +226,7 @@ class Pages extends MY_Controller {
 			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
 	Pendleton, Eastern Oregon, therapy, assessment, psychological,
 	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
+	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
 			->set_metadata("description", "")
 			->set_partial('footer', 'partials/footer')
 			->build('whats_new', $data);
@@ -194,10 +247,10 @@ class Pages extends MY_Controller {
 			if($query->num_rows() > 0) {
 				// if there's a match, load it as the new article
 				foreach($query->result() as $row):
-						$data['title'] = $row->title;
-						$data['body'] = $row->body;
-						$data['id'] = $row->id;
-						$data['slug'] = $row->slug;
+          $data['title'] = $row->title;
+          $data['body'] = $row->body;
+          $data['id'] = $row->id;
+          $data['slug'] = $row->slug;
 				endforeach;
 			} else { // no matching article
 				show_404();
@@ -217,10 +270,8 @@ class Pages extends MY_Controller {
 
 		// get all therapy-helper titles to populate sub-menu
 		$data['query'] = $this->Article_model->get_titles($category);
-
-		$data['image_num'] = 8;
-		$data['image_alt'] = 'A snowy Eastern Oregon landscape.';
 		$data['page_id'] = str_replace('_', '-', $data['slug']);
+    $data = array_merge($data, $this->pics[$this->season][0]);
 
 		$this->template
 			->set_partial('header', 'partials/header')
@@ -228,7 +279,7 @@ class Pages extends MY_Controller {
 			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
 	Pendleton, Eastern Oregon, therapy, assessment, psychological,
 	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
+	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
 			->set_metadata("description", "")
 			->set_partial('footer', 'partials/footer')
 			->build('therapy_helpers', $data);
@@ -272,10 +323,8 @@ class Pages extends MY_Controller {
 
 		// get all your-mental-health titles to populate sub-menu
 		$data['query'] = $this->Article_model->get_titles($category);
-
-		$data['image_num'] = 8;
-		$data['image_alt'] = 'A snowy Eastern Oregon landscape.';
 		$data['page_id'] = str_replace('_', '-', $data['slug']);
+    $data = array_merge($data, $this->pics[$this->season][0]);
 
 		$this->template
 			->set_partial('header', 'partials/header')
@@ -283,7 +332,7 @@ class Pages extends MY_Controller {
 			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
 	Pendleton, Eastern Oregon, therapy, assessment, psychological,
 	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
+	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
 			->set_metadata("description", "")
 			->set_partial('footer', 'partials/footer')
 			->build('your_mental_health', $data);
@@ -293,16 +342,21 @@ class Pages extends MY_Controller {
 	public function contact() {
 		$this->load->library('session');
 //		$this->session->keep_flashdata('message');
+
+    $data['message'] = '';
+    $data['page_id'] = 'contact';
+    $data = array_merge($data, $this->pics[$this->season][1]);
+
 		$this->template
 			->set_partial('header', 'partials/header')
 			->title('Contact Us', 'Psychological Services of Pendleton')
 			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
 	Pendleton, Eastern Oregon, therapy, assessment, psychological,
 	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
+	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
 			->set_metadata("description", "Address: 135 SE 1st St, Pendleton, Oregon 97801. Phone: 541-278-2222. Fax: 541-276-8405. Hours: Mon-Thu 8am - 6pm. Fri 8am - 5pm. Closed Sat & Sun.")
 			->set_partial('footer', 'partials/footer')
-			->build('contact', array('message' => '', 'image_num' => '7', 'image_alt' => 'A snowy Eastern Oregon landscape.', 'page_id' => 'contact'));
+			->build('contact', $data);
 	}
 
 
@@ -319,9 +373,8 @@ class Pages extends MY_Controller {
 		if($this->form_validation->run() == FALSE) {
 			$data['message'] = 'The following error(s) occurred:<br />';
 			$data['status'] = 'failure';
-			$data['image_num'] = 1;
-			$data['image_alt'] = 'An Eastern Oregon landscape.';
 			$data['page_id'] = 'contact';
+      $data = array_merge($data, $this->pics[$this->season][6]);
 
 			$this->template
 				->set_partial('header', 'partials/header')
@@ -329,7 +382,7 @@ class Pages extends MY_Controller {
 				->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
 		Pendleton, Eastern Oregon, therapy, assessment, psychological,
 		psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-		disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon") 
+		disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
 				->set_metadata("description", "Address: 135 SE 1st St, Pendleton, Oregon 97801. Phone: 541-278-2222. Fax: 541-276-8405. Hours: Mon-Thu 8am - 6pm. Fri 8am - 5pm. Closed Sat & Sun.")
 				->set_partial('footer', 'partials/footer')
 				->build('contact', $data);
@@ -358,7 +411,7 @@ class Pages extends MY_Controller {
 				// Headers.
 				// $header = "From: $email";
 				// $recipient_email = 'psp@eotnet.net';
-				/* 
+				/*
 			} else {
 				$data['header'] = 'Oops!';
 				$data['image_num'] = 1;
@@ -411,7 +464,7 @@ class Pages extends MY_Controller {
 				if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 					$errors[] = "$email is not a valid email address.";
 				}
-			} 
+			}
 
 			if(!empty($_POST['comment'])) {
 				$_POST['comment'] = stripslashes(strip_tags($_POST['comment']));

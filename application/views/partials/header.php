@@ -38,12 +38,12 @@ $this->load->helper('text');
 		</div>
 		<div>
 		<img src="/image/pendleton<?php echo $image_num; ?>.jpg" alt="<?php echo $image_alt; ?>" width="780" height="220" />
-		</div> 
+		</div>
 
 		<div class="sidebar">
 		<nav>
 			<ul>
-			<?php 
+			<?php
 
 				$menu_items = array(
 					0 => array("name" => "home", "url" => ""),
