@@ -27,8 +27,8 @@
 			<div class="staff_profile_block">
 				<img src="/image/heather.jpg" alt="Heather Bacon" class="headshot" />
 				<h3>Heather A. Bacon, Ph.D.</h3>
-				<h5>Clinical Psychologist Resident</h5>
-				<p>Dr. Bacon joined Psychological Services of Pendleton, LLC as a clinical psychologist resident in March, 2012. She provides a variety of psychological services including psychotherapy with a cognitive/behavioral approach, assessment, and diagnosis for children, families, and adults. She taught special education for six years and has a Master’s degree in Education with an emphasis in Special Education. Given her experience working with children with disabilities in the public school system, Dr. Bacon has a special interest in children and adolescent behavior intervention and support programs, as well as school evaluations.  Dr. Bacon also has experience working with adult outpatients.  She completed a clinical psychology internship at Portland Adventist Hospital in 2010.</p>
+				<h5>Clinical Psychologist</h5>
+				<p>Dr. Bacon is a licensed psychologist in Oregon. She completed her internship at Portland Adventist Medical Center in 2010 and received her Ph.D. in Clinical Psychology from Walden University in 2011. She completed her clinical psychology residency at Psychological Services of Pendleton LLC in 2013. She also holds a Masters degree in Education and worked as a special education teacher for six years prior to entering the field of psychology. Dr. Bacon specializes in the treatment and assessment of children, adolescents and their families.</p>
 			</div>
 
 			<div class="staff_profile_block">
@@ -40,10 +40,10 @@
 			</div>
 
 			<div class="staff_profile_block">
-				<img src="/image/karen.jpg" alt="Karen Hoeft" class="headshot" />
-				<h3>Karen Hoeft</h3>
+				<img src="/image/katie.jpg" alt="Katie McLaren" class="headshot" />
+				<h3>Katie McLaren</h3>
 				<h5>Administrative Assistant &amp; Receptionist</h5>
-				<!--<p>Jaymi George is our friendly and helpful receptionist.  She has been with Psychological Services of Pendleton, LLC since 2007.  Ms. George handles phone calls and scheduling for all the clinicians in the office.  She will help in determining the right provider for the services you are seeking and an accommodating appointment time for both the provider and the client.  Ms. George will get all the necessary information from you to make the appointment and will also contact your insurance companies to get benefit details for your convenience.   Please have all insurance information available when you contact our office.  If you have any questions and or concerns, please feel free to contact our office and speak with Ms. George, as she is always willing to help.</p>-->
+				<!--<p>Katie McLaren is our friendly and helpful receptionist. She has been with Psychological Services of Pendleton, LLC since 2007. Ms. George handles phone calls and scheduling for all the clinicians in the office. She will help in determining the right provider for the services you are seeking and an accommodating appointment time for both the provider and the client.  Ms. George will get all the necessary information from you to make the appointment and will also contact your insurance companies to get benefit details for your convenience.   Please have all insurance information available when you contact our office.  If you have any questions and or concerns, please feel free to contact our office and speak with Ms. George, as she is always willing to help.</p>-->
 			</div>
 
 		<h3>Group Images</h3>

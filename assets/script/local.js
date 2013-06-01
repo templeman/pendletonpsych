@@ -3,29 +3,27 @@
 $(function(){
 	$("nav li a").bind("mouseenter focusin", function() {
 		if(!($(this).hasClass('current'))) {
-			$(this).stop()
-			.animate( { 
+			$(this).stop().animate( {
 				color: '#fff',
 				backgroundColor: '#3a6d22',
 			  	borderLeftColor: '#084003',
 			  	borderRightColor: '#084003',
 			  	borderTopColor: '#084003',
 			  	borderBottomColor: '#084003'
-			}, 'fast'); 
+			}, 'fast');
 		}
 	});
 
 	$("nav li a").bind("mouseleave focusout", function() {
 		if(!($(this).hasClass('current'))) {
-			$(this).stop()
-			.animate( { 
+			$(this).stop().animate( {
 				color: '#fff',
 			  	backgroundColor: '#084003',
 			  	borderLeftColor: '#fff',
 			  	borderRightColor: '#fff',
 			  	borderTopColor: '#fff',
 			  	borderBottomColor: '#fff'
-			}, 'fast'); 
+			}, 'fast');
 		}
 	});
 
