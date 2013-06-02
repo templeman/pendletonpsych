@@ -7,7 +7,7 @@
 	DOCUMENT INFORMATION
 		Document		: Psychological Services Styles
 		Version			:	2.2
-		Last Update	: 01.29.2013
+		Last Update	: 06.01.2013
 		Author			:	Needle Hoffenheimer
 
 	CSS DIRECTORY
@@ -950,13 +950,35 @@ a.special-content div p {
 }
 
 /* line 352, ../../sass/_main.scss */
+div.special-content {
+  padding: 15px 15px 15px 90px;
+  zoom: 1;
+  /* For IE6 */
+  background: #eeeeee url('../../image/psicon.png?1354004564') 15px 15px no-repeat;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  display: block;
+  text-decoration: none;
+  font-size: .9em;
+  margin: 0 0 20px 0;
+}
+/* line 362, ../../sass/_main.scss */
+div.special-content p {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 368, ../../sass/_main.scss */
 .special {
   color: #400329;
   text-align: center;
   padding: 0;
 }
 
-/* line 362, ../../sass/_main.scss */
+/* line 378, ../../sass/_main.scss */
 #main_content ul .linkinfo {
   font-style: italic;
   font-size: .8em;
@@ -964,22 +986,22 @@ a.special-content div p {
   padding: 0 0 10px 15px;
 }
 
-/* line 373, ../../sass/_main.scss */
+/* line 389, ../../sass/_main.scss */
 #contact dt {
   width: 100px;
 }
 
-/* line 374, ../../sass/_main.scss */
+/* line 390, ../../sass/_main.scss */
 #contact dd {
   width: 379px;
 }
 
-/* line 375, ../../sass/_main.scss */
+/* line 391, ../../sass/_main.scss */
 .inner ul {
   padding-right: 30px;
 }
 
-/* line 377, ../../sass/_main.scss */
+/* line 393, ../../sass/_main.scss */
 label {
   font-size: 16px;
   display: inline;
@@ -990,34 +1012,34 @@ label {
   text-align: right;
 }
 
-/* line 386, ../../sass/_main.scss */
+/* line 402, ../../sass/_main.scss */
 input {
   /* these values have been set in formalize.css due to higher specificity there */
 }
 
-/* line 394, ../../sass/_main.scss */
+/* line 410, ../../sass/_main.scss */
 input[type="submit"] {
   display: inline;
   float: right;
   margin-right: 39px;
 }
 
-/* line 399, ../../sass/_main.scss */
+/* line 415, ../../sass/_main.scss */
 .sm {
   font-size: .9em;
 }
 
-/* line 401, ../../sass/_main.scss */
+/* line 417, ../../sass/_main.scss */
 textarea {
   padding-top: 10px;
 }
 
-/* line 403, ../../sass/_main.scss */
+/* line 419, ../../sass/_main.scss */
 .whole {
   width: 400px;
 }
 
-/* line 405, ../../sass/_main.scss */
+/* line 421, ../../sass/_main.scss */
 .error {
   padding-left: 90px;
   color: #d60000;
@@ -1025,26 +1047,26 @@ textarea {
   margin-bottom: 20px;
 }
 
-/* line 412, ../../sass/_main.scss */
+/* line 428, ../../sass/_main.scss */
 .alert, .success, .failure {
   padding: 10px;
   margin-bottom: 20px;
 }
 
-/* line 417, ../../sass/_main.scss */
+/* line 433, ../../sass/_main.scss */
 .success {
   border: 1px solid #084003;
   background: #e6fc8f;
 }
 
-/* line 423, ../../sass/_main.scss */
+/* line 439, ../../sass/_main.scss */
 .failure {
   border: 1px solid red;
   background: #ffe4e4;
   color: #d60000;
 }
 
-/* line 430, ../../sass/_main.scss */
+/* line 446, ../../sass/_main.scss */
 .verify {
   margin-top: 10px;
   margin-left: 10px;
@@ -1054,103 +1076,103 @@ textarea {
   height: 22px;
 }
 
-/* line 442, ../../sass/_main.scss */
+/* line 458, ../../sass/_main.scss */
 .headshot {
   display: inline;
   float: left;
   margin: -10px 10px 0 -10px;
 }
 
-/* line 447, ../../sass/_main.scss */
+/* line 463, ../../sass/_main.scss */
 .staff_profile_block {
   min-height: 194px;
   padding-top: 73px;
 }
-/* line 450, ../../sass/_main.scss */
+/* line 466, ../../sass/_main.scss */
 .staff_profile_block h2 {
   margin-top: 73px;
 }
-/* line 453, ../../sass/_main.scss */
+/* line 469, ../../sass/_main.scss */
 .staff_profile_block .headshot {
   margin-top: -73px;
 }
-/* line 456, ../../sass/_main.scss */
+/* line 472, ../../sass/_main.scss */
 .staff_profile_block:last-of-type {
   margin-bottom: 20px;
 }
 
-/* line 461, ../../sass/_main.scss */
+/* line 477, ../../sass/_main.scss */
 #group_images {
   min-height: 180px;
   padding: 0;
   width: 100%;
 }
-/* line 465, ../../sass/_main.scss */
+/* line 481, ../../sass/_main.scss */
 #group_images a img {
   border: 1px solid #084003;
 }
 
-/* line 474, ../../sass/_main.scss */
+/* line 490, ../../sass/_main.scss */
 .hangingindent p {
   padding-left: 30px;
   text-indent: -30px;
 }
 
-/* line 479, ../../sass/_main.scss */
+/* line 495, ../../sass/_main.scss */
 span.underline {
   text-decoration: underline;
 }
 
-/* line 481, ../../sass/_main.scss */
+/* line 497, ../../sass/_main.scss */
 #templeman table {
   width: 100%;
 }
 
-/* line 482, ../../sass/_main.scss */
+/* line 498, ../../sass/_main.scss */
 #templeman td, #templeman th {
   padding: 5px 12px;
 }
 
-/* line 483, ../../sass/_main.scss */
+/* line 499, ../../sass/_main.scss */
 #templeman tr td:nth-child(1) {
   width: 70px;
 }
 
-/* line 484, ../../sass/_main.scss */
+/* line 500, ../../sass/_main.scss */
 #templeman tr td:nth-child(2) {
   width: 65px;
 }
 
-/* line 485, ../../sass/_main.scss */
+/* line 501, ../../sass/_main.scss */
 #templeman tr td:nth-child(3) {
   width: 223px;
 }
 
-/* line 491, ../../sass/_main.scss */
+/* line 507, ../../sass/_main.scss */
 .panels {
   width: 400px;
 }
-/* line 493, ../../sass/_main.scss */
+/* line 509, ../../sass/_main.scss */
 .panels img {
   vertical-align: middle;
 }
-/* line 496, ../../sass/_main.scss */
+/* line 512, ../../sass/_main.scss */
 .panels li {
   margin-bottom: 10px;
   position: relative;
 }
-/* line 499, ../../sass/_main.scss */
+/* line 515, ../../sass/_main.scss */
 .panels li a {
   display: block;
 }
-/* line 501, ../../sass/_main.scss */
+/* line 517, ../../sass/_main.scss */
 .panels li a:hover {
   background-color: #eee;
   text-decoration: none;
   cursor: pointer;
 }
 
-/* line 514, ../../sass/_main.scss */
+/* line 530, ../../sass/_main.scss */
 #map_canvas {
   width: 100%;
   height: 100%;
@@ -1160,7 +1182,7 @@ span.underline {
   border: 1px #084003 solid;
 }
 
-/* line 527, ../../sass/_main.scss */
+/* line 543, ../../sass/_main.scss */
 #policies a.pdf {
   background: url('../../image/pdficon-sm.png?1329539993') no-repeat;
   padding: 3px 0 10px 25px;
@@ -1169,71 +1191,71 @@ span.underline {
   display: inline;
 }
 
-/* line 534, ../../sass/_main.scss */
+/* line 550, ../../sass/_main.scss */
 #policies ul {
   margin-bottom: 0;
 }
 
-/* line 540, ../../sass/_main.scss */
+/* line 556, ../../sass/_main.scss */
 .article #main_content {
   min-height: 850px;
 }
 
-/* line 542, ../../sass/_main.scss */
+/* line 558, ../../sass/_main.scss */
 #holiday-stress dt {
   width: 35%;
 }
 
-/* line 543, ../../sass/_main.scss */
+/* line 559, ../../sass/_main.scss */
 #mental-health-first-aid dt {
   width: 20%;
 }
 
-/* line 544, ../../sass/_main.scss */
+/* line 560, ../../sass/_main.scss */
 #holiday-stress dd, #mental-health-first-aid dd {
   display: inline;
   float: right;
 }
 
-/* line 545, ../../sass/_main.scss */
+/* line 561, ../../sass/_main.scss */
 #holiday-stress dd {
   width: 65%;
 }
 
-/* line 546, ../../sass/_main.scss */
+/* line 562, ../../sass/_main.scss */
 #mental-health-first-aid dd {
   width: 80%;
 }
 
-/* line 548, ../../sass/_main.scss */
+/* line 564, ../../sass/_main.scss */
 #parent-child-coercive-cycle-handout dt {
   width: 10%;
 }
 
-/* line 549, ../../sass/_main.scss */
+/* line 565, ../../sass/_main.scss */
 #parent-child-coercive-cycle-handout dd {
   display: inline;
   float: right;
   width: 90%;
 }
 
-/* line 551, ../../sass/_main.scss */
+/* line 567, ../../sass/_main.scss */
 #parent-child-coercive-cycle dt {
   clear: both;
   width: 15%;
 }
 
-/* line 552, ../../sass/_main.scss */
+/* line 568, ../../sass/_main.scss */
 #parent-child-coercive-cycle dd {
   width: 42%;
 }
 
-/* line 553, ../../sass/_main.scss */
+/* line 569, ../../sass/_main.scss */
 #parent-child-coercive-cycle .diagram {
   margin-top: 50px;
 }
 
-/* line 555, ../../sass/_main.scss */
+/* line 571, ../../sass/_main.scss */
 .ol-inline li {
   float: left;
   margin-right: 30px;

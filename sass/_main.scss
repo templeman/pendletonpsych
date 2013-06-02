@@ -3,7 +3,7 @@
 	DOCUMENT INFORMATION
 		Document		: Psychological Services Styles
 		Version			:	2.2
-		Last Update	: 01.29.2013
+		Last Update	: 06.01.2013
 		Author			:	Needle Hoffenheimer
 
 	CSS DIRECTORY
@@ -337,7 +337,7 @@ a.special-content {
   display: none; // comment out to show special front-page callout
 	&:hover {
 		background: #ddd;
-		}
+  }
 	div {
 		background: transparent image-url('psicon.png') 15px 15px no-repeat;
 		padding: 15px 15px 15px 90px;
@@ -345,15 +345,31 @@ a.special-content {
 		p {
 			margin: 0;
 			padding: 0;
-			}
-		}
-	}
+    }
+  }
+}
+
+div.special-content {
+  padding: 15px 15px 15px 90px;
+  zoom: 1; /* For IE6 */
+  background: #eee image-url('psicon.png') 15px 15px no-repeat;
+	@include border-radius(20px);
+	display: block;
+  // display: none; // comment out to show special front-page callout
+	text-decoration: none;
+	font-size: .9em;
+	margin: 0 0 20px 0;
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
 
 .special {
 	color: #400329;
 	text-align: center;
 	padding: 0;
-	}
+}
 
 
 
