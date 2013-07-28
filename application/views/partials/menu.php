@@ -6,7 +6,7 @@
 ?>
 <nav>
 	<ul>
-		<?php foreach($menu_items as $menu_item):?>   
+		<?php foreach($menu_items as $menu_item):?>
     <li<?php if($this->uri->segment(2) == url_title($menu_item["name"], dash, TRUE)):?> class="active"><?php else:?>><?php endif;?><a href="<?=$menu_item["url"];?>"><?=$menu_item["name"];?></a></li>
 <?php endforeach;?>
 <!--

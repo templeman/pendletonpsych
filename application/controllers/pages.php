@@ -96,11 +96,11 @@ class Pages extends MY_Controller {
 
 		$this->template
 			->set_partial('header', 'partials/header')
-			->title('Policies and Procedures', 'Psychological Services of Pendleton')
+			->title('Client Forms', 'Psychological Services of Pendleton')
 			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
 	Pendleton, Eastern Oregon, therapy, assessment, psychological,
 	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
+	disorders, services, Connie Umphred, Sarah Hsu, Heather Bacon")
 			->set_metadata("description", "Common forms and questionnaires used by our staff. Clients are encouraged to access these forms from this website prior to their appointment.")
 			->set_partial('footer', 'partials/footer')
 			->build('policies', $data);
