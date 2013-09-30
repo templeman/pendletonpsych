@@ -6,8 +6,8 @@
 
 	DOCUMENT INFORMATION
 		Document		: Psychological Services Styles
-		Version			:	2.2
-		Last Update	: 06.01.2013
+		Version			:	2.4
+		Last Update	: 09.24.2013
 		Author			:	Needle Hoffenheimer
 
 	CSS DIRECTORY
@@ -920,17 +920,16 @@ footer ul li:first-child {
 
 /* line 330, ../../sass/_main.scss */
 a.special-content {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  border-radius: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
   display: block;
   text-decoration: none;
   background: #eee;
   font-size: .9em;
   margin: 0 0 20px 0;
-  display: none;
 }
 /* line 338, ../../sass/_main.scss */
 a.special-content:hover {
@@ -938,18 +937,19 @@ a.special-content:hover {
 }
 /* line 341, ../../sass/_main.scss */
 a.special-content div {
-  background: transparent url('../../image/psicon.png?1354004564') 15px 15px no-repeat;
-  padding: 15px 15px 15px 90px;
+  background: transparent url('../../image/natalie-sm.png?1380250164') 20px 20px no-repeat;
+  padding: 20px 20px 20px 120px;
+  min-height: 100px;
   zoom: 1;
   /* For IE6 */
 }
-/* line 345, ../../sass/_main.scss */
+/* line 346, ../../sass/_main.scss */
 a.special-content div p {
   margin: 0;
   padding: 0;
 }
 
-/* line 352, ../../sass/_main.scss */
+/* line 353, ../../sass/_main.scss */
 div.special-content {
   padding: 15px 15px 15px 90px;
   zoom: 1;
@@ -965,20 +965,20 @@ div.special-content {
   font-size: .9em;
   margin: 0 0 20px 0;
 }
-/* line 362, ../../sass/_main.scss */
+/* line 363, ../../sass/_main.scss */
 div.special-content p {
   margin: 0;
   padding: 0;
 }
 
-/* line 368, ../../sass/_main.scss */
+/* line 369, ../../sass/_main.scss */
 .special {
   color: #400329;
   text-align: center;
   padding: 0;
 }
 
-/* line 378, ../../sass/_main.scss */
+/* line 379, ../../sass/_main.scss */
 #main_content ul .linkinfo {
   font-style: italic;
   font-size: .8em;
@@ -986,22 +986,34 @@ div.special-content p {
   padding: 0 0 10px 15px;
 }
 
-/* line 389, ../../sass/_main.scss */
+/* line 390, ../../sass/_main.scss */
 #contact dt {
   width: 100px;
 }
 
-/* line 390, ../../sass/_main.scss */
+/* line 391, ../../sass/_main.scss */
 #contact dd {
+  margin: 0;
   width: 379px;
 }
 
-/* line 391, ../../sass/_main.scss */
+/* line 395, ../../sass/_main.scss */
+#contact li {
+  padding: 0;
+}
+
+/* line 398, ../../sass/_main.scss */
+#contact h3 {
+  border-bottom: 1px dotted #084003;
+  margin-bottom: 15px;
+}
+
+/* line 402, ../../sass/_main.scss */
 .inner ul {
   padding-right: 30px;
 }
 
-/* line 393, ../../sass/_main.scss */
+/* line 404, ../../sass/_main.scss */
 label {
   font-size: 16px;
   display: inline;
@@ -1012,34 +1024,34 @@ label {
   text-align: right;
 }
 
-/* line 402, ../../sass/_main.scss */
+/* line 413, ../../sass/_main.scss */
 input {
   /* these values have been set in formalize.css due to higher specificity there */
 }
 
-/* line 410, ../../sass/_main.scss */
+/* line 421, ../../sass/_main.scss */
 input[type="submit"] {
   display: inline;
   float: right;
   margin-right: 39px;
 }
 
-/* line 415, ../../sass/_main.scss */
+/* line 426, ../../sass/_main.scss */
 .sm {
   font-size: .9em;
 }
 
-/* line 417, ../../sass/_main.scss */
+/* line 428, ../../sass/_main.scss */
 textarea {
   padding-top: 10px;
 }
 
-/* line 419, ../../sass/_main.scss */
+/* line 430, ../../sass/_main.scss */
 .whole {
   width: 400px;
 }
 
-/* line 421, ../../sass/_main.scss */
+/* line 432, ../../sass/_main.scss */
 .error {
   padding-left: 90px;
   color: #d60000;
@@ -1047,26 +1059,26 @@ textarea {
   margin-bottom: 20px;
 }
 
-/* line 428, ../../sass/_main.scss */
+/* line 439, ../../sass/_main.scss */
 .alert, .success, .failure {
   padding: 10px;
   margin-bottom: 20px;
 }
 
-/* line 433, ../../sass/_main.scss */
+/* line 444, ../../sass/_main.scss */
 .success {
   border: 1px solid #084003;
   background: #e6fc8f;
 }
 
-/* line 439, ../../sass/_main.scss */
+/* line 450, ../../sass/_main.scss */
 .failure {
   border: 1px solid red;
   background: #ffe4e4;
   color: #d60000;
 }
 
-/* line 446, ../../sass/_main.scss */
+/* line 457, ../../sass/_main.scss */
 .verify {
   margin-top: 10px;
   margin-left: 10px;
@@ -1076,103 +1088,103 @@ textarea {
   height: 22px;
 }
 
-/* line 458, ../../sass/_main.scss */
+/* line 469, ../../sass/_main.scss */
 .headshot {
   display: inline;
   float: left;
   margin: -10px 10px 0 -10px;
 }
 
-/* line 463, ../../sass/_main.scss */
+/* line 474, ../../sass/_main.scss */
 .staff_profile_block {
   min-height: 194px;
   padding-top: 73px;
 }
-/* line 466, ../../sass/_main.scss */
+/* line 477, ../../sass/_main.scss */
 .staff_profile_block h2 {
   margin-top: 73px;
 }
-/* line 469, ../../sass/_main.scss */
+/* line 480, ../../sass/_main.scss */
 .staff_profile_block .headshot {
   margin-top: -73px;
 }
-/* line 472, ../../sass/_main.scss */
+/* line 483, ../../sass/_main.scss */
 .staff_profile_block:last-of-type {
   margin-bottom: 20px;
 }
 
-/* line 477, ../../sass/_main.scss */
+/* line 488, ../../sass/_main.scss */
 #group_images {
   min-height: 180px;
   padding: 0;
   width: 100%;
 }
-/* line 481, ../../sass/_main.scss */
+/* line 492, ../../sass/_main.scss */
 #group_images a img {
   border: 1px solid #084003;
 }
 
-/* line 490, ../../sass/_main.scss */
+/* line 501, ../../sass/_main.scss */
 .hangingindent p {
   padding-left: 30px;
   text-indent: -30px;
 }
 
-/* line 495, ../../sass/_main.scss */
+/* line 506, ../../sass/_main.scss */
 span.underline {
   text-decoration: underline;
 }
 
-/* line 497, ../../sass/_main.scss */
+/* line 508, ../../sass/_main.scss */
 #templeman table {
   width: 100%;
 }
 
-/* line 498, ../../sass/_main.scss */
+/* line 509, ../../sass/_main.scss */
 #templeman td, #templeman th {
   padding: 5px 12px;
 }
 
-/* line 499, ../../sass/_main.scss */
+/* line 510, ../../sass/_main.scss */
 #templeman tr td:nth-child(1) {
   width: 70px;
 }
 
-/* line 500, ../../sass/_main.scss */
+/* line 511, ../../sass/_main.scss */
 #templeman tr td:nth-child(2) {
   width: 65px;
 }
 
-/* line 501, ../../sass/_main.scss */
+/* line 512, ../../sass/_main.scss */
 #templeman tr td:nth-child(3) {
   width: 223px;
 }
 
-/* line 507, ../../sass/_main.scss */
+/* line 518, ../../sass/_main.scss */
 .panels {
   width: 400px;
 }
-/* line 509, ../../sass/_main.scss */
+/* line 520, ../../sass/_main.scss */
 .panels img {
   vertical-align: middle;
 }
-/* line 512, ../../sass/_main.scss */
+/* line 523, ../../sass/_main.scss */
 .panels li {
   margin-bottom: 10px;
   position: relative;
 }
-/* line 515, ../../sass/_main.scss */
+/* line 526, ../../sass/_main.scss */
 .panels li a {
   display: block;
 }
-/* line 517, ../../sass/_main.scss */
+/* line 528, ../../sass/_main.scss */
 .panels li a:hover {
   background-color: #eee;
   text-decoration: none;
   cursor: pointer;
 }
 
-/* line 530, ../../sass/_main.scss */
+/* line 541, ../../sass/_main.scss */
 #map_canvas {
   width: 100%;
   height: 100%;
@@ -1182,7 +1194,7 @@ span.underline {
   border: 1px #084003 solid;
 }
 
-/* line 543, ../../sass/_main.scss */
+/* line 554, ../../sass/_main.scss */
 #policies a.pdf {
   background: url('../../image/pdficon-sm.png?1329539993') no-repeat;
   padding: 3px 0 10px 25px;
@@ -1191,71 +1203,71 @@ span.underline {
   display: inline;
 }
 
-/* line 550, ../../sass/_main.scss */
+/* line 561, ../../sass/_main.scss */
 #policies ul {
   margin-bottom: 0;
 }
 
-/* line 556, ../../sass/_main.scss */
+/* line 567, ../../sass/_main.scss */
 .article #main_content {
   min-height: 850px;
 }
 
-/* line 558, ../../sass/_main.scss */
+/* line 569, ../../sass/_main.scss */
 #holiday-stress dt {
   width: 35%;
 }
 
-/* line 559, ../../sass/_main.scss */
+/* line 570, ../../sass/_main.scss */
 #mental-health-first-aid dt {
   width: 20%;
 }
 
-/* line 560, ../../sass/_main.scss */
+/* line 571, ../../sass/_main.scss */
 #holiday-stress dd, #mental-health-first-aid dd {
   display: inline;
   float: right;
 }
 
-/* line 561, ../../sass/_main.scss */
+/* line 572, ../../sass/_main.scss */
 #holiday-stress dd {
   width: 65%;
 }
 
-/* line 562, ../../sass/_main.scss */
+/* line 573, ../../sass/_main.scss */
 #mental-health-first-aid dd {
   width: 80%;
 }
 
-/* line 564, ../../sass/_main.scss */
+/* line 575, ../../sass/_main.scss */
 #parent-child-coercive-cycle-handout dt {
   width: 10%;
 }
 
-/* line 565, ../../sass/_main.scss */
+/* line 576, ../../sass/_main.scss */
 #parent-child-coercive-cycle-handout dd {
   display: inline;
   float: right;
   width: 90%;
 }
 
-/* line 567, ../../sass/_main.scss */
+/* line 578, ../../sass/_main.scss */
 #parent-child-coercive-cycle dt {
   clear: both;
   width: 15%;
 }
 
-/* line 568, ../../sass/_main.scss */
+/* line 579, ../../sass/_main.scss */
 #parent-child-coercive-cycle dd {
   width: 42%;
 }
 
-/* line 569, ../../sass/_main.scss */
+/* line 580, ../../sass/_main.scss */
 #parent-child-coercive-cycle .diagram {
   margin-top: 50px;
 }
 
-/* line 571, ../../sass/_main.scss */
+/* line 582, ../../sass/_main.scss */
 .ol-inline li {
   float: left;
   margin-right: 30px;

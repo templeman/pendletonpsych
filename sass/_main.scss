@@ -2,8 +2,8 @@
 
 	DOCUMENT INFORMATION
 		Document		: Psychological Services Styles
-		Version			:	2.2
-		Last Update	: 06.01.2013
+		Version			:	2.4
+		Last Update	: 09.24.2013
 		Author			:	Needle Hoffenheimer
 
 	CSS DIRECTORY
@@ -35,7 +35,7 @@
 
 
 // RESET ADDITIONS AND OVERRIDES
-// next time use normalize!
+// next time use normalize.css!
 
 ul li { @include no-bullets; }
 b, strong { font-weight: bold; }
@@ -53,7 +53,7 @@ cite { font-style: italic; font-weight: bold; }
 	content: " ";
 	clear: both;
 	height: 0;
-	}
+}
 * html .clearfix             { zoom: 1; } /* IE6 */
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
@@ -64,7 +64,7 @@ cite { font-style: italic; font-weight: bold; }
 
 .bg-shim { /* lt IE9 */
 	display: none;
-	}
+}
 
 .bullet { @include pretty-bullets("/image/list-decoration.gif", 7px, 7px, 25px, 20px); }
 
@@ -78,12 +78,12 @@ a {
 	&:link, &:visited, &:active {
 		color: $dark-orange;
 		text-decoration: none;
-		}
+  }
 	&:hover, &:focus {
 		color: $light-orange;
 		text-decoration: underline;
-		}
-	}
+  }
+}
 
 body {
 	background: image-url('bg.jpg');
@@ -92,7 +92,7 @@ body {
 	font-size: 14px;
 	height: 100%;
 	line-height: 1.4em;
-	}
+}
 
 #{headings()} { color: $dark-green; }
 
@@ -100,7 +100,7 @@ h1 a {
 	display: block;
 	height: 115px;
 	/* background: image-url('masthead.gif') top left no-repeat;*/
-	}
+}
 
 h1 img { margin-top: -15px; }
 
@@ -108,25 +108,25 @@ h2 {
 	font-size: 18px;
 	text-transform: uppercase;
 	padding: 10px 0 20px;
-	}
+}
 
 h3 {
 	font-size: 16px;
 	font-weight: bold;
 	padding-bottom: 10px;
-	}
+}
 
 h4 {
 	font-size: 14px;
 	font-weight: bold;
 	padding-bottom: 10px;
-	}
+}
 
 h5 {
 	font-size: 12px;
 	font-weight: lighter;
 	padding-bottom: 20px;
-	}
+}
 
 .h5_lineheight { line-height: 1.3em; }
 
@@ -134,7 +134,7 @@ h5 {
 	margin: 0 auto;
 	position: relative;
 	width: 800px;
-	}
+}
 
 #container {
 	background: #fff;
@@ -146,7 +146,7 @@ h5 {
 	position: relative;
 	width: 780px;
 	@include box-shadow(#fff 0 0 0 10px, #fff -10px -15px 0 0, #fff 10px -15px 0 0);
-	}
+}
 
 
 
@@ -159,7 +159,7 @@ p, table {
 	text-align: left;
 	color: #222;
 	font-weight: normal;
-	}
+}
 
 ul, ol { margin-bottom: 25px; }
 
@@ -168,15 +168,15 @@ ol {
 	list-style-type: decimal;
 	li {
 		padding-bottom: 10px;
-		}
-	}
+  }
+}
 
 li {
 	padding: 3px 0;
 	img {
 		margin: 0 15px;
-		}
-	}
+  }
+}
 
 dl { margin: 10px 0 20px; }
 
@@ -184,14 +184,14 @@ dt {
 	display: block;
 	@include float-left;
 	width: 40px;
-	}
+}
 
 dd {
 	display: block;
 	@include float-left;
 	margin: 0 0 10px 0;
 	width: 439px;
-	}
+}
 
 table { table-layout: fixed; }
 
@@ -203,7 +203,7 @@ tr:nth-of-type(odd) { background-color: #eee; }
 	color: $dark-green;
 	font-weight: bold;
 	font-style: italic;
-	}
+}
 
 .underline { text-decoration: underline; }
 
@@ -212,7 +212,7 @@ a.pdf {
 	padding: 3px 0 10px 25px;
 	font-size: 12px;
 	// @include float(right);
-	}
+}
 
 a[href="#top"] {
 	background: image-url('arrow.png') 0 0 no-repeat;
@@ -221,12 +221,12 @@ a[href="#top"] {
 	height: 25px;
 	position: absolute;
 	bottom: 20px;
-	}
+}
 
 a[href="#top"]:hover {
 	background-position: -25px 0;
 	cursor: pointer;
-	}
+}
 
 
 
@@ -235,14 +235,14 @@ a[href="#top"]:hover {
 .sidebar {
 	@include float-left;
 	margin: 20px 2px;
-	}
+}
 
 nav {
 	text-transform: uppercase;
 	ul {
 		margin: 0;
 		padding: 0;
-		}
+  }
 	li {
 		font-family: Verdana, Arial, Helvetica, sans-serif;
 		font-size: 11px;
@@ -259,10 +259,10 @@ nav {
 				border: 1px solid #fff;
 				color: #fff;
 				text-decoration: none;
-				}
-			}
-		}
-	}
+      }
+    }
+  }
+}
 	
 .secondary {
 	margin: 20px 0 0;
@@ -279,16 +279,16 @@ nav {
 				background: $mid-green;
 				color: #fff;
 				text-decoration: none;
-				}
-			}
-		}
-	}
+      }
+    }
+  }
+}
 
 nav li a.current {
 	background-color: #fff;
 	border: 1px solid $dark-green;
 	color: $dark-green;
-	}
+}
 
 #main_content {
 	border-left: 1px dotted $dark-green;
@@ -297,7 +297,7 @@ nav li a.current {
 	min-height: 430px;
 	padding: 0 20px 40px;
 	width: 479px;
-	}
+}
 
 footer {
 	clear: both;
@@ -315,32 +315,33 @@ footer {
 			&:last-child {
 				padding-right: 0;
 				border: none;
-				}
+      }
 			&:first-child {
 				padding-left: 0;
-				}
-			}
-		}
-	}
+      }
+    }
+  }
+}
 
 
 
 // INDEX
 
 a.special-content {
-	@include border-radius(20px);
+	@include border-radius(5px);
 	display: block;
 	text-decoration: none;
 	background: #eee;
 	font-size: .9em;
 	margin: 0 0 20px 0;
-  display: none; // comment out to show special front-page callout
+  // display: none; // comment out to show special front-page callout
 	&:hover {
 		background: #ddd;
   }
 	div {
-		background: transparent image-url('psicon.png') 15px 15px no-repeat;
-		padding: 15px 15px 15px 90px;
+		background: transparent image-url('natalie-sm.png') 20px 20px no-repeat;
+		padding: 20px 20px 20px 120px;
+    min-height: 100px;
 		zoom: 1; /* For IE6 */
 		p {
 			margin: 0;
@@ -380,14 +381,24 @@ div.special-content {
 	font-size: .8em;
 	line-height: 12pt;
 	padding: 0 0 10px 15px;
-	}
+}
 
 
 
 // CONTACT
 
 #contact dt { width: 100px; }
-#contact dd { width: 379px; }
+#contact dd {
+	margin: 0;
+  width: 379px;
+}
+#contact li {
+  padding: 0;
+}
+#contact h3 {
+  border-bottom: 1px dotted $dark-green;
+  margin-bottom: 15px;
+}
 .inner ul { padding-right: 30px; }
 
 label {
@@ -397,7 +408,7 @@ label {
 	margin: 11px 20px 0 0;
 	width: 70px;
 	text-align: right;
-	}
+}
 
 input {
 	/* these values have been set in formalize.css due to higher specificity there */
@@ -405,12 +416,12 @@ input {
 	// font-size: 14px;
 	// @include float-left;
 	// margin: 0 0 10px 0;
-	}
+}
 
 input[type="submit"] {
 	@include float-right;
 	margin-right: 39px;
-	}
+}
 
 .sm { font-size: .9em; }
 
@@ -423,25 +434,25 @@ textarea { padding-top: 10px; }
 	color: #d60000;
 	clear: left;
 	margin-bottom: 20px;
-	}
+}
 
 .alert {
 	padding: 10px;
 	margin-bottom: 20px;
-	}
+}
 
 .success {
 	@extend .alert;
 	border: 1px solid $dark-green;
 	background: $alert-green;
-	}
+}
 
 .failure {
 	@extend .alert;
 	border: 1px solid red;
 	background: $alert-red;
 	color: #d60000;
-	}
+}
 
 .verify {
 	margin-top: 10px;
@@ -449,7 +460,7 @@ textarea { padding-top: 10px; }
 	@include float-left;
 	width: 20px;
 	height: 22px;
-	}
+}
 
 
 
@@ -458,21 +469,21 @@ textarea { padding-top: 10px; }
 .headshot {
 	@include float-left;
 	margin: -10px 10px 0 -10px;
-	}
+}
 
 .staff_profile_block {
 	min-height:194px;
 	padding-top: 73px;
 	h2 {
 		margin-top: 73px;
-		}
+  }
 	.headshot {
 		margin-top: -73px;
-		}
+  }
 	&:last-of-type {
 		margin-bottom: 20px;
-		}
-	}
+  }
+}
 
 #group_images {
 	min-height: 180px;
@@ -480,8 +491,8 @@ textarea { padding-top: 10px; }
 	width: 100%;
 	a img {
 		border: 1px solid $dark-green;
-		}
-	}
+  }
+}
 
 
 
@@ -490,7 +501,7 @@ textarea { padding-top: 10px; }
 .hangingindent p {
 	padding-left: 30px;
 	text-indent: -30px;
-	}
+}
 
 span.underline { text-decoration: underline; }
 
@@ -508,7 +519,7 @@ span.underline { text-decoration: underline; }
 	width: 400px;
 	img {
 		vertical-align: middle;
-		}
+  }
 	li {
 		margin-bottom: 10px;
 		position: relative;
@@ -518,10 +529,10 @@ span.underline { text-decoration: underline; }
         background-color: #eee;
         text-decoration: none;
         cursor: pointer;
-        }
       }
-		}
-	}
+    }
+  }
+}
 
 
 
@@ -534,7 +545,7 @@ span.underline { text-decoration: underline; }
 	height: 370px;
 	margin-bottom: 15px;
 	border: 1px $dark-green solid;
-	}
+}
 
 
 
@@ -545,7 +556,7 @@ span.underline { text-decoration: underline; }
 	padding: 3px 0 10px 25px;
 	font-size: 13px;
 	@include reset-float(inline);
-	}
+}
 
 #policies ul { margin-bottom: 0; }
 
@@ -572,7 +583,4 @@ span.underline { text-decoration: underline; }
 	float: left;
 	margin-right: 30px;
 	font-size: 13px;
-	}
-
-
-
+}

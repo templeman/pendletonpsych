@@ -8,6 +8,8 @@ class Pages extends MY_Controller {
 	function __construct() {
     parent::__construct();
 
+    // $this->output->enable_profiler(TRUE);
+
     // set seasonal pics
     $this->season = 'summer'; // winter, summer, spring, fall
 
@@ -42,12 +44,9 @@ class Pages extends MY_Controller {
 
 		$this->template
 			->set_partial('header', 'partials/header')
-			->title('Welcome', 'Psychological Services of Pendleton')
-			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
-	Pendleton, Eastern Oregon, therapy, assessment, psychological,
-	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
-			->set_metadata("description", "Full service outpatient treatment center providing assessment, psychotherapy, and medications for a broad range of psychological problems. Serving Eastern Oregon. Terrel L. Templeman, Ph.D. - Clinical Psychologist. Connie Umphred, Ph.D. - Clinical Psychologist. Daniel Eslinger, RN, PMHNP - Psychiatric Mental Health Nurse Practitioner. Sarah Hsu, LCSW - Licensed Clinical Social Worker. Heather A. Bacon, Ph.D. - Clinical Psychologist Resident")
+			->title('Psychological Services of Pendleton')
+			->set_metadata("keywords", "Terrel Templeman, Connie Umphred, Sarah Hsu, Heather Bacon, psychology, Oregon, Pendleton, Eastern Oregon, therapy, assessment, psychological, psychotherapy, medication, help, marital issues, parenting, ADHD, stress, disorders")
+			->set_metadata("description", "Full service outpatient treatment center providing assessment, psychotherapy, and medications for a broad range of psychological problems. Serving Eastern Oregon. Terrel L. Templeman, Ph.D. - Clinical Psychologist. Connie Umphred, Ph.D. - Clinical Psychologist. Sarah Hsu, LCSW - Licensed Clinical Social Worker. Heather A. Bacon, Ph.D. - Clinical Psychologist.")
 			->set_partial('footer', 'partials/footer')
 			->build('index', $data);
 	}
@@ -61,11 +60,8 @@ class Pages extends MY_Controller {
 		$this->template
 			->set_partial('header', 'partials/header')
 			->title('Meet Our Staff', 'Psychological Services of Pendleton')
-			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
-	Pendleton, Eastern Oregon, therapy, assessment, psychological,
-	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
-			->set_metadata("description", "Terrel L. Templeman, Ph.D. [Clinical Psychologist], Connie Umphred, Ph.D. [Clinical Psychologist], Daniel Eslinger, RN, PMHNP [Psychiatric Mental Health Nurse Practitioner], Sarah Hsu, LCSW [Licensed Clinical Social Worker], Heather A. Bacon, Ph.D. [Clinical Psychologist Resident], Jeanne Bailey [Office Manager], Karen Hoeft [Administrative Assistant & Receptionist]")
+			->set_metadata("keywords", "Terrel Templeman, Connie Umphred, Sarah Hsu, Heather Bacon, psychology, Oregon, Pendleton, Eastern Oregon, therapy, assessment, psychological, psychotherapy, medication, help, marital issues, parenting, ADHD, stress, disorders, services, ")
+			->set_metadata("description", "Terrel L. Templeman, Ph.D. [Clinical Psychologist], Connie Umphred, Ph.D. [Clinical Psychologist], Sarah Hsu, LCSW [Licensed Clinical Social Worker], Heather A. Bacon, Ph.D. [Clinical Psychologist], Jeanne Bailey [Office Manager], Katie McLaren [Administrative Assistant & Receptionist]")
 			->set_partial('footer', 'partials/footer')
 			->build('staff', $data);
 	}
@@ -79,10 +75,7 @@ class Pages extends MY_Controller {
 		$this->template
 			->set_partial('header', 'partials/header')
 			->title('Specialty Areas', 'Psychological Services of Pendleton')
-			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
-	Pendleton, Eastern Oregon, therapy, assessment, psychological,
-	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
+			->set_metadata("keywords", "Terrel Templeman, Connie Umphred, Sarah Hsu, Heather Bacon, psychology, mental health, Oregon, Pendleton, Eastern Oregon, therapy, assessment, psychological, psychotherapy, medication, help, marital issues, parenting, ADHD, stress, disorders")
 			->set_metadata("description", "All primary clinicians are licensed in Oregon to provide services within their specialty areas including different forms of stress, anxiety, anger issues, parenting issues, relationship difficulties mood disorders and more.")
 			->set_partial('footer', 'partials/footer')
 			->build('specialty', $data);
@@ -97,10 +90,7 @@ class Pages extends MY_Controller {
 		$this->template
 			->set_partial('header', 'partials/header')
 			->title('Client Forms', 'Psychological Services of Pendleton')
-			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
-	Pendleton, Eastern Oregon, therapy, assessment, psychological,
-	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Sarah Hsu, Heather Bacon")
+			->set_metadata("keywords", "Terrel Templeman, Connie Umphred, Sarah Hsu, Heather Bacon, psychology, Oregon, Pendleton, Eastern Oregon, therapy, assessment, psychological, psychotherapy, medication, help, marital issues, parenting, ADHD, stress, disorders, services")
 			->set_metadata("description", "Common forms and questionnaires used by our staff. Clients are encouraged to access these forms from this website prior to their appointment.")
 			->set_partial('footer', 'partials/footer')
 			->build('policies', $data);
@@ -115,10 +105,7 @@ class Pages extends MY_Controller {
 		$this->template
 			->set_partial('header', 'partials/header')
 			->title('Education Opportunities', 'Psychological Services of Pendleton')
-			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
-	Pendleton, Eastern Oregon, therapy, assessment, psychological,
-	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
+			->set_metadata("keywords", "Terrel Templeman, Connie Umphred, Sarah Hsu, Heather Bacon, psychology, Oregon, Pendleton, Eastern Oregon, therapy, assessment, psychological, psychotherapy, medication, help, marital issues, parenting, ADHD, stress, disorders")
 			->set_metadata("description", "Students and graduates can learn about our valuable educational opportunities, including a practicum in psychology and a psychologist residency.")
 			->set_partial('footer', 'partials/footer')
 			->build('education', $data);
@@ -133,10 +120,7 @@ class Pages extends MY_Controller {
 		$this->template
 			->set_partial('header', 'partials/header')
 			->title('Other Resources', 'Psychological Services of Pendleton')
-			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
-	Pendleton, Eastern Oregon, therapy, assessment, psychological,
-	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu")
+			->set_metadata("keywords", "Terrel Templeman, Connie Umphred, Sarah Hsu, Heather Bacon, psychology, Oregon, Pendleton, Eastern Oregon, therapy, assessment, psychological, psychotherapy, medication, help, marital issues, parenting, ADHD, stress, disorders")
 			->set_metadata("description", "Helpful links to state and national mental health organizations.")
 			->set_partial('footer', 'partials/footer')
 			->build('resources', $data);
@@ -152,10 +136,7 @@ class Pages extends MY_Controller {
 		$this->template
 			->set_partial('header', 'partials/header')
 			->title('Map and Directions', 'Psychological Services of Pendleton')
-			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
-	Pendleton, Eastern Oregon, therapy, assessment, psychological,
-	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu")
+			->set_metadata("keywords", "Terrel Templeman, Connie Umphred, Sarah Hsu, Heather Bacon, psychology, Oregon, Pendleton, Eastern Oregon, therapy, assessment, psychological, psychotherapy, medication, help, marital issues, parenting, ADHD, stress, disorders")
 			->set_metadata("description", "View this address on Google Maps.")
 			->set_partial('footer', 'partials/footer')
 			->build('map', $data);
@@ -170,10 +151,7 @@ class Pages extends MY_Controller {
 		$this->template
 			->set_partial('header', 'partials/header')
 			->title('Terrel L. Templeman, Ph.D.', 'Psychological Services of Pendleton')
-			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
-	Pendleton, Eastern Oregon, therapy, assessment, psychological,
-	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
+			->set_metadata("keywords", "Terrel Templeman, Connie Umphred, Sarah Hsu, Heather Bacon, psychology, Oregon, Pendleton, Eastern Oregon, therapy, assessment, psychological, psychotherapy, medication, help, marital issues, parenting, ADHD, stress, disorders")
 			->set_metadata("description", "Dr. Terrel Templeman's professional biography. Educational background, certification, publications, and presentations.")
 			->set_partial('footer', 'partials/footer')
 			->build('templeman', $data);
@@ -223,10 +201,7 @@ class Pages extends MY_Controller {
 		$this->template
 			->set_partial('header', 'partials/header')
 			->title($data['title'], 'Psychological Services of Pendleton')
-			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
-	Pendleton, Eastern Oregon, therapy, assessment, psychological,
-	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
+			->set_metadata("keywords", "Terrel Templeman, Connie Umphred, Sarah Hsu, Heather Bacon, psychology, Oregon, Pendleton, Eastern Oregon, therapy, assessment, psychological, psychotherapy, medication, help, marital issues, parenting, ADHD, stress, disorders")
 			->set_metadata("description", "")
 			->set_partial('footer', 'partials/footer')
 			->build('whats_new', $data);
@@ -276,10 +251,7 @@ class Pages extends MY_Controller {
 		$this->template
 			->set_partial('header', 'partials/header')
 			->title($data['title'], 'Psychological Services of Pendleton')
-			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
-	Pendleton, Eastern Oregon, therapy, assessment, psychological,
-	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
+			->set_metadata("keywords", "Terrel Templeman, Connie Umphred, Sarah Hsu, Heather Bacon, psychology, Oregon, Pendleton, Eastern Oregon, therapy, assessment, psychological, psychotherapy, medication, help, marital issues, parenting, ADHD, stress, disorders")
 			->set_metadata("description", "")
 			->set_partial('footer', 'partials/footer')
 			->build('therapy_helpers', $data);
@@ -329,10 +301,7 @@ class Pages extends MY_Controller {
 		$this->template
 			->set_partial('header', 'partials/header')
 			->title($data['title'], 'Psychological Services of Pendleton')
-			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
-	Pendleton, Eastern Oregon, therapy, assessment, psychological,
-	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
+			->set_metadata("keywords", "Terrel Templeman, Connie Umphred, Sarah Hsu, Heather Bacon, psychology, Oregon, Pendleton, Eastern Oregon, therapy, assessment, psychological, psychotherapy, medication, help, marital issues, parenting, ADHD, stress, disorders")
 			->set_metadata("description", "")
 			->set_partial('footer', 'partials/footer')
 			->build('your_mental_health', $data);
@@ -350,10 +319,7 @@ class Pages extends MY_Controller {
 		$this->template
 			->set_partial('header', 'partials/header')
 			->title('Contact Us', 'Psychological Services of Pendleton')
-			->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
-	Pendleton, Eastern Oregon, therapy, assessment, psychological,
-	psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-	disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
+			->set_metadata("keywords", "Terrel Templeman, Connie Umphred, Sarah Hsu, Heather Bacon, psychology, Oregon, Pendleton, Eastern Oregon, therapy, assessment, psychological, psychotherapy, medication, help, marital issues, parenting, ADHD, stress, disorders")
 			->set_metadata("description", "Address: 135 SE 1st St, Pendleton, Oregon 97801. Phone: 541-278-2222. Fax: 541-276-8405. Hours: Mon-Thu 8am - 6pm. Fri 8am - 5pm. Closed Sat & Sun.")
 			->set_partial('footer', 'partials/footer')
 			->build('contact', $data);
@@ -379,10 +345,7 @@ class Pages extends MY_Controller {
 			$this->template
 				->set_partial('header', 'partials/header')
 				->title('Contact Us', 'Psychological Services of Pendleton')
-				->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
-		Pendleton, Eastern Oregon, therapy, assessment, psychological,
-		psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-		disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu, Heather Bacon")
+				->set_metadata("keywords", "Terrel Templeman, Connie Umphred, Sarah Hsu, Heather Bacon, psychology, Oregon, Pendleton, Eastern Oregon, therapy, assessment, psychological, psychotherapy, medication, help, marital issues, parenting, ADHD, stress, disorders")
 				->set_metadata("description", "Address: 135 SE 1st St, Pendleton, Oregon 97801. Phone: 541-278-2222. Fax: 541-276-8405. Hours: Mon-Thu 8am - 6pm. Fri 8am - 5pm. Closed Sat & Sun.")
 				->set_partial('footer', 'partials/footer')
 				->build('contact', $data);

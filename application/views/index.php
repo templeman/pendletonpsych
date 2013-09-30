@@ -6,10 +6,12 @@
 		<!-- 	</div> -->
 		<!-- </a> -->
 
-    <div class="special-content">
-      <h3>New Office Opening</h3>
-      <p>Psychological Services of Pendleton, LLC is opening a branch office in Hermiston on June 17, 2013.  The address is 1050 West Elm Avenue, Suite 250.  Dr. Heather Bacon Ph.D., licensed psychologist, is available for appointments in Hermiston on Mondays and Fridays from 8 to 5:30 pm.  Appointments may be made by calling the Hermiston office at 541 667 7899.</p>
-    </div>
+    <a class="special-content" href="/staff#natalie">
+      <div>
+        <h3>PSP Welcomes New Psychologist</h3>
+        <p>Click to learn more about Dr. Natalie Kollross, the newest member of the team!</p>
+      </div>
+    </a>
 
 		<h2>psychological services of pendleton</h2>
 		<p>Psychological Services of Pendleton, L.L.C. is a full service
