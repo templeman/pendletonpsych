@@ -8,85 +8,91 @@
 
 <url>
   <loc>http://www.pendletonpsych.com/</loc>
-  <lastmod>2013-07-29T05:15:49+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:23+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/staff</loc>
-  <lastmod>2013-07-29T05:15:50+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:24+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/specialty</loc>
-  <lastmod>2013-07-29T05:15:50+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:24+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/policies</loc>
-  <lastmod>2013-07-29T05:15:51+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:25+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/your-mental-health</loc>
-  <lastmod>2013-07-29T05:15:51+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:25+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new</loc>
-  <lastmod>2013-07-29T05:15:52+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:25+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/therapy-helpers</loc>
-  <lastmod>2013-07-29T05:15:52+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:26+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/education</loc>
-  <lastmod>2013-07-29T05:15:53+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:27+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/resources</loc>
-  <lastmod>2013-07-29T05:15:54+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:27+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/map</loc>
-  <lastmod>2013-07-29T05:15:54+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:27+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/contact</loc>
-  <lastmod>2013-07-29T05:15:55+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:28+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/templeman</loc>
-  <lastmod>2013-07-29T05:15:55+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:28+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.pendletonpsych.com/doc/general-information-sheet-08.pdf</loc>
-  <lastmod>2012-05-31T00:01:01+00:00</lastmod>
+  <loc>http://www.pendletonpsych.com/doc/gen-info-2013.pdf</loc>
+  <lastmod>2013-08-02T08:47:13+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.pendletonpsych.com/doc/templeman-consent-treatment.pdf</loc>
-  <lastmod>2012-05-31T00:01:15+00:00</lastmod>
+  <loc>http://www.pendletonpsych.com/doc/gen-info-minor-dependant-2013.pdf</loc>
+  <lastmod>2013-08-02T08:47:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.pendletonpsych.com/doc/templeman-consent-to-treat.pdf</loc>
+  <lastmod>2013-08-02T08:48:08+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -115,8 +121,8 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.pendletonpsych.com/doc/umphred-consent-treatment.pdf</loc>
-  <lastmod>2012-05-31T00:01:18+00:00</lastmod>
+  <loc>http://www.pendletonpsych.com/doc/umphred-consent-to-treat.pdf</loc>
+  <lastmod>2013-08-02T08:48:38+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -139,38 +145,38 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.pendletonpsych.com/doc/gen-info-2013.pdf</loc>
-  <lastmod>2013-07-28T00:58:01+00:00</lastmod>
+  <loc>http://www.pendletonpsych.com/doc/bacon-consent-to-treat.pdf</loc>
+  <lastmod>2013-08-02T08:49:13+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.pendletonpsych.com/doc/hb-consent-to-treat.pdf</loc>
-  <lastmod>2013-07-28T00:58:01+00:00</lastmod>
+  <loc>http://www.pendletonpsych.com/doc/bacon-consent-to-treat-children-of-divorced-parents.pdf</loc>
+  <lastmod>2013-08-02T08:49:11+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.pendletonpsych.com/doc/hb-hipaa.pdf</loc>
-  <lastmod>2013-07-28T00:58:02+00:00</lastmod>
+  <loc>http://www.pendletonpsych.com/doc/bacon-hipaa.pdf</loc>
+  <lastmod>2013-08-02T08:49:13+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.pendletonpsych.com/doc/hb-psych-eval-consent-form.pdf</loc>
-  <lastmod>2013-07-28T00:58:02+00:00</lastmod>
+  <loc>http://www.pendletonpsych.com/doc/bacon-psych-eval-consent-form.pdf</loc>
+  <lastmod>2013-08-02T08:49:14+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.pendletonpsych.com/doc/hb-release-two-way.pdf</loc>
-  <lastmod>2013-07-28T00:58:03+00:00</lastmod>
+  <loc>http://www.pendletonpsych.com/doc/bacon-release-two-way.pdf</loc>
+  <lastmod>2013-08-02T08:49:16+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.pendletonpsych.com/doc/hsu-consent-treatment.pdf</loc>
-  <lastmod>2012-05-31T00:01:03+00:00</lastmod>
+  <loc>http://www.pendletonpsych.com/doc/hsu-consent-to-treat.pdf</loc>
+  <lastmod>2013-08-02T09:06:29+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -188,19 +194,19 @@
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/your-mental-health/maintaining-good-mental-health</loc>
-  <lastmod>2013-07-29T05:16:01+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:34+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/your-mental-health/mental-health-first-aid</loc>
-  <lastmod>2013-07-29T05:16:02+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:35+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/your-mental-health/holiday-stress</loc>
-  <lastmod>2013-07-29T05:16:02+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:35+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -211,194 +217,200 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://www.pendletonpsych.com/whats-new/facial-expression-and-aggression</loc>
+  <lastmod>2013-10-01T02:01:36+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://www.pendletonpsych.com/whats-new/feeling-ashamed</loc>
-  <lastmod>2013-07-29T05:16:03+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:36+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/babies-are-natural-scientists</loc>
-  <lastmod>2013-07-29T05:16:03+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:37+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/thinking-fast-and-slow</loc>
-  <lastmod>2013-07-29T05:16:04+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:37+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/when-two-heads-are-better-than-one</loc>
-  <lastmod>2013-07-29T05:16:04+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:38+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/the-surprising-effects-of-compassion</loc>
-  <lastmod>2013-07-29T05:16:05+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:38+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/alcohol-and-aggression</loc>
-  <lastmod>2013-07-29T05:16:05+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:38+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/disorder-and-negative-attitudes</loc>
-  <lastmod>2013-07-29T05:16:06+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:39+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/writing-out-your-worries</loc>
-  <lastmod>2013-07-29T05:16:06+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:39+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/dangers-of-the-wandering-mind</loc>
-  <lastmod>2013-07-29T05:16:07+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:40+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/fast-food</loc>
-  <lastmod>2013-07-29T05:16:07+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:40+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/expressing-gratitude</loc>
-  <lastmod>2013-07-29T05:16:08+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:41+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/frog-pond-effect</loc>
-  <lastmod>2013-07-29T05:16:08+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:41+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/more-on-the-effects-of-videogames</loc>
-  <lastmod>2013-07-29T05:16:08+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:42+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/serial-preferences</loc>
-  <lastmod>2013-07-29T05:16:09+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:42+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/when-the-boss-feels-dumb</loc>
-  <lastmod>2013-07-29T05:16:09+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:43+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/dogs</loc>
-  <lastmod>2013-07-29T05:16:10+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:43+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/the-imp-of-the-perverse</loc>
-  <lastmod>2013-07-29T05:16:10+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:43+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/videogame-addiction</loc>
-  <lastmod>2013-07-29T05:16:11+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:44+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/caregivers</loc>
-  <lastmod>2013-07-29T05:16:11+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:44+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/are-you-in-sync</loc>
-  <lastmod>2013-07-29T05:16:12+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:45+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/remembering-what-you-learn</loc>
-  <lastmod>2013-07-29T05:16:12+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:45+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/whats-new/empty-nest</loc>
-  <lastmod>2013-07-29T05:16:12+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:46+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.pendletonpsych.com/doc/feeling-ashamed.pdf</loc>
-  <lastmod>2013-05-02T03:51:43+00:00</lastmod>
+  <loc>http://www.pendletonpsych.com/doc/facial-expression-and-aggression.pdf</loc>
+  <lastmod>2013-08-16T08:32:51+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/therapy-helpers/anxiety-and-its-disorders</loc>
-  <lastmod>2013-07-29T05:16:13+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:46+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/therapy-helpers/parenting-fear-and-anger-handout</loc>
-  <lastmod>2013-07-29T05:16:14+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/therapy-helpers/parent-child-coercive-cycle-handout</loc>
-  <lastmod>2013-07-29T05:16:15+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:48+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/therapy-helpers/parenting-handouts</loc>
-  <lastmod>2013-07-29T05:16:15+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:48+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/therapy-helpers/principles-of-reinforcement</loc>
-  <lastmod>2013-07-29T05:16:16+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:48+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/therapy-helpers/know-your-child</loc>
-  <lastmod>2013-07-29T05:16:16+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/therapy-helpers/parent-child-coercive-cycle</loc>
-  <lastmod>2013-07-29T05:16:17+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/therapy-helpers/got-depression</loc>
-  <lastmod>2013-07-29T05:16:18+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:50+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.pendletonpsych.com/therapy-helpers/facing-fears</loc>
-  <lastmod>2013-07-29T05:16:18+00:00</lastmod>
+  <lastmod>2013-10-01T02:01:51+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -417,6 +429,12 @@
 <url>
   <loc>http://www.pendletonpsych.com/doc/holiday-stress.pdf</loc>
   <lastmod>2012-05-31T00:01:02+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.pendletonpsych.com/doc/feeling-ashamed.pdf</loc>
+  <lastmod>2013-05-02T03:51:43+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.51</priority>
 </url>
