@@ -56,7 +56,7 @@
 		<h3>Group Images</h3>
 		<div id="group_images">
 			<!-- Dynamically attach Fancybox -->
-			<a class="single_image" href="/image/group.jpg"><img src="/image/group-th.jpg" alt="PSP staff photo" /></a>
+			<a class="single_image" href="/image/group.jpg?123456"><img src="/image/group-th.jpg" alt="PSP staff photo" /></a>
 <!--
 			<a class="single_image" href="/image/group-02.jpg"><img src="/image/group-02-th.jpg" alt="Open house group photo." /></a>
 			<a class="single_image" href="/image/group-03.jpg"><img src="/image/group-03-th.jpg" alt="Open house group photo." /></a>
