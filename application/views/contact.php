@@ -8,7 +8,6 @@ if($this->session->flashdata('message') != '') {
 
 
 <h2>Contact Us</h2>
-<div class="inner">
 	<p>To schedule an appointment or to request additional
 	information, we invite you to call, email, or visit us at our
 	Pendleton office. You may also contact us directly using the
