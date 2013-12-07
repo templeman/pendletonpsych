@@ -1,10 +1,16 @@
-# Codeigniter #
+# Codeigniter
+# ----------------------------------------------------------------------------------------------
 */config/development
 */logs/log-*.php
 */logs/!index.html
 */cache/*
 */cache/!index.html
 
-# Other #
+# Other
+# ----------------------------------------------------------------------------------------------
 .htaccess
 google_analytics_exclusion.html
+
+# Analytics
+# ----------------------------------------------------------------------------------------------
+BingSiteAuth.xml
