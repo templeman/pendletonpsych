@@ -624,7 +624,7 @@ a:hover, a:focus {
 
 /* line 88, ../../sass/_main.scss */
 body {
-  background: url('../../image/bg.jpg?1311228778');
+  background: url('../../image/bg.jpg?1380504336');
   color: #222;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -937,8 +937,8 @@ a.special-content:hover {
 }
 /* line 341, ../../sass/_main.scss */
 a.special-content div {
-  background: transparent url('../../image/natalie-sm.png?1380250164') 20px 20px no-repeat;
-  padding: 20px 20px 20px 120px;
+  background: transparent url('../../image/psicon.png?1354004564') 20px 20px no-repeat;
+  padding: 15px 15px 15px 100px;
   min-height: 100px;
   zoom: 1;
   /* For IE6 */
