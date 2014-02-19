@@ -34,7 +34,7 @@
 			<div id="natalie" class="staff_profile_block">
 				<img src="/image/natalie.jpg" alt="Natalie Kollross" class="headshot" />
 				<h3>Natalie Kollross, Psy.D.</h3>
-				<h5>Psychologist Resident</h5>
+				<h5>Clinical Psychologist</h5>
 				<p>Dr. Kollross is a licensed psychologist in Oregon. She completed an internship at the Children’s Institute, Inc. in Los Angeles, CA in 2012 working with underserved children and families. She earned her doctorate in clinical psychology from Pacific University in 2012. In 2013 she completed a year of residency at OHSU in Portland. Dr. Kollross specializes in culturally-competent assessment and treatment. She has experience working with adults, children, and families with a variety of presenting problems. She conducts therapy and assessments in both English and Spanish.</p>
 			</div>
 
