@@ -374,7 +374,7 @@ div.special-content {
 
 
 
-// POLICIES
+// CLIENT FORMS
 
 #main_content ul .linkinfo {
 	font-style: italic;
@@ -382,6 +382,17 @@ div.special-content {
 	line-height: 12pt;
 	padding: 0 0 10px 15px;
 }
+
+#client-forms a.pdf {
+	background: image-url('pdficon-sm.png') no-repeat;
+	padding: 3px 0 10px 25px;
+	font-size: 13px;
+	@include reset-float(inline);
+}
+
+// #client-forms ul { margin-bottom: 10px; }
+
+#client-forms h4 { margin-top: 10px; }
 
 
 
@@ -392,7 +403,7 @@ div.special-content {
 	margin: 0;
   width: 379px;
 }
-#contact li {
+#contact .link1 li {
   padding: 0;
 }
 #contact h3 {
@@ -546,19 +557,6 @@ span.underline { text-decoration: underline; }
 	margin-bottom: 15px;
 	border: 1px $dark-green solid;
 }
-
-
-
-// POLICIES
-
-#policies a.pdf {
-	background: image-url('pdficon-sm.png') no-repeat;
-	padding: 3px 0 10px 25px;
-	font-size: 13px;
-	@include reset-float(inline);
-}
-
-#policies ul { margin-bottom: 0; }
 
 
 
