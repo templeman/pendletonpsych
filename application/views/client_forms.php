@@ -26,6 +26,7 @@ may <a href="http://get.adobe.com/reader/">download the free Adobe&reg; Reader&r
 			<li><a class="pdf" href="/doc/gen-info-2013.pdf">General Information</a></li>
 			<li><a class="pdf" href="/doc/gen-info-minor-dependant-2013.pdf">General Information for Minors/Dependants</a></li>
 			<li><a class="pdf" href="/doc/patient-history-form.pdf">Patient History</a></li>
+			<li><a class="pdf" href="/doc/childhood-history.pdf">Childhood History</a></li>
 			<li><a class="pdf" href="/doc/umphred-consent-to-treat.pdf">Consent to Treatment</a></li>
 			<li><a class="pdf" href="/doc/umphred-hipaa.pdf">HIPAA Consent</a></li>
 			<li><a class="pdf" href="/doc/umphred-consent-assessment.pdf">Consent to Assessment</a></li>
@@ -54,6 +55,7 @@ may <a href="http://get.adobe.com/reader/">download the free Adobe&reg; Reader&r
 			<li><a class="pdf" href="/doc/gen-info-2013.pdf">General Information</a></li>
 			<li><a class="pdf" href="/doc/gen-info-minor-dependant-2013.pdf">General Information for Minors/Dependants</a></li>
 			<li><a class="pdf" href="/doc/patient-history-form.pdf">Patient History</a></li>
+			<li><a class="pdf" href="/doc/childhood-history.pdf">Childhood History</a></li>
 			<li><a class="pdf" href="/doc/hsu-consent-to-treat.pdf">Consent to Treatment</a></li>
 			<li><a class="pdf" href="/doc/hsu-hipaa.pdf">HIPAA Consent</a></li>
 			<li><a class="pdf" href="/doc/hsu-release-two-way.pdf">Release Two Way</a></li>
@@ -64,8 +66,8 @@ may <a href="http://get.adobe.com/reader/">download the free Adobe&reg; Reader&r
 	<div>
     <h4>English</h4>
 		<ul>
-			<!-- <li><a class="pdf" href="/doc/gen&#45;info&#45;2013.pdf">General Information</a></li> -->
-			<!-- <li><a class="pdf" href="/doc/gen&#45;info&#45;minor&#45;dependant&#45;2013.pdf">General Information for Minors/Dependants</a></li> -->
+			<li><a class="pdf" href="/doc/gen-info-2013.pdf">General Information</a></li>
+			<li><a class="pdf" href="/doc/gen-info-minor-dependant-2013.pdf">General Information for Minors/Dependants</a></li>
 			<li><a class="pdf" href="/doc/kollross-consent-to-treat-en.pdf">Consent to Treatment</a></li>
 			<li><a class="pdf" href="/doc/kollross-consent-to-treat-children-of-divorced-parents-en.pdf">Consent to Treat Children of Divorced Parents</a></li>
 			<li><a class="pdf" href="/doc/kollross-hipaa-en.pdf">HIPAA Consent</a></li>

@@ -13,7 +13,7 @@ if($this->session->flashdata('message') != '') {
 	Pendleton office. You may also contact us directly using the
 	form below.</p>
 	<section>
-		<h3><a href="https://maps.google.com/maps?q=135+SE+First+Street++Pendleton,+OR+97801&hl=en&sll=45.850116,-119.308884&sspn=0.013332,0.019462&hnear=135+SE+1st+St,+Pendleton,+Oregon+97801&t=m&z=17">Pendleton Location</a></h3>
+		<h3><a href="https://maps.google.com/maps?q=135+SE+First+Street++Pendleton,+OR+97801&hl=en&sll=45.850116,-119.308884&sspn=0.013332,0.019462&hnear=135+SE+1st+St,+Pendleton,+Oregon+97801&t=m&z=17">Location</a></h3>
 		<ul>
 			<li>Psychological Services of Pendleton, LLC</li>
 			<li>135 SE 1st Street, Pendleton, Oregon 97801</li>
@@ -43,38 +43,6 @@ if($this->session->flashdata('message') != '') {
 			<dt>Sunday:</dt>
 			<dd>Closed</dd>
 		</dl>
-</section>
-<section>
-  <h3><a href="https://maps.google.com/maps?q=1050+W+Elm+Ave+%23250,+Hermiston,+Umatilla,+Oregon+97838&hl=en&ll=45.850116,-119.308884&spn=0.013332,0.019462&geocode=FSycuwIdlnjj-A&hnear=1050+W+Elm+Ave+%23250,+Hermiston,+Umatilla,+Oregon+97838&t=m&z=16">Hermiston Location</a></h3>
-  <ul>
-    <li>Psychological Services of Pendleton, LLC</li>
-    <li>1050 West Elm Avenue, Suite 250, Hermiston, OR 97838</li>
-  </ul>
-  <dl class="clearfix">
-    <dt>Phone</dt>
-    <dd>541-667-7899</dd>
-    <dt>Email</dt>
-    <dd><?php echo mailto('psp@eotnet.net'); ?></dd>
-    <dt>Website</dt>
-    <dd><a href='http://www.hermistonpsych.com'>hermistonpsych.com</a></dd>
-  </dl>
-  <h4>Hours</h4>
-  <dl class="clearfix">
-    <dt>Monday:</dt>
-    <dd>8am - 5:30pm</dd>
-    <dt>Tuesday:</dt>
-    <dd>Closed</dd>
-    <dt>Wednesday:</dt>
-    <dd>Closed</dd>
-    <dt>Thursday</dt>
-    <dd>Closed</dd>
-    <dt>Friday</dt>
-    <dd>8am - 5:30pm</dd>
-    <dt>Saturday:</dt>
-    <dd>Closed</dd>
-    <dt>Sunday:</dt>
-    <dd>Closed</dd>
-  </dl>
 </section>
 
 <h3>Contact Form</h3>
