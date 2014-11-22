@@ -97,7 +97,7 @@ $config['sprinkle']['use_yaml'] = TRUE;
 |
 */
 
-$config['sprinkle']['minify_css'] = FALSE;
+$config['sprinkle']['minify_css'] = TRUE;
 
 
 /*
