@@ -24,6 +24,14 @@
       </div>
 
       <div class="staff_profile_block">
+        <img src="/image/stephanie.jpg" alt="Stephanie Evans" class="headshot" />
+        <h3>Stephanie Evans, Psy.D.</h3>
+        <h5>Psychologist Resident</h5>
+        <p>Dr. Stephanie Evans Psy.D. is a Psychologist Resident in Oregon.  She completed her Psychology internship at Monroe Correctional Complex in Washington State and completed her doctorate at the Washington School of Professional Psychology in 2014. She provides Cognitive Behavior Therapy (CBT) and other evidence-based treatments to adult and adolescent clients and is trained to address a wide range of emotional, behavioral, and adjustment problems, such as anxiety, depression, relational challenges, and trauma. Dr. Evans is also comfortable working with clients from a variety of cultural backgrounds, including members of the LGBTQ community.</p>
+        <p>Dr. Evans is supervised during her residency by Dr. Connie Umphred, Ph.D., and Dr. Terry Templeman, Ph.D., Licensed Clinical Psychologists.</p>
+      </div>
+
+      <div class="staff_profile_block">
         <img src="/image/jeanne.jpg" alt="Jeanne Bailey" class="headshot" />
         <h3>Jeanne Bailey</h3>
         <h5>Office Manager</h5>
