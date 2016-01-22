@@ -1,8 +1,8 @@
-    <a class="special-content" href="your-mental-health/holiday-stress">
-     <div><h3>Stressed Out?</h3>
-     <p>Click here to learn about different <strong>holiday stressors</strong> and the simple steps you can take to manage your own stress this holiday season.</p>
-     </div>
-    </a>
+    <!-- <a class="special&#45;content" href="your&#45;mental&#45;health/holiday&#45;stress"> -->
+    <!--  <div><h3>Stressed Out?</h3> -->
+    <!--  <p>Click here to learn about different <strong>holiday stressors</strong> and the simple steps you can take to manage your own stress this holiday season.</p> -->
+    <!--  </div> -->
+    <!-- </a> -->
 
     <h2>psychological services of pendleton</h2>
     <p>Psychological Services of Pendleton, L.L.C. is a full service
