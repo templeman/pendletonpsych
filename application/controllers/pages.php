@@ -24,8 +24,8 @@ class Pages extends MY_Controller {
         array('image_num' => '1', 'image_alt' => 'An Eastern Oregon landscape.'),
       ),
       "summer" => array(
-        array('image_num' => '5', 'image_alt' => 'An Eastern Oregon Landscape.'),
-        array('image_num' => '5', 'image_alt' => 'An Eastern Oregon Landscape.'),
+        array('image_num' => '6', 'image_alt' => 'An Eastern Oregon Landscape.'),
+        array('image_num' => '6', 'image_alt' => 'An Eastern Oregon Landscape.'),
         array('image_num' => '5', 'image_alt' => 'An Eastern Oregon Landscape.'),
         array('image_num' => '3', 'image_alt' => 'An Eastern Oregon landscape.'),
         array('image_num' => '2', 'image_alt' => 'A green landscape vista.'),
