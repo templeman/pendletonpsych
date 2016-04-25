@@ -68,4 +68,19 @@
       <li class="linkinfo">This is a release of information form. This form is only to be filled out if you would like this provider to obtain or coordinate records with another person or provider.</li>
     </ul>
   </div>
+  <h3><a href="#">Dr. Evans' Forms</a></h3>
+  <div>
+    <ul>
+      <li><a class="pdf" href="/doc/gen-info-2013.pdf">General Information</a></li>
+      <li><a class="pdf" href="/doc/gen-info-minor-dependant-2013.pdf">General Information for Minors/Dependants</a></li>
+      <li><a class="pdf" href="/doc/patient-history-form.pdf">Patient History</a></li>
+      <li><a class="pdf" href="/doc/childhood-history-2.pdf">Childhood History</a></li>
+      <li><a class="pdf" href="/doc/evans-resident-consent-to-treat.pdf">Consent to Treatment</a></li>
+      <li><a class="pdf" href="/doc/evans-resident-hipaa.pdf">HIPAA Consent</a></li>
+      <li><a class="pdf" href="/doc/evans-resident-consent-assessment.pdf">Consent to Assessment</a></li>
+      <li class="linkinfo">Form only to be completed if you are requesting a psychological evaluation or neuropsychological evaluation. Please contact our office by phone for these requests (541-278-2222).</li>
+      <li><a class="pdf" href="/doc/evans-resident-release-two-way.pdf">Release Two Way</a></li>
+      <li class="linkinfo">This is a release of information form. This form is only to be filled out if you would like this provider to obtain or coordinate records with another person or provider.</li>
+    </ul>
+  </div>
 </div> <!-- End of accordion -->
