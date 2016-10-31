@@ -24,7 +24,7 @@ if($this->session->flashdata('message') != '') {
       <dt>Fax</dt>
       <dd>541-276-8405</dd>
       <dt>Email</dt>
-      <dd><?php echo mailto('psp@eotnet.net'); ?></dd>
+      <dd><?php echo mailto('psp@pendletonpsych.com'); ?></dd>
     </dl>
     <h4>Hours</h4>
     <dl class="clearfix">

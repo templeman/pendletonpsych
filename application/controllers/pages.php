@@ -11,7 +11,7 @@ class Pages extends MY_Controller {
     // $this->output->enable_profiler(TRUE);
 
     // set seasonal pics
-    $this->season = 'summer'; // winter, summer, spring, fall
+    $this->season = 'winter'; // winter, summer, spring, fall
 
     $this->pics = array(
       "winter" => array(
@@ -355,7 +355,7 @@ class Pages extends MY_Controller {
       $this->load->library('email');
 
       $this->email->from(set_value('email'), set_value('name'));
-      $this->email->to('psp@eotnet.net');
+      $this->email->to('psp@pendletonpsych.com');
       $this->email->subject('This message was submitted to pendletonpsych.com');
       $this->email->message(set_value('comment'));
 
