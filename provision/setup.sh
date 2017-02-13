@@ -14,10 +14,13 @@ echo "Updating PHP repository"
     apt-get install python-software-properties build-essential -y > /dev/null
     add-apt-repository ppa:ondrej/php -y > /dev/null
     apt-get update > /dev/null
-    apt-get install -y php7.0
+    apt-get install -y php7.0 > /dev/null
 
 echo "Installing PHP extensions"
     apt-get install php7.0-fpm php7.0-mysql php7.0-curl php7.0-json php7.0-cgi -y > /dev/null
+
+echo "Installing Sendmail"
+    apt-get install -y sendmail > /dev/null
 
 echo "Installing MySQL"
     apt-get install debconf-utils -y > /dev/null
