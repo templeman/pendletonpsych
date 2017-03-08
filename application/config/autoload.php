@@ -52,7 +52,7 @@ $autoload['packages'] = array();
 | $autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('Composer_loader', 'user_agent', 'template', 'sprinkle', 'database');
+$autoload['libraries'] = array('user_agent', 'template', 'sprinkle', 'database');
 
 
 /*
