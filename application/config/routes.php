@@ -43,7 +43,3 @@ $route['default_controller'] = 'pages';
 $route['(.+)'] = 'pages/$1';
 $route['404_override'] = 'custom_404';
 $route['translate_uri_dashes'] = TRUE;
-
-
-/* End of file routes.php */
-/* Location: ./application/config/routes.php */

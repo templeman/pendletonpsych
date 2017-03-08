@@ -12,6 +12,7 @@
 application/config/config.php
 application/config/database.php
 dandelion.yml
+*.sql
 
 # Analytics
 # -----------------------------------------------------------------------------
@@ -20,7 +21,7 @@ google_analytics_exclusion.html
 
 # Backups
 # -----------------------------------------------------------------------------
-doc/archive
+public/doc/archive
 
 # Vagrant
 # -----------------------------------------------------------------------------

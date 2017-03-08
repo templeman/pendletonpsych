@@ -80,10 +80,10 @@ $config['theme'] = '';
 |
 | Where should we expect to see themes?
 |
-|	Default: array(APPPATH.'themes/' => '../themes/')
+| Default: array(APPPATH.'themes/' => '../themes/')
 |
 */
 
 $config['theme_locations'] = array(
-	APPPATH.'themes/'
+  APPPATH.'themes/'
 );

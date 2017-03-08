@@ -499,8 +499,3 @@ class Pages extends MY_Controller {
      */
   }
 }
-
-
-
-/* End of file pages.php */
-/* Location: ./application/controllers/pages.php */
