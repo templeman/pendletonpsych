@@ -12,7 +12,7 @@ jquery:
   combine: false
   versions:
     default: jquery.js
-    backup: http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js
+    backup: https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js
 
 local:
   type: js
@@ -24,7 +24,7 @@ google-map-api:
   type: js
   minify: false
   combine: false
-  src: http://maps.googleapis.com/maps/api/js?key=AIzaSyDDblxk-P59FEat18hD-xOvD_gzxQgOciY&sensor=false
+  src: https://maps.googleapis.com/maps/api/js?key=AIzaSyDDblxk-P59FEat18hD-xOvD_gzxQgOciY
 
 google-map-load:
   type: js
