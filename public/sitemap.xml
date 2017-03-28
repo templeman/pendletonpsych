@@ -37,22 +37,22 @@
     <loc>https://www.pendletonpsych.com/templeman</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/gen-info-2013.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/general-info-adult.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/gen-info-minor-dependant-2013.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/general-info-child.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/templeman-consent-to-treat.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/templeman-hipaa.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/templeman-hipaa-consent.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/templeman-consent-assessment.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/templeman-consent-to-evaluation.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/templeman-release-two-way.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/templeman-release-of-information.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/patient-history-form.pdf</loc>
@@ -64,13 +64,13 @@
     <loc>https://www.pendletonpsych.com/doc/umphred-consent-to-treat.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/umphred-hipaa.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/umphred-hipaa-consent.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/umphred-consent-assessment.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/umphred-consent-to-evaluation.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/umphred-release-two-way.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/umphred-release-of-information.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-treat-en.pdf</loc>
@@ -79,10 +79,10 @@
     <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-treat-children-of-divorced-parents-en.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-hipaa-en.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/kollross-hipaa-consent-en.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-consent-assessment-en.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-evaluation-en.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/kollross-release-two-way-en.pdf</loc>
@@ -124,16 +124,25 @@
     <loc>https://www.pendletonpsych.com/doc/childhood-history-2.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/evans-resident-consent-to-treat.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/evans-consent-to-treat.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/evans-resident-hipaa.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/evans-hipaa-consent.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/evans-resident-consent-assessment.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/evans-consent-to-evaluation.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/evans-resident-release-two-way.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/evans-release-two-way.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/evans-release-one-way-clinician-to-other.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/evans-release-one-way-to-clinician.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/evans-release-one-way-to-clinician-confidential.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/your-mental-health/maintaining-good-mental-health</loc>
