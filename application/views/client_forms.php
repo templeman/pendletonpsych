@@ -10,7 +10,11 @@
       <li><a class="pdf" href="/doc/templeman-hipaa-consent.pdf">HIPAA Consent</a></li>
       <li><a class="pdf" href="/doc/templeman-consent-to-evaluation.pdf">Consent to Psychological Evaluation</a></li>
       <li class="linkinfo">Form only to be completed if you are requesting a psychological evaluation or neuropsychological evaluation. Please contact our office by phone for these requests (541-278-2222).</li>
-      <li><a class="pdf" href="/doc/templeman-release-of-information.pdf">Release of Information</a></li>
+      <li><a class="pdf" href="/doc/templeman-release-two-way.pdf">Release of Information: Two Way</a></li>
+      <li class="linkinfo">This is a release of information form. This form is only to be filled out if you would like this provider to obtain or coordinate records with another person or provider.</li>
+      <li><a class="pdf" href="/doc/templeman-release-one-way-clinician-to-other.pdf">Release of Information: One Way from Clinician</a></li>
+      <li class="linkinfo">This is a release of information form. This form is only to be filled out if you would like this provider to obtain or coordinate records with another person or provider.</li>
+      <li><a class="pdf" href="/doc/templeman-release-one-way-to-clinician.pdf">Release of Information: One Way to Clinician</a></li>
       <li class="linkinfo">This is a release of information form. This form is only to be filled out if you would like this provider to obtain or coordinate records with another person or provider.</li>
     </ul>
   </div>

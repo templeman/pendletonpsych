@@ -22,37 +22,43 @@
     <loc>https://www.pendletonpsych.com/therapy-helpers</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/education</loc>
-  </url>
-  <url>
     <loc>https://www.pendletonpsych.com/resources</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/map</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/contact</loc>
   </url>
   <url>
+    <loc>https://www.pendletonpsych.com/map</loc>
+  </url>
+  <url>
     <loc>https://www.pendletonpsych.com/templeman</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/education</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/general-info-adult.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/general-info-child.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/templeman-consent-to-treat.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/templeman-consent-to-evaluation.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/templeman-hipaa-consent.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/templeman-consent-to-evaluation.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/templeman-consent-to-treat.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/templeman-release-of-information.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/templeman-release-two-way.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/templeman-release-one-way-clinician-to-other.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/templeman-release-one-way-to-clinician.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/general-info-child.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/patient-history-form.pdf</loc>
@@ -73,28 +79,28 @@
     <loc>https://www.pendletonpsych.com/doc/umphred-release-of-information.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-treat-en.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-treat-children-of-divorced-parents-en.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-hipaa-consent-en.pdf</loc>
-  </url>
-  <url>
     <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-evaluation-en.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-treat-en.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/kollross-release-two-way-en.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-release-one-way-clinician-to-other-en.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-treat-children-of-divorced-parents-en.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/kollross-release-one-way-to-clinician-en.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/kollross-release-one-way-to-clinician-confidential-en.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-release-one-way-clinician-to-other-en.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-hipaa-consent-en.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-treat-sp.pdf</loc>
@@ -139,13 +145,13 @@
     <loc>https://www.pendletonpsych.com/doc/evans-release-one-way-clinician-to-other.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/evans-release-one-way-to-clinician.pdf</loc>
+    <loc>https://www.pendletonpsych.com/your-mental-health/maintaining-good-mental-health</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/evans-release-one-way-to-clinician-confidential.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/your-mental-health/maintaining-good-mental-health</loc>
+    <loc>https://www.pendletonpsych.com/doc/evans-release-one-way-to-clinician.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/your-mental-health/mental-health-first-aid</loc>
@@ -154,10 +160,10 @@
     <loc>https://www.pendletonpsych.com/your-mental-health/holiday-stress</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/maintaining-good-mental-health.pdf</loc>
+    <loc>https://www.pendletonpsych.com/whats-new/why-climate-change-is-hard-to-believe</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/whats-new/why-climate-change-is-hard-to-believe</loc>
+    <loc>https://www.pendletonpsych.com/doc/maintaining-good-mental-health.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/whats-new/psychology-of-pain</loc>
@@ -250,19 +256,19 @@
     <loc>https://www.pendletonpsych.com/whats-new/are-you-in-sync</loc>
   </url>
   <url>
+    <loc>https://www.pendletonpsych.com/whats-new/empty-nest</loc>
+  </url>
+  <url>
     <loc>https://www.pendletonpsych.com/whats-new/remembering-what-you-learn</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/whats-new/empty-nest</loc>
+    <loc>https://www.pendletonpsych.com/therapy-helpers/parenting-fear-and-anger-handout</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/why-climate-change-is-hard-to-believe.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/therapy-helpers/anxiety-and-its-disorders</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/therapy-helpers/parenting-fear-and-anger-handout</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/therapy-helpers/parent-child-coercive-cycle-handout</loc>
@@ -277,22 +283,16 @@
     <loc>https://www.pendletonpsych.com/therapy-helpers/know-your-child</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/therapy-helpers/parent-child-coercive-cycle</loc>
-  </url>
-  <url>
     <loc>https://www.pendletonpsych.com/therapy-helpers/got-depression</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/therapy-helpers/facing-fears</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/anxiety.pdf</loc>
+    <loc>https://www.pendletonpsych.com/therapy-helpers/parent-child-coercive-cycle</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/mental-health-first-aid.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/holiday-stress.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/psychology-of-pain.pdf</loc>
@@ -304,6 +304,12 @@
     <loc>https://www.pendletonpsych.com/doc/health-benefits-of-adolescent-conformity.pdf</loc>
   </url>
   <url>
+    <loc>https://www.pendletonpsych.com/doc/holiday-stress.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/anxiety.pdf</loc>
+  </url>
+  <url>
     <loc>https://www.pendletonpsych.com/doc/remembering-traumatic-events.pdf</loc>
   </url>
   <url>
@@ -313,13 +319,13 @@
     <loc>https://www.pendletonpsych.com/doc/marshmallow-test.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/our-implicit-biases.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/rituals-enhance-experience.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/utility-of-gossip.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/rituals-enhance-experience.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/our-implicit-biases.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/facial-expression-and-aggression.pdf</loc>
@@ -349,13 +355,10 @@
     <loc>https://www.pendletonpsych.com/doc/writing-out-your-worries.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/dangers-of-the-wandering-mind.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/expressing-gratitude.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/fast-food.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/expressing-gratitude.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/frog-pond-effect.pdf</loc>
@@ -365,6 +368,9 @@
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/serial-preferences.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/dangers-of-the-wandering-mind.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/when-the-boss-feels-dumb.pdf</loc>
@@ -385,9 +391,6 @@
     <loc>https://www.pendletonpsych.com/doc/are-you-in-sync.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/remembering-what-you-learn.pdf</loc>
-  </url>
-  <url>
     <loc>https://www.pendletonpsych.com/doc/empty-nest.pdf</loc>
   </url>
   <url>
@@ -397,21 +400,24 @@
     <loc>https://www.pendletonpsych.com/doc/parent-child-coercive-cycle-handout.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/parenting-handouts.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/principles-of-reinforcement.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/principles-of-reinforcement.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/parenting-handouts.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/know-your-child.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/parent-child-coercive-cycle.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/remembering-what-you-learn.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/got-depression.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/facing-fears.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/parent-child-coercive-cycle.pdf</loc>
   </url>
 </urlset>
