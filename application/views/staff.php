@@ -26,9 +26,8 @@
       <div class="staff_profile_block">
         <img src="/image/stephanie.jpg" alt="Stephanie Evans" class="headshot" />
         <h3>Stephanie Evans, Psy.D.</h3>
-        <h5>Psychologist Resident</h5>
-        <p>Dr. Stephanie Evans Psy.D. is a Psychologist Resident in Oregon.  She completed her Psychology internship at Monroe Correctional Complex in Washington State and completed her doctorate at the Washington School of Professional Psychology in 2014. She provides Cognitive Behavior Therapy (CBT) and other evidence-based treatments to adult and adolescent clients and is trained to address a wide range of emotional, behavioral, and adjustment problems, such as anxiety, depression, relational challenges, and trauma. Dr. Evans is also comfortable working with clients from a variety of cultural backgrounds, including members of the LGBTQ community.</p>
-        <p>Dr. Evans is supervised during her residency by Dr. Connie Umphred, Ph.D., and Dr. Terry Templeman, Ph.D., Licensed Clinical Psychologists.</p>
+        <h5>Clinical Psychologist</h5>
+        <p>Dr. Stephanie Evans, Psy.D. completed her doctorate at the Washington School of Professional Psychology in 2014, her Psychology Internship at Monroe Correctional Complex in Washington State, and her Psychology Residency at Psychological Services of Pendleton LLC.  Dr. Evans provides diagnosis and evidence-based treatments for both adult and adolescent issues, including anxiety, depression, relational challenges, and trauma.  She is comfortable working with clients from a variety of cultural backgrounds, including members of the LGBTQ community.  Her scope of practice includes evaluating competency, psychiatric diagnoses, behavior problems, and personality.</p>
       </div>
 
       <div class="staff_profile_block">
@@ -50,7 +49,7 @@
         <img src="/image/tasha-ellis.png" alt="Tasha Ellis" class="headshot" />
         <h3>Tasha Ellis</h3>
         <h5>Administrative Assistant &amp; Receptionist</h5>
-        <p>Ms. Ellis handles our incoming referrals and patient inquiries.  She is the person who takes your calls, helps you complete admission and insurance forms, schedules your appointments, and relays messages to your clinician.  Tasha can also answer your questions about insurance, billing, and accounts.  She is able and prepared to assist you with any questions you might have.</p>
+        <p>Ms. Ellis handles our incoming referrals and patient inquiries. She is the person who takes your calls, helps you complete admission and insurance forms, schedules your appointments, and relays messages to your clinician. Tasha can also answer your questions about insurance, billing, and accounts. She is able and prepared to assist you with any questions you might have.</p>
       </div>
 
     <a href="#top"></a>
