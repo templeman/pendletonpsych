@@ -4,6 +4,9 @@ export DEBIAN_FRONTEND=noninteractive
 
 echo "Provisioning virtual machine..."
 
+echo "Updating package repo..."
+  apt-get update -y > /dev/null
+
 echo "Installing Git"
     apt-get install git -y > /dev/null
 
@@ -11,7 +14,7 @@ echo "Installing Nginx"
     apt-get install nginx -y > /dev/null
 
 echo "Updating PHP repository"
-    apt-get install python-software-properties build-essential -y > /dev/null
+    apt-get install software-properties-common build-essential -y > /dev/null
     add-apt-repository ppa:ondrej/php -y > /dev/null
     apt-get update > /dev/null
     apt-get install -y php7.0 > /dev/null
