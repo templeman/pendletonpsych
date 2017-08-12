@@ -32,3 +32,4 @@ public/doc/archive
 # -----------------------------------------------------------------------------
 vendor
 composer.json
+node_modules
