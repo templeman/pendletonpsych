@@ -31,17 +31,9 @@
       </div>
 
       <div class="staff_profile_block">
-        <img src="/image/jeanne.jpg" alt="Jeanne Bailey" class="headshot" />
-        <h3>Jeanne Bailey</h3>
-        <h5>Office Manager</h5>
-        <p>Ms. Bailey has been with our office for over 16 years, specializing in administrative support to our providers.  She is dedicated to a smooth running office, ready to do whatever it takes to get the answers needed in dealing with any problems that arise.  Her vast experience in dealing with insurance companies is helpful to both the provider and the patient. </p>
-        <p>Psychological Services of Pendleton, LLC makes every effort to work with the patient and their insurance company to establish preauthorization when needed, determine what the benefits are and to estimate what the patient responsibility will be after their insurance has paid.</p>
-      </div>
-
-      <div class="staff_profile_block">
         <img src="/image/katie-mclaren.png" alt="Katie McLaren" class="headshot" />
         <h3>Katie McLaren</h3>
-        <h5>Office Administrator</h5>
+        <h5>Office Manager</h5>
         <p>Ms. McLaren attends to most of the day to day administrative needs of our office.  Besides managing client records, financial accounts, and scheduling for clinicians, she also provides technical support for clinicians and staff and assists in training new personnel.  Katie is critical to keeping the office running smoothly and efficiently, and she is always ready to assist you with your questions.</p>
       </div>
 
