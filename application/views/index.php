@@ -1,8 +1,9 @@
-    <!-- <a class="special&#45;content" href="your&#45;mental&#45;health/holiday&#45;stress"> -->
-    <!--  <div><h3>Stressed Out?</h3> -->
-    <!--  <p>Click here to learn about different <strong>holiday stressors</strong> and the simple steps you can take to manage your own stress this holiday season.</p> -->
-    <!--  </div> -->
-    <!-- </a> -->
+    <div class="special-content">
+      <div>
+       <h3>Join Us</h3>
+       <p>PSP is now recruiting psychologists to join our practice. <a href="contact">Contact us</a> for more information.</p>
+     </div>
+   </div>
 
     <h2>psychological services of pendleton</h2>
     <p>Psychological Services of Pendleton, L.L.C. is a full service

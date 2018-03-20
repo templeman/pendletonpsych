@@ -326,44 +326,42 @@ footer {
 
 // INDEX
 
-a.special-content {
+div.special-content {
   @include border-radius(5px);
   display: block;
   text-decoration: none;
   background: #eee;
-  font-size: .9em;
+  // font-size: 1em;
   margin: 0 0 20px 0;
-  // display: none; // comment out to show special front-page callout
-  &:hover {
-    background: #ddd;
-  }
-  div {
-    background: transparent image-url('psicon.png') 20px 20px no-repeat;
-    padding: 15px 15px 15px 100px;
-    min-height: 100px;
-    zoom: 1; /* For IE6 */
-    p {
-      margin: 0;
-      padding: 0;
-    }
-  }
-}
-
-div.special-content {
-  padding: 15px 15px 15px 90px;
-  zoom: 1; /* For IE6 */
   background: #eee image-url('psicon.png') 15px 15px no-repeat;
-  @include border-radius(20px);
-  display: block;
-  // display: none; // comment out to show special front-page callout
-  text-decoration: none;
-  font-size: .9em;
-  margin: 0 0 20px 0;
+  padding: 15px 15px 15px 100px;
+  // min-height: 100px;
+  zoom: 1; /* For IE6 */
   p {
     margin: 0;
     padding: 0;
   }
+  // display: none; // comment out to show special front-page callout
+  // &:hover {
+  //   background: #ddd;
+  // }
 }
+
+// div.special-content {
+//   padding: 15px 15px 15px 90px;
+//   zoom: 1; /* For IE6 */
+//   background: #eee image-url('psicon.png') 15px 15px no-repeat;
+//   @include border-radius(20px);
+//   display: block;
+//   // display: none; // comment out to show special front-page callout
+//   text-decoration: none;
+//   font-size: .9em;
+//   margin: 0 0 20px 0;
+//   p {
+//     margin: 0;
+//     padding: 0;
+//   }
+// }
 
 .special {
   color: #400329;
