@@ -4,7 +4,7 @@
         <img src="/image/terry.jpg" alt="Terry Templeman" class="headshot" />
         <h3>Terrel L. Templeman, Ph.D.</h3>
         <h5>Clinical Psychologist</h5>
-        <p>Dr. Templeman opened Psychological Services of Pendleton, LLC in January, 2008. He continues to provide a variety of psychological services to residents of Eastern Oregon.  His assessments include forensic evaluations for the Oregon Board of Parole and Post Prison Supervision, evaluations of chronically mentally ill patients at Blue Mountain Recovery Center, juvenile evaluations for Oregon Youth Authority and the Department of Human Services, and disability evaluations for the State of Oregon.  Dr. Templeman also provides evaluations for the courts, attorneys, physicians, and schools in the area.  He provides consultation and supervision to juvenile residential treatment facilities in Pendleton.  He also maintains an outpatient psychotherapy caseload.
+        <p>Dr. Templeman opened Psychological Services of Pendleton, LLC in January, 2008. He continues to provide a variety of psychological services to residents of Eastern Oregon.  His assessments include juvenile evaluations for Oregon Youth Authority and the Department of Human Services, and disability evaluations for the State of Oregon. Dr. Templeman also provides evaluations for physicians and schools in the area. He also maintains an outpatient psychotherapy caseload.
         </p>
         <p><a href="/templeman"><em>More about Dr. Templeman...</em></a></p>
       </div>
