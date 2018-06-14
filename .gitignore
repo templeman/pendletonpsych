@@ -12,7 +12,6 @@ user_guide
 .htaccess
 application/config/config.php
 application/config/database.php
-dandelion.yml
 *.sql
 
 # Analytics
