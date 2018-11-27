@@ -7,22 +7,22 @@
     <loc>https://www.pendletonpsych.com/staff</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/specialty</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/client-forms</loc>
-  </url>
-  <url>
     <loc>https://www.pendletonpsych.com/your-mental-health</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/whats-new</loc>
   </url>
   <url>
+    <loc>https://www.pendletonpsych.com/specialty</loc>
+  </url>
+  <url>
     <loc>https://www.pendletonpsych.com/therapy-helpers</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/education</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/client-forms</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/resources</loc>
@@ -37,139 +37,31 @@
     <loc>https://www.pendletonpsych.com/templeman</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/general-info-adult.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/general-info-child.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/templeman-hipaa-consent.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/templeman-consent-to-treat.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/templeman-release-two-way.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/templeman-consent-to-evaluation.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/templeman-release-one-way-clinician-to-other.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/templeman-release-one-way-to-clinician.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/childhood-history.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/patient-history-form.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/umphred-consent-to-treat.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/umphred-hipaa-consent.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/umphred-consent-to-evaluation.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/umphred-release-of-information.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-treat-children-of-divorced-parents-en.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-treat-en.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-hipaa-consent-en.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-release-two-way-en.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-evaluation-en.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-release-one-way-clinician-to-other-en.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-release-one-way-to-clinician-en.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-release-one-way-to-clinician-confidential-en.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-treat-sp.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-treat-children-of-divorced-parents-sp.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-consent-assessment-sp.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-hipaa-sp.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-release-two-way-sp.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-release-one-way-clinician-to-other-sp.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-release-one-way-to-clinician-sp.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/kollross-release-one-way-to-clinician-confidential-sp.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/childhood-history-2.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/evans-consent-to-treat.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/evans-hipaa-consent.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/evans-consent-to-evaluation.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/evans-release-two-way.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/evans-release-one-way-clinician-to-other.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/evans-release-one-way-to-clinician-confidential.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/evans-release-one-way-to-clinician.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/your-mental-health/maintaining-good-mental-health</loc>
-  </url>
-  <url>
     <loc>https://www.pendletonpsych.com/your-mental-health/mental-health-first-aid</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/whats-new/spanking-children</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/whats-new/whats-new-in-false-memory-research</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/your-mental-health/holiday-stress</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/maintaining-good-mental-health.pdf</loc>
+    <loc>https://www.pendletonpsych.com/whats-new/voicing-an-opinion</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/whats-new/voicing-an-opinion</loc>
+    <loc>https://www.pendletonpsych.com/your-mental-health/maintaining-good-mental-health</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/whats-new/whats-new-in-autism-research</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/whats-new/kids-and-social-media</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/maintaining-good-mental-health.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/whats-new/why-climate-change-is-hard-to-believe</loc>
@@ -196,31 +88,31 @@
     <loc>https://www.pendletonpsych.com/whats-new/our-implicit-biases</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/whats-new/utility-of-gossip</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/whats-new/rituals-enhance-experience</loc>
-  </url>
-  <url>
     <loc>https://www.pendletonpsych.com/whats-new/facial-expression-and-aggression</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/whats-new/feeling-ashamed</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/whats-new/babies-are-natural-scientists</loc>
+    <loc>https://www.pendletonpsych.com/whats-new/utility-of-gossip</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/whats-new/thinking-fast-and-slow</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/whats-new/when-two-heads-are-better-than-one</loc>
+    <loc>https://www.pendletonpsych.com/whats-new/rituals-enhance-experience</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/whats-new/babies-are-natural-scientists</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/whats-new/the-surprising-effects-of-compassion</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/whats-new/alcohol-and-aggression</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/whats-new/when-two-heads-are-better-than-one</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/whats-new/disorder-and-negative-attitudes</loc>
@@ -271,7 +163,7 @@
     <loc>https://www.pendletonpsych.com/whats-new/empty-nest</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/voicing-an-opinion.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/spanking-children.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/therapy-helpers/anxiety-and-its-disorders</loc>
@@ -304,10 +196,130 @@
     <loc>https://www.pendletonpsych.com/doc/anxiety.pdf</loc>
   </url>
   <url>
+    <loc>https://www.pendletonpsych.com/doc/general-info-adult.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/general-info-child.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/templeman-consent-to-treat.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/templeman-hipaa-consent.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/templeman-consent-to-evaluation.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/templeman-release-two-way.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/templeman-release-one-way-clinician-to-other.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/templeman-release-one-way-to-clinician.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/patient-history-form.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/childhood-history.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/umphred-consent-to-treat.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/umphred-hipaa-consent.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/umphred-consent-to-evaluation.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/umphred-release-of-information.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-treat-en.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-treat-children-of-divorced-parents-en.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-hipaa-consent-en.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-evaluation-en.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-release-two-way-en.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-release-one-way-clinician-to-other-en.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-release-one-way-to-clinician-en.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-release-one-way-to-clinician-confidential-en.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-treat-sp.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-treat-children-of-divorced-parents-sp.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-hipaa-sp.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-consent-assessment-sp.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-release-two-way-sp.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-release-one-way-clinician-to-other-sp.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-release-one-way-to-clinician-sp.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-release-one-way-to-clinician-confidential-sp.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/childhood-history-2.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/evans-consent-to-treat.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/evans-hipaa-consent.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/evans-consent-to-evaluation.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/evans-release-two-way.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/evans-release-one-way-clinician-to-other.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/evans-release-one-way-to-clinician.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/evans-release-one-way-to-clinician-confidential.pdf</loc>
+  </url>
+  <url>
     <loc>https://www.pendletonpsych.com/doc/mental-health-first-aid.pdf</loc>
   </url>
   <url>
+    <loc>https://www.pendletonpsych.com/doc/whats-new-in-false-memory-research.pdf</loc>
+  </url>
+  <url>
     <loc>https://www.pendletonpsych.com/doc/holiday-stress.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/voicing-an-opinion.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/whats-new-in-autism-research.pdf</loc>
@@ -340,34 +352,34 @@
     <loc>https://www.pendletonpsych.com/doc/our-implicit-biases.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/utility-of-gossip.pdf</loc>
-  </url>
-  <url>
-    <loc>https://www.pendletonpsych.com/doc/rituals-enhance-experience.pdf</loc>
-  </url>
-  <url>
     <loc>https://www.pendletonpsych.com/doc/facial-expression-and-aggression.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/feeling-ashamed.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/babies-are-natural-scientists.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/utility-of-gossip.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/thinking-fast-and-slow.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/when-two-heads-are-better-than-one.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/rituals-enhance-experience.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/babies-are-natural-scientists.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/compassion.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/disorder-and-negative-attitudes.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/alcohol-and-aggression.pdf</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/doc/alcohol-and-aggression.pdf</loc>
+    <loc>https://www.pendletonpsych.com/doc/when-two-heads-are-better-than-one.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/disorder-and-negative-attitudes.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/writing-out-your-worries.pdf</loc>

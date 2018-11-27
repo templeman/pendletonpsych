@@ -13,7 +13,7 @@ class Pages extends MY_Controller {
     // $this->output->enable_profiler(TRUE);
 
     // set seasonal pics
-    $this->season = 'summer'; // winter, summer, spring, fall
+    $this->season = 'winter'; // winter, summer, spring, fall
 
     $this->pics = array(
       "winter" => array(
