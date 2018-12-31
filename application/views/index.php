@@ -1,11 +1,13 @@
-    <div class="special-content">
+<?php /*
+<div class="special-content">
       <div>
        <h3>Join Us</h3>
        <p>PSP is now recruiting psychologists to join our practice. <a href="contact">Contact us</a> for more information.</p>
      </div>
    </div>
+ */ ?>
 
-    <h2>psychological services of pendleton</h2>
+    <h2>Psychological Services of Pendleton</h2>
     <p>Psychological Services of Pendleton, L.L.C. is a full service
     outpatient treatment center providing assessment and psychotherapy for a broad range of psychological problems. All primary
     clinicians are licensed in Oregon to provide services within their
@@ -22,21 +24,23 @@
 
 
 
-  <!--  <h3>Announcements</h3> -->
-  <!--  <h3><a href="PSP DOCS/parenting_ad.pdf">The Art and Science of -->
-  <!--      Parenting</a><img src="image/coming_up_01.gif" width="69" -->
-  <!--    height="10" hspace="15" /></h3> -->
-  <!--  <p>Dr. Terry Templeman Ph.D. psychologist will present a two part -->
-  <!--  program on The Art and Science of Parenting on Tuesday October 27th -->
-  <!--  and Tuesday November 3rd from 7 to 8:30 pm at Sunridge Middle School. -->
-  <!--  The presentation is free and designed for parents of children of all -->
-  <!--  ages. Topics will include Why Parents Matter, Understanding Your -->
-  <!--  Child, Behavior Management Tools that Really Work, and Survival Skills -->
-  <!--  for Parents. The program will include refreshments and interactive -->
-  <!--  discussion with parents. For more information contact Psychological -->
-  <!--  Services of Pendleton LLC at 278 2222.</p> -->
+<?php /*
+   <h3>Announcements</h3>
+   <h3><a href="PSP DOCS/parenting_ad.pdf">The Art and Science of
+       Parenting</a><img src="image/coming_up_01.gif" width="69"
+     height="10" hspace="15" /></h3>
+   <p>Dr. Terry Templeman Ph.D. psychologist will present a two part
+   program on The Art and Science of Parenting on Tuesday October 27th
+   and Tuesday November 3rd from 7 to 8:30 pm at Sunridge Middle School.
+   The presentation is free and designed for parents of children of all
+   ages. Topics will include Why Parents Matter, Understanding Your
+   Child, Behavior Management Tools that Really Work, and Survival Skills
+   for Parents. The program will include refreshments and interactive
+   discussion with parents. For more information contact Psychological
+   Services of Pendleton LLC at 278 2222.</p>
 
-  <!--  <h1 class="special">May Is National Mental Health Month</h3> -->
-  <!--  <h2 class="special">Check it out at <a -->
-  <!--      href="http://www.liveyourlifewell.org">www.liveyourlifewell.org</a></h3> -->
-  <!-- </div> -->
+   <h1 class="special">May Is National Mental Health Month</h3>
+   <h2 class="special">Check it out at <a
+       href="http://www.liveyourlifewell.org">www.liveyourlifewell.org</a></h3>
+  </div>
+ */ ?>
