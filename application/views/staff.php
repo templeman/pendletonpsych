@@ -31,6 +31,13 @@
       </div>
 
       <div class="staff_profile_block">
+        <img src="/image/debra-obrien.jpg" alt="Debra O'Brien" class="headshot" />
+        <h3>Debra O'Brien, LCSW</h3>
+        <h5>Licensed Clinical Social Worker</h5>
+        <p>Debra O’Brien, LCSW received her degree in Social Work from Syracuse University. She is licensed to practice in Oregon, Hawaii, and Washington. Ms. O’Brien is a Diplomate in Clinical Social Work and accepts clients of all ages for Individual Therapy, Couples Therapy, and Family Therapy. She is also experienced working with culturally diverse populations.</p>
+      </div>
+
+      <div class="staff_profile_block">
         <img src="/image/katie-mclaren.png" alt="Katie McLaren" class="headshot" />
         <h3>Katie McLaren</h3>
         <h5>Office Manager</h5>
