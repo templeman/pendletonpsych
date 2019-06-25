@@ -61,7 +61,7 @@ class Pages extends MY_Controller {
     $this->template
       ->set_partial('header', 'partials/header')
       ->title('Meet Our Staff', 'Psychological Services of Pendleton')
-      ->set_metadata("description", "Terrel L. Templeman, Ph.D. [Clinical Psychologist], Connie Umphred, Ph.D. [Clinical Psychologist], Sarah Hsu, LCSW [Licensed Clinical Social Worker], Heather A. Bacon, Ph.D. [Clinical Psychologist], Jeanne Bailey [Office Manager], Katie McLaren [Administrative Assistant & Receptionist]")
+      ->set_metadata("description", "Terrel L. Templeman, Ph.D. [Clinical Psychologist], Natalie Kollross, Psy.D. [Clinical Psychologist], Stephanie Evans, Psy.D. [Clinical Psychologist], Debra O'Brien, LCSW [Licensed Clinical Social Worker], Katie McLaren [Office Manager], Tasha Ellis [Administrative Assistant & Receptionist]")
       ->set_partial('footer', 'partials/footer')
       ->build('staff', $data);
   }
