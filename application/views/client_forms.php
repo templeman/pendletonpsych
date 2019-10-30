@@ -83,6 +83,8 @@
   <h3><a href="#">Ms. O'Brien's Forms</a></h3>
   <div>
     <ul>
+      <li><a class="pdf" href="/doc/general-info-adult.pdf">General Information for Adults</a></li>
+      <li><a class="pdf" href="/doc/general-info-child.pdf">General Information for Minors/Dependants</a></li>
       <li><a class="pdf" href="/doc/obrien-cancellation-policy.pdf">Cancellation Policy</a></li>
       <li><a class="pdf" href="/doc/obrien-consent-to-treat.pdf">Consent to Treatment</a></li>
       <li><a class="pdf" href="/doc/obrien-consent-to-treat-children-of-divorced-parents.pdf">Consent to Treat Children of Divorced Parents</a></li>
@@ -94,6 +96,8 @@
   <h3><a href="#">Dr. Tice's Forms</a></h3>
   <div>
     <ul>
+      <li><a class="pdf" href="/doc/general-info-adult.pdf">General Information for Adults</a></li>
+      <li><a class="pdf" href="/doc/general-info-child.pdf">General Information for Minors/Dependants</a></li>
       <li><a class="pdf" href="/doc/tice-cancellation-policy.pdf">Cancellation Policy</a></li>
       <li><a class="pdf" href="/doc/tice-consent-to-treat.pdf">Consent to Treatment</a></li>
       <li><a class="pdf" href="/doc/tice-hipaa-consent.pdf">HIPAA Consent</a></li>
