@@ -106,4 +106,19 @@
       <li class="linkinfo">This is a release of information form. This form is only to be filled out if you would like this provider to obtain or coordinate records with another person or provider.</li>
     </ul>
   </div>
+  <h3><a href="#">Dr. Raines' Forms</a></h3>
+  <div>
+    <ul>
+      <li><a class="pdf" href="/doc/raines-cancellation-policy.pdf">Cancellation Policy</a></li>
+      <li><a class="pdf" href="/doc/raines-consent-to-treat.pdf">Consent to Treatment</a></li>
+      <li><a class="pdf" href="/doc/raines-hipaa-consent.pdf">HIPAA Consent</a></li>
+      <li><a class="pdf" href="/doc/raines-disclosure-to-collaterals.pdf">Disclosure to Collaterals (non-patients)</a></li>
+      <li><a class="pdf" href="/doc/raines-release-two-way.pdf">Release of Information: Two Way</a></li>
+      <li class="linkinfo">This is a release of information form. This form is only to be filled out if you would like this provider to obtain or coordinate records with another person or provider.</li>
+      <li><a class="pdf" href="/doc/raines-release-one-way-clinician-to-other.pdf">Release of Information: One Way from Clinician</a></li>
+      <li class="linkinfo">This is a release of information form. This form is only to be filled out if you would like this provider to obtain or coordinate records with another person or provider.</li>
+      <li><a class="pdf" href="/doc/raines-release-one-way-to-clinician.pdf">Release of Information: One Way to Clinician</a></li>
+      <li class="linkinfo">This is a release of information form. This form is only to be filled out if you would like this provider to obtain or coordinate records with another person or provider.</li>
+    </ul>
+  </div>
 </div> <!-- End of accordion -->
