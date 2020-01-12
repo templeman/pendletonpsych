@@ -30,17 +30,9 @@ class Articles extends CI_Controller {
     $this->template
       ->set_partial('header', 'partials/header')
       ->title('My Blog Title', 'Psychological Services of Pendleton')
-      ->set_metadata("keywords", "Terrel Templeman, psychology, Oregon,
-  Pendleton, Eastern Oregon, therapy, assessment, psychological,
-  psychotherapy, medication, help, marital issues, parenting, ADHD, stress,
-  disorders, services, Connie Umphred, Daniel Eslinger, Sarah Hsu") 
       ->set_metadata("description", "Psychological Services of Pendleton, LLC
   is a full service outpatient treatment center providing assessment,
-  psychotherapy, and medications for a broad range of psychological problems.
-  Terrel L. Templeman, Ph.D. - Clinical Psychologist. Connie Umphred, Ph.D. -
-  Clinical Psychologist. Daniel Eslinger, RN, PMHNP - Psychiatric Mental
-  Health Nurse Practitioner. Sarah Hsu, LCSW - Licensed Clinical Social
-  Worker.")
+  psychotherapy, and medications for a broad range of psychological problems.")
       ->set_partial('footer', 'partials/footer')
       ->build('blog_view', $data);
   }

@@ -13,7 +13,7 @@ class Pages extends MY_Controller {
     // $this->output->enable_profiler(TRUE);
 
     // set seasonal pics
-    $this->season = 'summer'; // winter, summer, spring, fall
+    $this->season = 'winter'; // winter, summer, spring, fall
 
     $this->pics = array(
       "winter" => array(
@@ -47,7 +47,7 @@ class Pages extends MY_Controller {
     $this->template
       ->set_partial('header', 'partials/header')
       ->title('Psychological Services of Pendleton')
-      ->set_metadata("description", "Full service outpatient treatment center providing assessment, psychotherapy, and medications for a broad range of psychological problems. Serving Eastern Oregon. Terrel L. Templeman, Ph.D. - Clinical Psychologist. Connie Umphred, Ph.D. - Clinical Psychologist. Sarah Hsu, LCSW - Licensed Clinical Social Worker. Heather A. Bacon, Ph.D. - Clinical Psychologist.")
+      ->set_metadata("description", "Full service outpatient treatment center providing assessment, psychotherapy, and medications for a broad range of psychological problems. Serving Eastern Oregon.")
       ->set_partial('footer', 'partials/footer')
       ->build('index', $data);
   }
@@ -61,7 +61,7 @@ class Pages extends MY_Controller {
     $this->template
       ->set_partial('header', 'partials/header')
       ->title('Meet Our Staff', 'Psychological Services of Pendleton')
-      ->set_metadata("description", "Terrel L. Templeman, Ph.D. [Clinical Psychologist], Natalie Kollross, Psy.D. [Clinical Psychologist], Stephanie Evans, Psy.D. [Clinical Psychologist], Debra O'Brien, LCSW [Licensed Clinical Social Worker], Katie McLaren [Office Manager], Tasha Ellis [Administrative Assistant & Receptionist]")
+      ->set_metadata("description", "Natalie Kollross, Psy.D. [Clinical Psychologist], Stephanie Evans, Psy.D. [Clinical Psychologist], Debra O'Brien, LCSW [Licensed Clinical Social Worker], Katie McLaren [Office Manager], Tasha Ellis [Administrative Assistant & Receptionist]")
       ->set_partial('footer', 'partials/footer')
       ->build('staff', $data);
   }
@@ -135,20 +135,6 @@ class Pages extends MY_Controller {
       ->set_metadata("description", "View this address on Google Maps.")
       ->set_partial('footer', 'partials/footer')
       ->build('map', $data);
-  }
-
-
-  public function templeman() {
-
-    $data['page_id'] = 'templeman';
-    $data = array_merge($data, $this->pics[$this->season][6]);
-
-    $this->template
-      ->set_partial('header', 'partials/header')
-      ->title('Terrel L. Templeman, Ph.D.', 'Psychological Services of Pendleton')
-      ->set_metadata("description", "Dr. Terrel Templeman's professional biography. Educational background, certification, publications, and presentations.")
-      ->set_partial('footer', 'partials/footer')
-      ->build('templeman', $data);
   }
 
 
