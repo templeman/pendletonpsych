@@ -45,6 +45,7 @@ $this->load->helper('text');
       <ul>
       <?php
 
+        $classes = '';
         $menu_items = array(
           0 => array("name" => "home", "url" => ""),
           1 => array("name" => "our staff", "url" => "staff"),
@@ -56,18 +57,21 @@ $this->load->helper('text');
           7 => array("name" => "education opportunities", "url" => "education"),
           8 => array("name" => "resources", "url" => "resources"),
           9 => array("name" => "map and directions", "url" => "map"),
-          10 => array("name" => "contact us", "url" => "contact")
+          10 => array("name" => "contact us", "url" => "contact"),
+          11 => array("name" => "telehealth", "url" => "telehealth", "class" => "highlight"),
         );
 
-      foreach($menu_items as $menu_item):
-        $class = ($this->uri->segment(1) == url_title($menu_item['url']) ? 'current' : '' );
+      foreach ($menu_items as $menu_item) {
+        $classes = ($this->uri->segment(1) == url_title($menu_item['url']) ? 'current ' : '' );
+        $classes .= isset($menu_item['class']) ? $menu_item['class'] : '';
 
-    if($class) {
-      echo '<li>'.anchor($menu_item['url'], $menu_item['name'], 'class="'.$class.'"').'</li>';
-    } else {
-      echo '<li>'.anchor($menu_item['url'], $menu_item['name']).'</li>';
-    }
-      endforeach; ?>
+        if ($classes) {
+          echo '<li>'.anchor($menu_item['url'], $menu_item['name'], 'class="'.$classes.'"').'</li>';
+        } else {
+          echo '<li>'.anchor($menu_item['url'], $menu_item['name']).'</li>';
+        }
+      }
+    ?>
   </ul>
 </nav>
 

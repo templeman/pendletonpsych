@@ -1,11 +1,9 @@
-<?php /*
-<div class="special-content">
+    <div class="special-content">
       <div>
-       <h3>Join Us</h3>
-       <p>PSP is now recruiting psychologists to join our practice. <a href="contact">Contact us</a> for more information.</p>
+       <h3>COVID-19</h3>
+       <p>Please note: Due to the coronavirus pandemic our office lobby is closed to patients through the month of April. However, we are still conducting appointments via <a href="/telehealth">telephone and telehealth services</a>.</p>
      </div>
    </div>
- */ ?>
 
     <h2>Psychological Services of Pendleton</h2>
     <p>Psychological Services of Pendleton, L.L.C. is a full service

@@ -13,7 +13,7 @@ class Pages extends MY_Controller {
     // $this->output->enable_profiler(TRUE);
 
     // set seasonal pics
-    $this->season = 'winter'; // winter, summer, spring, fall
+    $this->season = 'summer'; // winter, summer, spring, fall
 
     $this->pics = array(
       "winter" => array(
@@ -299,6 +299,19 @@ class Pages extends MY_Controller {
       ->set_metadata("description", "Address: 135 SE 1st St, Pendleton, Oregon 97801. Phone: 541-278-2222. Fax: 541-276-8405. Hours: Mon-Thu 8am - 6pm. Fri 8am - 5pm. Closed Sat & Sun.")
       ->set_partial('footer', 'partials/footer')
       ->build('contact', $data);
+  }
+
+  public function telehealth() {
+
+    $data['page_id'] = 'telehealth';
+    $data = array_merge($data, $this->pics[$this->season][5]);
+
+    $this->template
+      ->set_partial('header', 'partials/header')
+      ->title('Telehealth', 'Psychological Services of Pendleton')
+      ->set_metadata('description', 'Provider telehealth links.')
+      ->set_partial('footer', 'partials/footer')
+      ->build('telehealth', $data);
   }
 
 

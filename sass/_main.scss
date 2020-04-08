@@ -289,6 +289,17 @@ nav li a.current {
   color: $dark-green;
 }
 
+nav li a.current.highlight {
+  color: #fff;
+}
+
+nav li a.highlight,
+nav li a:visited.highlight,
+nav li a:hover.highlight
+{
+  background-color: $dark-orange !important;
+}
+
 #main_content {
   border-left: 1px dotted $dark-green;
   @include float-right;
