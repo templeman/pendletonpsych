@@ -1,7 +1,7 @@
     <div class="special-content">
       <div>
        <h3>COVID-19</h3>
-       <p>Please note: Due to the coronavirus pandemic our office lobby is closed to patients through the month of April. However, we are still conducting appointments via <a href="/telehealth">telephone and telehealth services</a>.</p>
+       <p>Please note: Due to the coronavirus pandemic our office lobby is closed to clients through the month of April. However, we are still conducting appointments via <a href="/telehealth">telephone and telehealth services</a>.</p>
      </div>
    </div>
 

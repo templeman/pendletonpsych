@@ -8,7 +8,7 @@ if($this->session->flashdata('message') != '') {
 
 
 <h2>Contact Us</h2>
-<p><em><strong>Please note: </strong>due to the coronavirus pandemic our office lobby is <strong>closed to patients through the month of April</strong>. However, we are still conducting appointments via <a href="/telehealth">telephone and telehealth services</a></em>.
+<p><em><strong>Please note: </strong>due to the coronavirus pandemic our office lobby is <strong>closed to clients through the month of April</strong>. However, we are still conducting appointments via <a href="/telehealth">telephone and telehealth services</a></em>.
   <p>To schedule an appointment or to request additional
   information, we invite you to call, email, or visit us at our
   Pendleton office. You may also contact us directly using the
