@@ -93,4 +93,19 @@
       <li class="linkinfo">This is a release of information form. This form is only to be filled out if you would like this provider to obtain or coordinate records with another person or provider.</li>
     </ul>
   </div>
+  <h3><a href="#">Ms. Kountz's Forms</a></h3>
+  <div>
+    <ul>
+      <li><a class="pdf" href="/doc/general-info-adult.pdf">General Information for Adults</a></li>
+      <li><a class="pdf" href="/doc/general-info-child.pdf">General Information for Minors/Dependants</a></li>
+      <li><a class="pdf" href="/doc/kountz-cancellation-policy.pdf">Cancellation Policy</a></li>
+      <li><a class="pdf" href="/doc/kountz-consent-to-treat.pdf">Consent to Treatment</a></li>
+      <li><a class="pdf" href="/doc/kountz-consent-to-treat-children-of-divorced-parents.pdf">Consent to Treat Children of Divorced Parents</a></li>
+      <li><a class="pdf" href="/doc/kountz-hipaa-consent.pdf">HIPAA Consent</a></li>
+      <li><a class="pdf" href="/doc/kountz-disclosure-to-collaterals.pdf">Disclosure to Collaterals (non-patients)</a></li>
+      <li><a class="pdf" href="/doc/kountz-telehealth-consent.pdf">Telehealth Consent</a></li>
+      <li><a class="pdf" href="/doc/kountz-release-two-way.pdf">Release of Information: Two Way</a></li>
+      <li class="linkinfo">This is a release of information form. This form is only to be filled out if you would like this provider to obtain or coordinate records with another person or provider.</li>
+    </ul>
+  </div>
 </div> <!-- End of accordion -->
