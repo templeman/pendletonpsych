@@ -6,13 +6,13 @@
    </div>
 
     <h2>Psychological Services of Pendleton</h2>
-    <p>Psychological Services of Pendleton, L.L.C. is a full service
+    <p>Psychological Services of Pendleton, L.L.C. was founded by Dr. Terry Templeman Ph.D. in 2007. It is a full service
     outpatient treatment center providing assessment and psychotherapy for a broad range of psychological problems. All primary
     clinicians are licensed in Oregon to provide services within their
     specialty areas. We are located at 135 SE First Street, Pendleton,
     Oregon, 97801. Explore our website or call 541 278 2222 for more
     information.</p>
-    <p>Psychological Services of Pendleton, L.L.C. is dedicated to the
+    <p>Dr. Templeman retired in 2019, but Psychological Services of Pendleton, L.L.C. remains dedicated to the
     proposition that all persons can learn to accept themselves as worthy
     human beings, identify problem areas in their lives, set personal
     goals, and make meaningful changes in their lives. Meaningful change
