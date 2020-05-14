@@ -63,19 +63,6 @@
       <li class="linkinfo">This is a release of information form. This form is only to be filled out if you would like this provider to obtain or coordinate records with another person or provider.</li>
     </ul>
   </div>
-  <h3><a href="#">Ms. O'Brien's Forms</a></h3>
-  <div>
-    <ul>
-      <li><a class="pdf" href="/doc/general-info-adult.pdf">General Information for Adults</a></li>
-      <li><a class="pdf" href="/doc/general-info-child.pdf">General Information for Minors/Dependants</a></li>
-      <li><a class="pdf" href="/doc/obrien-cancellation-policy.pdf">Cancellation Policy</a></li>
-      <li><a class="pdf" href="/doc/obrien-consent-to-treat.pdf">Consent to Treatment</a></li>
-      <li><a class="pdf" href="/doc/obrien-consent-to-treat-children-of-divorced-parents.pdf">Consent to Treat Children of Divorced Parents</a></li>
-      <li><a class="pdf" href="/doc/obrien-hipaa-consent.pdf">HIPAA Consent</a></li>
-      <li><a class="pdf" href="/doc/obrien-release-two-way.pdf">Release of Information: Two Way</a></li>
-      <li class="linkinfo">This is a release of information form. This form is only to be filled out if you would like this provider to obtain or coordinate records with another person or provider.</li>
-    </ul>
-  </div>
   <h3><a href="#">Dr. Tice's Forms</a></h3>
   <div>
     <ul>
