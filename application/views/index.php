@@ -1,7 +1,9 @@
     <div class="special-content">
       <div>
-       <h3>COVID-19</h3>
-       <p>Please note: Due to the coronavirus pandemic our office lobby is closed to clients through the month of April. However, we are still conducting appointments via <a href="/telehealth">telephone and telehealth services</a>.</p>
+       <h3>COVID-19 Update: 7/17/2020</h3>
+       <p>Our lobby is now open and accepting new patients. We are requiring everyone to wear face masks at this time and limit the number of guests in the lobby.</p>
+       <h3>We're Moving!</h3>
+       <p>We are moving to a new location. Starting <strong>Monday August 3, 2020</strong> our new address will be <a href="https://goo.gl/maps/Tfyo2APoDzXsc8Ck8">1100 Southgate, Suite 13 (Pendleton Medical Center)</a>.</p>
      </div>
    </div>
 
@@ -42,3 +44,4 @@
        href="http://www.liveyourlifewell.org">www.liveyourlifewell.org</a></h3>
   </div>
  */ ?>
+

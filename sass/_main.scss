@@ -348,7 +348,7 @@ div.special-content {
   padding: 15px 15px 15px 100px;
   // min-height: 100px;
   zoom: 1; /* For IE6 */
-  p {
+  p:last-child {
     margin: 0;
     padding: 0;
   }
