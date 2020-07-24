@@ -21,12 +21,12 @@
         <p>Dr. Tice is a licensed psychologist in Oregon and California. She earned her B.S. in Psychology with minors in Criminal Justice and Sociology at Washington State University in 2010.  She earned her doctoral degree in Clinical Forensic Psychology at Alliant International University, Sacramento, in 2014.  She completed her internship in Lebanon, Pennsylvania at an inpatient rehab, which was an alternative-to-prison program for individuals with substance abuse problems and co-occurring mental illnesses, with a secondary rotation in a nearby outpatient facility.  After earning her doctoral degree, she worked for five years in the California Department of Corrections & Rehabilitation (CDCR) as a therapist to inmate-patients in a maximum-level facility.  Dr. Tice relocated back to her home area of Eastern Oregon in August of 2019 to expand on her clinical and forensic proficiency at Psychological Services of Pendleton, LLC. She has specialized training in forensic psychology, including both assessments and therapy services, and obtained a temporary certificate to provide court evaluations.  She is experienced in treating a wide range of mental illnesses in adolescents and adults, including mood disorders, anxiety disorders, psychosis, personality disorders, adjustment disorders, and substance use disorders.  She is particularly passionate about trauma-based therapy and forensic work, and utilizes evidence-based treatments and a strengths-based, problem-solving approach to treatment.</p>
       </div>
 
-      <!-- <div class="staff_profile_block"> -->
-      <!--   <img src="/image/levonne&#45;kountz.png" alt="Levonne Kountz" class="headshot" /> -->
-      <!--   <h3>Levonne Kountz, LCSW</h3> -->
-      <!--   <h5>Licensed Clinical Social Worker</h5> -->
-      <!--   <p>Levonne Kountz, LCSW received her master’s degree in Social Work from Walla Walla (college) University in 2006. She received her bachelor’s degree from Dickinson State University in Elementary Education. She has lived in Pendleton Oregon for over 20 years and is a Licensed Clinical Social Worker (LCSW) in the state of Oregon. She has many years of experience working with all ages including children. She especially enjoys working with those who may have experienced developmental trauma. She is trained in EMDR, Child &#45;Parent Psychotherapy, Experiential Play Therapy, CBT, and DBT. She provides Individual Counseling, Family Counseling, and Group Counseling as needed. She is accepting new clients and accepts most insurance companies.</p> -->
-      <!-- </div> -->
+      <div class="staff_profile_block">
+          <img src="/image/levonne-kountz.png" alt="Levonne Kountz" class="headshot" />
+          <h3>Levonne Kountz, LCSW</h3>
+          <h5>Licensed Clinical Social Worker</h5>
+          <p>Levonne Kountz, LCSW received her master’s degree in Social Work from Walla Walla (college) University in 2006. She received her bachelor’s degree from Dickinson State University in Elementary Education. She has lived in Pendleton Oregon for over 20 years and is a Licensed Clinical Social Worker (LCSW) in the state of Oregon. She has many years of experience working with all ages including children. She especially enjoys working with those who may have experienced developmental trauma. She is trained in EMDR, Child -Parent Psychotherapy, Experiential Play Therapy, CBT, and DBT. She provides Individual Counseling, Family Counseling, and Group Counseling as needed. She is accepting new clients and accepts most insurance companies.</p>
+      </div>
 
       <div class="staff_profile_block">
         <img src="/image/katie-mclaren.png" alt="Katie McLaren" class="headshot" />
