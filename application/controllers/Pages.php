@@ -296,7 +296,7 @@ class Pages extends MY_Controller {
     $this->template
       ->set_partial('header', 'partials/header')
       ->title('Contact Us', 'Psychological Services of Pendleton')
-      ->set_metadata("description", "Address: 135 SE 1st St, Pendleton, Oregon 97801. Phone: 541-278-2222. Fax: 541-276-8405. Hours: Mon-Thu 8am - 6pm. Fri 8am - 5pm. Closed Sat & Sun.")
+      ->set_metadata("description", "Address: 1100 Southgate Suite 13, Pendleton, Oregon 97801. Phone: 541-278-2222. Fax: 541-276-8405. Hours: Mon-Thu 8am - 6pm. Fri 8am - 5pm. Closed Sat & Sun.")
       ->set_partial('footer', 'partials/footer')
       ->build('contact', $data);
   }
@@ -334,7 +334,7 @@ class Pages extends MY_Controller {
       $this->template
         ->set_partial('header', 'partials/header')
         ->title('Contact Us', 'Psychological Services of Pendleton')
-        ->set_metadata("description", "Address: 135 SE 1st St, Pendleton, Oregon 97801. Phone: 541-278-2222. Fax: 541-276-8405. Hours: Mon-Thu 8am - 6pm. Fri 8am - 5pm. Closed Sat & Sun.")
+        ->set_metadata("description", "Address: 1100 Southgate Suite 13, Pendleton, Oregon 97801. Phone: 541-278-2222. Fax: 541-276-8405. Hours: Mon-Thu 8am - 6pm. Fri 8am - 5pm. Closed Sat & Sun.")
         ->set_partial('footer', 'partials/footer')
         ->build('contact', $data);
 

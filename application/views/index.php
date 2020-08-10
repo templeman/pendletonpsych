@@ -2,8 +2,8 @@
       <div>
        <h3>COVID-19 Update: 7/17/2020</h3>
        <p>Our lobby is now open and accepting new patients. We are requiring everyone to wear face masks at this time and limit the number of guests in the lobby.</p>
-       <h3>We're Moving!</h3>
-       <p>We are moving to a new location. Starting <strong>Monday August 3, 2020</strong> our new address will be <a href="https://goo.gl/maps/Tfyo2APoDzXsc8Ck8">1100 Southgate, Suite 13 (Pendleton Medical Center)</a>.</p>
+       <h3>We Have Moved!</h3>
+       <p>You can find us at our new address: <a href="https://goo.gl/maps/Tfyo2APoDzXsc8Ck8">1100 Southgate, Suite 13 (Pendleton Medical Center)</a>.</p>
      </div>
    </div>
 
@@ -11,8 +11,8 @@
     <p>Psychological Services of Pendleton, L.L.C. was founded by Dr. Terry Templeman Ph.D. in 2007. It is a full service
     outpatient treatment center providing assessment and psychotherapy for a broad range of psychological problems. All primary
     clinicians are licensed in Oregon to provide services within their
-    specialty areas. We are located at 135 SE First Street, Pendleton,
-    Oregon, 97801. Explore our website or call 541 278 2222 for more
+    specialty areas. We are located at 1100 Southgate Suite 13, Pendleton,
+    Oregon 97801. Explore our website or call 541 278 2222 for more
     information.</p>
     <p>Dr. Templeman retired in 2019, but Psychological Services of Pendleton, L.L.C. remains dedicated to the
     proposition that all persons can learn to accept themselves as worthy

@@ -13,10 +13,10 @@ if($this->session->flashdata('message') != '') {
   Pendleton office. You may also contact us directly using the
   form below.</p>
   <section>
-    <h3><a href="https://maps.google.com/maps?q=135+SE+First+Street++Pendleton,+OR+97801&hl=en&sll=45.850116,-119.308884&sspn=0.013332,0.019462&hnear=135+SE+1st+St,+Pendleton,+Oregon+97801&t=m&z=17">Location</a></h3>
+    <h3><a href="https://goo.gl/maps/Tfyo2APoDzXsc8Ck8">Location</a></h3>
     <ul>
       <li>Psychological Services of Pendleton, LLC</li>
-      <li>135 SE 1st Street, Pendleton, Oregon 97801</li>
+      <li>1100 Southgate Suite 13, Pendleton, Oregon 97801</li>
     </ul>
     <dl class="clearfix">
       <dt>Phone</dt>
