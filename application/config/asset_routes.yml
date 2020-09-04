@@ -39,3 +39,12 @@
     - google-map
   replace:
   exclude:
+
+'(careers)':
+  assets:
+    - js-libs
+    - jquery-ui
+    - accordion
+    - accordion-css
+  replace:
+  exclude:

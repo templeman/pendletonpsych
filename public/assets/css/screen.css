@@ -1140,27 +1140,27 @@ span.underline {
 .panels {
   width: 400px;
 }
-/* line 539, ../../../sass/_main.scss */
+/* line 540, ../../../sass/_main.scss */
 .panels img {
   vertical-align: middle;
 }
-/* line 542, ../../../sass/_main.scss */
+/* line 544, ../../../sass/_main.scss */
 .panels li {
   margin-bottom: 10px;
   position: relative;
 }
-/* line 545, ../../../sass/_main.scss */
+/* line 548, ../../../sass/_main.scss */
 .panels li a {
   display: block;
 }
-/* line 547, ../../../sass/_main.scss */
+/* line 551, ../../../sass/_main.scss */
 .panels li a:hover {
   background-color: #eee;
   text-decoration: none;
   cursor: pointer;
 }
 
-/* line 560, ../../../sass/_main.scss */
+/* line 567, ../../../sass/_main.scss */
 #map_canvas {
   width: 100%;
   height: 100%;
@@ -1170,64 +1170,64 @@ span.underline {
   border: 1px #084003 solid;
 }
 
-/* line 573, ../../../sass/_main.scss */
+/* line 580, ../../../sass/_main.scss */
 .article #main_content {
   min-height: 850px;
 }
 
-/* line 575, ../../../sass/_main.scss */
+/* line 582, ../../../sass/_main.scss */
 #holiday-stress dt {
   width: 35%;
 }
 
-/* line 576, ../../../sass/_main.scss */
+/* line 583, ../../../sass/_main.scss */
 #mental-health-first-aid dt {
   width: 20%;
 }
 
-/* line 577, ../../../sass/_main.scss */
+/* line 584, ../../../sass/_main.scss */
 #holiday-stress dd, #mental-health-first-aid dd {
   float: right;
 }
 
-/* line 578, ../../../sass/_main.scss */
+/* line 585, ../../../sass/_main.scss */
 #holiday-stress dd {
   width: 65%;
 }
 
-/* line 579, ../../../sass/_main.scss */
+/* line 586, ../../../sass/_main.scss */
 #mental-health-first-aid dd {
   width: 80%;
 }
 
-/* line 581, ../../../sass/_main.scss */
+/* line 588, ../../../sass/_main.scss */
 #parent-child-coercive-cycle-handout dt {
   width: 10%;
 }
 
-/* line 582, ../../../sass/_main.scss */
+/* line 589, ../../../sass/_main.scss */
 #parent-child-coercive-cycle-handout dd {
   float: right;
   width: 90%;
 }
 
-/* line 584, ../../../sass/_main.scss */
+/* line 591, ../../../sass/_main.scss */
 #parent-child-coercive-cycle dt {
   clear: both;
   width: 15%;
 }
 
-/* line 585, ../../../sass/_main.scss */
+/* line 592, ../../../sass/_main.scss */
 #parent-child-coercive-cycle dd {
   width: 42%;
 }
 
-/* line 586, ../../../sass/_main.scss */
+/* line 593, ../../../sass/_main.scss */
 #parent-child-coercive-cycle .diagram {
   margin-top: 50px;
 }
 
-/* line 588, ../../../sass/_main.scss */
+/* line 595, ../../../sass/_main.scss */
 .ol-inline li {
   float: left;
   margin-right: 30px;

@@ -536,21 +536,28 @@ span.underline { text-decoration: underline; }
 
 .panels {
   width: 400px;
+
   img {
     vertical-align: middle;
   }
+
   li {
     margin-bottom: 10px;
     position: relative;
+
     a {
       display: block;
+
       &:hover {
         background-color: #eee;
         text-decoration: none;
         cursor: pointer;
       }
+
     }
+
   }
+
 }
 
 

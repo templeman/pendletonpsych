@@ -108,6 +108,19 @@ class Pages extends MY_Controller {
       ->build('education', $data);
   }
 
+  public function careers() {
+
+    $data['page_id'] = 'careers';
+    $data = array_merge($data, $this->pics[$this->season][4]);
+
+    $this->template
+      ->set_partial('header', 'partials/header')
+      ->title('Careers', 'Psychological Services of Pendleton')
+      ->set_metadata("description", "See available positions.")
+      ->set_partial('footer', 'partials/footer')
+      ->build('careers', $data);
+  }
+
 
   public function resources() {
 
