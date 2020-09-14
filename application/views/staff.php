@@ -22,13 +22,6 @@
       </div>
 
       <div class="staff_profile_block">
-          <img src="/image/levonne-kountz.png" alt="Levonne Kountz" class="headshot" />
-          <h3>Levonne Kountz, LCSW</h3>
-          <h5>Licensed Clinical Social Worker</h5>
-          <p>Levonne Kountz, LCSW received her master’s degree in Social Work from Walla Walla (college) University in 2006. She received her bachelor’s degree from Dickinson State University in Elementary Education. She has lived in Pendleton Oregon for over 20 years and is a Licensed Clinical Social Worker (LCSW) in the state of Oregon. She has many years of experience working with all ages including children. She especially enjoys working with those who may have experienced developmental trauma. She is trained in EMDR, Child -Parent Psychotherapy, Experiential Play Therapy, CBT, and DBT. She provides Individual Counseling, Family Counseling, and Group Counseling as needed. She is accepting new clients and accepts most insurance companies.</p>
-      </div>
-
-      <div class="staff_profile_block">
         <img src="/image/katie-mclaren.png" alt="Katie McLaren" class="headshot" />
         <h3>Katie McLaren</h3>
         <h5>Office Manager</h5>
