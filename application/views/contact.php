@@ -1,15 +1,17 @@
 <?php
 $this->load->helper(array('form', 'html'));
-if($this->session->flashdata('message') != '') {
-  $message = $this->session->flashdata('message');
-  $status = $this->session->flashdata('status');
+if ($this->session->flashdata('message') != '') {
+    $message = $this->session->flashdata('message');
+    $status  = $this->session->flashdata('status');
 }
 ?>
 
 
+<h2>Schedule an Appointment</h2>
+<script type="text/javascript" src="https://form.jotform.com/jsform/202607788273160"></script>
+
 <h2>Contact Us</h2>
-  <p>To schedule an appointment or to request additional
-  information, we invite you to call, email, or visit us at our
+  <p>We invite you to call, email, or visit us at our
   Pendleton office. You may also contact us directly using the
   form below.</p>
   <section>

@@ -58,7 +58,7 @@ $this->load->helper('text');
           8 => array("name" => "careers", "url" => "careers"),
           9 => array("name" => "resources", "url" => "resources"),
           10 => array("name" => "map and directions", "url" => "map"),
-          11 => array("name" => "contact us", "url" => "contact"),
+          11 => array("name" => "get scheduled", "url" => "contact"),
           12 => array("name" => "telehealth", "url" => "telehealth", "class" => "highlight"),
         );
 
