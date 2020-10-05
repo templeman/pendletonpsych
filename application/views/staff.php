@@ -22,17 +22,17 @@
       </div>
 
       <div class="staff_profile_block">
-        <img src="/image/katie-mclaren.png" alt="Katie McLaren" class="headshot" />
-        <h3>Katie McLaren</h3>
+        <img src="/image/katie-mclaren.png" alt="Katie" class="headshot" />
+        <h3>Katie</h3>
         <h5>Office Manager</h5>
-        <p>Ms. McLaren attends to most of the day to day administrative needs of our office.  Besides managing client records, financial accounts, and scheduling for clinicians, she also provides technical support for clinicians and staff and assists in training new personnel.  Katie is critical to keeping the office running smoothly and efficiently, and she is always ready to assist you with your questions.</p>
+        <p>Katie attends to most of the day to day administrative needs of our office. Besides managing client records, financial accounts, and scheduling for clinicians, she also provides technical support for clinicians and staff and assists in training new personnel. Katie is critical to keeping the office running smoothly and efficiently, and she is always ready to assist you with your questions.</p>
       </div>
 
       <div class="staff_profile_block">
-        <img src="/image/tasha-ellis.png" alt="Tasha Ellis" class="headshot" />
-        <h3>Tasha Ellis</h3>
-        <h5>Administrative Assistant &amp; Receptionist</h5>
-        <p>Ms. Ellis handles our incoming referrals and patient inquiries. She is the person who takes your calls, helps you complete admission and insurance forms, schedules your appointments, and relays messages to your clinician. Tasha can also answer your questions about insurance, billing, and accounts. She is able and prepared to assist you with any questions you might have.</p>
+        <img src="/image/tasha-ellis.png" alt="Tasha" class="headshot" />
+        <h3>Tasha</h3>
+        <h5>Administrative Assistant & Receptionist</h5>
+        <p>Tasha handles our incoming referrals and patient inquiries. She is the person who takes your calls, helps you complete admission and insurance forms, schedules your appointments, and relays messages to your clinician. Tasha can also answer your questions about insurance, billing, and accounts. She is able and prepared to assist you with any questions you might have.</p>
       </div>
 
     <a href="#top"></a>
