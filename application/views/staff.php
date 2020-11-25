@@ -22,6 +22,14 @@
       </div>
 
       <div class="staff_profile_block">
+        <img src="/image/michael-gallo.png" alt="Michael Gallo" class="headshot" />
+        <h3>Michael Gallo, Psy.D.</h3>
+        <h5>Clinical Psychologist</h5>
+        <p>Dr. Gallo is a licensed psychologist in Oregon and California.</p>
+        <p><a href="/michael-gallo"><b>More about Dr. Gallo</b></a></p>
+      </div>
+
+      <div class="staff_profile_block">
         <img src="/image/katie-mclaren.png" alt="Katie" class="headshot" />
         <h3>Katie</h3>
         <h5>Office Manager</h5>
