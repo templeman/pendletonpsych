@@ -150,18 +150,6 @@ class Pages extends MY_Controller {
       ->build('map', $data);
   }
 
-    public function michael_gallo() {
-
-     $data['page_id'] = 'michael-gallo';
-     $data = array_merge($data, $this->pics[$this->season][6]);
-
-     $this->template
-       ->set_partial('header', 'partials/header')
-       ->title('Michael Gallo, Psy.D.', 'Psychological Services of Pendleton')
-       ->set_partial('footer', 'partials/footer')
-       ->build('michael_gallo', $data);
-   }
-
   public function whats_new($article = NULL) {
 
     $category = $this->uri->segment(1);
