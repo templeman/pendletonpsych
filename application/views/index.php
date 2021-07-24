@@ -1,9 +1,8 @@
     <div class="special-content">
       <div>
-       <h3>COVID-19 Update: 7/17/2020</h3>
-       <p>Our lobby is now open and accepting new patients. We are requiring everyone to wear face masks at this time and limit the number of guests in the lobby.</p>
-       <h3>We Have Moved!</h3>
-       <p>You can find us at our new address: <a href="https://goo.gl/maps/Tfyo2APoDzXsc8Ck8">1100 Southgate, Suite 13 (Pendleton Medical Center)</a>.</p>
+        <p></p>
+       <p>Our providers are now accepting new patients at this time. Contact our office today to schedule, <a href="tel:+01-541-278-2222">541-278-2222</a>.</p>
+        <p></p>
      </div>
    </div>
 

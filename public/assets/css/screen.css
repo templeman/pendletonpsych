@@ -927,6 +927,7 @@ div.special-content {
   text-decoration: none;
   background: #eee;
   margin: 0 0 20px 0;
+  min-height: 90px;
   background: #eee url('../../image/psicon.png?1502577930') 15px 15px no-repeat;
   padding: 15px 15px 15px 100px;
   zoom: 1;

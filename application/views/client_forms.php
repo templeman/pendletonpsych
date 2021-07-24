@@ -11,6 +11,7 @@
       <li><a class="pdf" href="/doc/kollross-consent-to-treat-en.pdf">Consent to Treatment</a></li>
       <li><a class="pdf" href="/doc/kollross-consent-to-treat-children-of-divorced-parents-en.pdf">Consent to Treat Children of Divorced Parents</a></li>
       <li><a class="pdf" href="/doc/kollross-hipaa-consent-en.pdf">HIPAA Consent</a></li>
+      <li><a class="pdf" href="/doc/kollross-telehealth-consent-en.pdf">Telehealth Consent</a></li>
       <li><a class="pdf" href="/doc/kollross-consent-to-evaluation-en.pdf">Consent to Psychological Evaluation</a></li>
       <li class="linkinfo">Form only to be completed if you are requesting a psychological evaluation or neuropsychological evaluation. Please contact our office by phone for these requests (541-278-2222).</li>
       <li><a class="pdf" href="/doc/kollross-release-two-way-en.pdf">Release of Information: Two Way</a></li>
@@ -51,6 +52,7 @@
       <li><a class="pdf" href="/doc/evans-cancellation-policy.pdf">Cancellation Policy</a></li>
       <li><a class="pdf" href="/doc/evans-consent-to-treat.pdf">Consent to Treatment</a></li>
       <li><a class="pdf" href="/doc/evans-hipaa-consent.pdf">HIPAA Consent</a></li>
+      <li><a class="pdf" href="/doc/evans-telehealth-consent.pdf">Telehealth Consent</a></li>
       <li><a class="pdf" href="/doc/evans-consent-to-evaluation.pdf">Consent to Psychological Evaluation</a></li>
       <li class="linkinfo">Form only to be completed if you are requesting a psychological evaluation or neuropsychological evaluation. Please contact our office by phone for these requests (541-278-2222).</li>
       <li><a class="pdf" href="/doc/evans-release-two-way.pdf">Release of Information: Two Way</a></li>
@@ -71,6 +73,7 @@
       <li><a class="pdf" href="/doc/tice-cancellation-policy.pdf">Cancellation Policy</a></li>
       <li><a class="pdf" href="/doc/tice-consent-to-treat.pdf">Consent to Treatment</a></li>
       <li><a class="pdf" href="/doc/tice-hipaa-consent.pdf">HIPAA Consent</a></li>
+      <li><a class="pdf" href="/doc/evans-telehealth-consent.pdf">Telehealth Consent</a></li>
       <li><a class="pdf" href="/doc/tice-disclosure-to-collaterals.pdf">Disclosure to Collaterals (non-patients)</a></li>
       <li><a class="pdf" href="/doc/tice-release-two-way.pdf">Release of Information: Two Way</a></li>
       <li class="linkinfo">This is a release of information form. This form is only to be filled out if you would like this provider to obtain or coordinate records with another person or provider.</li>
