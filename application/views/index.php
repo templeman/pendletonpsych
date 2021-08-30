@@ -1,7 +1,7 @@
     <div class="special-content">
       <div>
         <p></p>
-       <p>Our providers are now accepting new patients at this time. Contact our office today to schedule, <a href="tel:+01-541-278-2222">541-278-2222</a>.</p>
+       <p>Our providers are now accepting new patients at this time. Contact our office today to schedule, <a href="tel:+1-541-278-2222">541-278-2222</a>.</p>
         <p></p>
      </div>
    </div>
