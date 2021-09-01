@@ -25,7 +25,7 @@
     <loc>https://www.pendletonpsych.com/education</loc>
   </url>
   <url>
-    <loc>https://www.pendletonpsych.com/careers</loc>
+    <loc>https://www.pendletonpsych.com/job-opportunities</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/resources</loc>
@@ -56,6 +56,9 @@
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/kollross-hipaa-consent-en.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/kollross-telehealth-consent-en.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/kollross-consent-to-evaluation-en.pdf</loc>
@@ -110,6 +113,9 @@
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/evans-hipaa-consent.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.pendletonpsych.com/doc/evans-telehealth-consent.pdf</loc>
   </url>
   <url>
     <loc>https://www.pendletonpsych.com/doc/evans-consent-to-evaluation.pdf</loc>
