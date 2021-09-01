@@ -108,6 +108,10 @@ class Pages extends MY_Controller {
       ->build('education', $data);
   }
 
+  public function careers() {
+      redirect('/job-opportunities', 'location', 301);
+  }
+
   public function job_opportunities() {
 
     $data['page_id'] = 'job-opportunities';
