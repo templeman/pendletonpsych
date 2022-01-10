@@ -6,8 +6,8 @@ Website of a small mental-health practice in Eastern Oregon. Built on Codeignite
 
 ### Live
 
-`git push live master`
+`git push live main`
 
 ### Dev
 
-`git push dev master`
+`git push dev main`
