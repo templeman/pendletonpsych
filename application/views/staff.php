@@ -3,7 +3,7 @@
       <div id="natalie" class="staff_profile_block">
         <img src="/image/natalie.jpg" alt="Natalie Kollross" class="headshot" />
         <h3>Natalie Kollross, Psy.D.</h3>
-        <h5>Clinical Psychologist</h5>
+        <h5>Owner, Clinical Psychologist</h5>
         <p>Dr. Kollross is a licensed psychologist in Oregon. She completed an internship at the Children’s Institute, Inc. in Los Angeles, CA in 2012 working with underserved children and families. She earned her doctorate in clinical psychology from Pacific University in 2012. In 2013 she completed a year of residency at OHSU in Portland. Dr. Kollross specializes in culturally-competent assessment and treatment. She has experience working with adults, children, and families with a variety of presenting problems. She conducts therapy and assessments in both English and Spanish.</p>
       </div>
 
@@ -22,10 +22,9 @@
       </div>
 
       <div class="staff_profile_block">
-        <img src="/image/tasha-ellis.png" alt="Tasha" class="headshot" />
-        <h3>Tasha</h3>
-        <h5>Practice Manager</h5>
-        <p>Tasha handles our incoming referrals and patient inquiries. She is the person who takes your calls, helps you complete admission and insurance forms, schedules your appointments, and relays messages to your clinician. Tasha can also answer your questions about insurance, billing, and accounts. She is able and prepared to assist you with any questions you might have.</p>
+        <!-- <img src="/image/tasha-ellis.png" alt="Tasha" class="headshot" /> -->
+        <h3>Vince Tice</h3>
+        <h5>Office Manager</h5>
       </div>
 
     <a href="#top"></a>

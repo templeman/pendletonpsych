@@ -2,4 +2,4 @@
 
 <div id="map_canvas"></div>
 
-<a href="https://goo.gl/maps/Tfyo2APoDzXsc8Ck8">View location at Google Maps</a>
+<a href="https://goo.gl/maps/Tfyo2APoDzXsc8Ck8">View location on Google Maps</a>
