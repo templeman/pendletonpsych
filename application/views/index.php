@@ -1,3 +1,4 @@
+<?php /*
     <div class="special-content">
       <div>
         <p></p>
@@ -5,6 +6,7 @@
         <p></p>
      </div>
    </div>
+*/ ?>
 
     <h2>Psychological Services of Pendleton</h2>
     <p>Psychological Services of Pendleton, L.L.C. was founded by Dr. Terry Templeman Ph.D. in 2007. It is now owned and operated by Dr. Natalie Kollross. Dr. Kollross is dedicated to serving the community. Psychological Services of Pendleton is a full service

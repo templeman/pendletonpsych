@@ -7,8 +7,10 @@ if ($this->session->flashdata('message') != '') {
 ?>
 
 
+<?php /*
 <h2>Schedule an Appointment</h2>
 <script type="text/javascript" src="https://form.jotform.com/jsform/202607788273160"></script>
+*/ ?>
 
 <h2>Contact Us</h2>
   <p>We invite you to call, email, or visit us at our
